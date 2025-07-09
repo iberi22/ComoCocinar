@@ -3,39 +3,64 @@ name: Extract Recipe Metadata
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   extract-metadata:
+    name: Extract and PR metadata
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
-      - name: Set up Python
+
+      - name: 🐍 Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install dependencies
+
+      - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pyyaml python-frontmatter
-      - name: Extract YAML Front Matter and generate recipes_metadata.json
+
+      - name: 📝 Extract YAML Front Matter and generate recipes_metadata.json
+        id: extract_metadata
         run: |
           python .github/scripts/extract_metadata.py
-      - name: Create Pull Request for metadata update
-        id: cpr
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: '[metadata] Update recipes_metadata.json'
-          branch: metadata/update-recipes-metadata
-          title: 'Update recipes_metadata.json'
-          body: 'Automated update of recipes_metadata.json via workflow.'
-          base: main
-          add-paths: recipes_metadata.json
+          echo "::set-output name=changed::$(git status --porcelain | grep recipes_metadata.json || true)"
 
-      - name: Enable automerge for metadata PR
+      - name: 🚦 Create Pull Request for metadata update
+        id: cpr
+        if: steps.extract_metadata.outputs.changed != ''
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore(metadata): update recipes_metadata.json [skip ci]'
+          branch: auto/metadata-update
+          title: 'chore(metadata): update recipes_metadata.json'
+          body: |
+            Actualización automática de metadatos tras cambios en recetas.
+            - Generado por workflow CI/CD seguro.
+            - Merge automático habilitado si pasan los checks.
+          base: main
+          add-paths: |
+            recipes_metadata.json
+          delete-branch: true
+          labels: automerge, metadata
+          reviewers: iberi22
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🤖 Enable automerge for metadata PR
         if: steps.cpr.outputs.pull-request-number
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
           merge-method: squash
+
+      - name: 📋 Show PR URL (debug)
+        if: steps.cpr.outputs.pull-request-url
+        run: echo "PR generado: ${{ steps.cpr.outputs.pull-request-url }}"
+
+    outputs:
+      pr-url: ${{ steps.cpr.outputs.pull-request-url }}
+      pr-number: ${{ steps.cpr.outputs.pull-request-number }}
