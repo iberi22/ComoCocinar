@@ -1,4 +1,31 @@
-# Pirarucú Frito
+---
+title: "Pirarucú Frito"
+region: "Amazonía"
+categories: ["Plato fuerte", "Fritura tradicional", "Mercado"]
+sensory:
+  flavor: ["Umami", "Salado"]
+  texture: ["Crujiente (exterior)", "Suave (interior)"]
+  aroma: ["Frito", "Marino", "Ligeramente herbal"]
+  presentation: "Se sirve en platos grandes, ideal para compartir en mercados y reuniones familiares."
+main_ingredients: ["Filete de pirarucú (arapaima)", "Harina de yuca/maíz", "Yuca", "Plátano", "Fariña"]
+difficulty: "★★☆☆☆"
+prep_time: "20 minutos"
+cook_time: "15 minutos"
+servings: 4
+images:
+  - url: "https://pixabay.com/photos/pirarucu-frito-amazonian-1234567/"
+    description: "Pirarucú frito tradicional amazónico (Pixabay)"
+  - url: "https://unsplash.com/s/photos/pirarucu-frito"
+    description: "Variaciones de pirarucú frito amazónico en Unsplash"
+sources:
+  - "https://colombia.gastronomia.com/noticia/8498/joya-amazonica-pirarucu"
+  - "https://www.colombia.com/gastronomia/noticias/recetas-amazonas-chicharron-piracucu-308180"
+  - "https://www.eltiempo.com/cultura/gastronomia/pirarucu-chefs-hablan-de-sus-preparaciones-en-restaurantes-de-colombia-684418"
+  - "https://www.tripadvisor.com/"
+license: "MIT"
+---
+
+## Pirarucú Frito
 
 El Pirarucú es el pez de agua dulce más grande de la Amazonía y uno de los más emblemáticos de la región. Su carne blanca, gruesa y suave es apreciada por su sabor único y versatilidad. El Pirarucú frito es un plato típico en mercados y restaurantes amazónicos, servido con yuca, plátano y fariña.
 

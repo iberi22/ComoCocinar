@@ -1,4 +1,4 @@
-# Frijoles con Cola de Cerdo (Pig Tail Beans)
+## Frijoles con Cola de Cerdo (Pig Tail Beans)
 
 Este plato es una de las recetas tradicionales de la región Insular, especialmente en San Andrés y Providencia. Los frijoles se cocinan lentamente con cola de cerdo salada, especias y vegetales, resultando en un guiso sustancioso y lleno de sabor isleño.
 

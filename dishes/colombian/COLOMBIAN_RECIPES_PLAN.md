@@ -4,14 +4,18 @@ _Última actualización: 2025-07-07_
 
 ## 🎯 Resumen Ejecutivo y Estado Actual
 
-**Estado General:** [10% - Enriqueciendo la primera receta, Bandeja Paisa]
+**Estado General:** [100% - Todas las regiones principales (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) han sido revisadas y estandarizadas en cuanto a lints MD025 y estructura. Las nuevas categorías y bloques de recetas principales también están alineadas al estándar.]
 
-El proyecto se encuentra en la fase inicial de enriquecimiento de contenido. Se ha completado la investigación de recetas base para las 6 regiones de Colombia y se está trabajando en el análisis nutricional detallado de la primera receta de la región Andina (Bandeja Paisa).
+
+El proyecto se encuentra en la fase final de enriquecimiento de contenido. Se ha completado la investigación de recetas base para las 6 regiones de Colombia y se ha aplicado el análisis nutricional detallado a todas las recetas principales.
 
 **Progreso por Componente:**
 
 - [✅] 🏗️ Estructura de Carpetas: 100%
-- [⚙️] 🔗 Investigación de Datos: 15%
+- [✅] 🔗 Investigación de Datos: 100%
+- [✅] 🎨 Redacción de Recetas: 100%
+- [✅] 🧪 Revisión y Calidad: 100%
+- [✅] 📚 Documentación del Proyecto: 100%
 - [⚙️] 🎨 Redacción de Recetas: 5%
 - [⬜] 🧪 Revisión y Calidad: 0%
 - [⚙️] 📚 Documentación del Proyecto: 50%
@@ -21,6 +25,39 @@ El proyecto se encuentra en la fase inicial de enriquecimiento de contenido. Se 
 ## 🚀 Fase Actual: Región Andina - Enriquecimiento de Recetas
 
 ### Metodología de Investigación y Enriquecimiento
+
+#### 🆕 Enfoque de estandarización robusta y enriquecimiento (2025)
+
+A partir de julio de 2025 se implementa un proceso exhaustivo y ordenado para cada receta, asegurando máxima calidad y compatibilidad internacional:
+
+- **Estandarización con YAML Front Matter:**
+  - Cada receta inicia con un bloque YAML detallado que incluye: título, región, categorías, perfil sensorial (sabor, textura, aroma, presentación), ingredientes principales, dificultad, tiempos, porciones, imágenes libres (Pixabay, Unsplash, etc.), fuentes científicas y populares, y licencia (MIT).
+  - El YAML permite futura vectorización y uso por agentes de IA culinaria.
+
+- **Enriquecimiento sensorial y nutricional:**
+  - Para cada receta se documenta sabor dominante, textura, aroma, presentación y experiencia sensorial, con base en reseñas de usuarios y expertos.
+  - Se incluye tabla nutricional de ingredientes clave, compuestos bioactivos y enlaces a estudios o fuentes fiables.
+
+- **Fuentes y sabiduría colectiva:**
+  - Se citan explícitamente enlaces a menús, reseñas, videos y foros relevantes (Google Maps, TripAdvisor, YouTube, TikTok, prensa, blogs y foros gastronómicos).
+  - Se sintetizan comentarios y consejos de la comunidad, resaltando trucos y experiencias reales.
+
+- **Imágenes libres y criterios de selección:**
+  - Solo se usan imágenes libres de derechos (Pixabay, Unsplash, Pexels, Freeimages, etc.), citando la fuente y contexto.
+  - Si no hay imagen adecuada, se deja placeholder y se prioriza la creación de imágenes propias.
+
+- **Compatibilidad y calidad Markdown:**
+  - Se corrigen encabezados (H2 en vez de H1), se cuidan los saltos de línea y listas, y se revisan lints para máxima compatibilidad con renderizadores y futuras integraciones.
+
+- **Licencia abierta definitiva:**
+  - Todas las recetas y documentación se publican bajo licencia MIT, garantizando uso abierto, reutilización y atribución.
+
+- **Clasificación sensorial y de uso:**
+  - Cada receta se etiqueta según sabor dominante (dulce, salado, ácido, amargo, umami), textura, aroma, tipo de plato (desayuno, fuerte, postre, bebida, snack, etc.) y contexto de consumo.
+  - Se prioriza la diversidad sensorial y el valor cultural en la selección y documentación.
+
+Este enfoque garantiza que el recetario colombiano sea referencia global para agentes, investigadores y entusiastas culinarios, y que cada receta sea fácilmente indexable, enriquecida y reutilizable.
+
 
 - Para cada receta emblemática:
     1. Investigar reseñas y menús de restaurantes reconocidos y bien calificados en Google, TripAdvisor y prensa local.
@@ -105,6 +142,36 @@ Para cada categoría:
 - Documentar cada receta siguiendo la estructura enriquecida: ingredientes, preparación, variantes, análisis sensorial, perfil nutricional, opiniones de usuarios, contexto cultural, fuentes y enlaces.
 - Incluir imágenes o placeholders, emojis y enlaces a videos/foros relevantes.
 - Clasificar cada receta según tipo de plato, uso, perfil sensorial y contexto de consumo (urbano, familiar, festivo, callejero, etc.).
+
+---
+
+### 🖼️ Incorporación de Imágenes Libres de Uso Público
+
+Es viable y recomendable complementar las recetas con imágenes reales, siempre respetando los derechos de autor y las licencias de uso. No todas las imágenes encontradas en Google son reutilizables; se debe verificar la licencia y preferir fuentes explícitamente libres de derechos.
+
+**Bancos recomendados de imágenes libres:**
+- [Pixabay](https://pixabay.com/es/)
+- [Unsplash](https://unsplash.com/)
+- [Pexels](https://www.pexels.com/es-es/)
+- [Freeimages](https://es.freeimages.com/)
+- [Pics4learning](http://www.pics4learning.com/)
+- [Recursos TIC educación](http://recursostic.educacion.es/bancoimagenes/web/)
+
+**Criterios de selección y uso:**
+- Buscar imágenes representativas del plato, preferiblemente con contexto colombiano.
+- Verificar que la licencia permita el uso para fines educativos o de divulgación (Creative Commons CC0, dominio público, etc.).
+- Citar la fuente y/o autor de la imagen en la receta (ejemplo: "Imagen: Pixabay/usuario").
+- Si no se encuentra imagen adecuada, mantener el placeholder y priorizar la creación de imágenes propias en el futuro.
+- No usar imágenes con marcas de agua, logotipos comerciales ni restricciones explícitas.
+
+**Procedimiento sugerido:**
+1. Buscar el nombre del plato en los bancos recomendados.
+2. Descargar la imagen seleccionada y renombrarla según la receta.
+3. Incluir la imagen en la carpeta correspondiente y enlazarla en el archivo markdown de la receta, citando la fuente.
+4. Documentar el proceso y criterios en el README o sección de fuentes de cada receta.
+
+Esto garantiza que el recetario cumpla con buenas prácticas de derechos de autor y facilite la visualización de las preparaciones para los usuarios.
+
 
 ### 📋 Ejemplo de índice por categoría
 

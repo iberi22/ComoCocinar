@@ -38,18 +38,18 @@ La cocina insular colombiana es una fusión de tradiciones africanas, inglesas y
 
 ---
 
-## Índice de Archivos
+## Índice de Recetas
 
-- `/rondon/rondon.md`
-- `/sopa_de_cangrejo/sopa_de_cangrejo.md`
-- `/bolas_de_pescado/bolas_de_pescado.md`
-- `/caracol_guisado/caracol_guisado.md`
-- `/pollo_guisado_con_dumplings/pollo_guisado_con_dumplings.md`
-- `/frijoles_con_cola_de_cerdo/frijoles_con_cola_de_cerdo.md`
-- `/crab_backs/crab_backs.md`
-- `/crab_patty/crab_patty.md`
-- `/torta_de_calabaza/torta_de_calabaza.md`
-- `/cocadas/cocadas.md`
+- [Rondón](rondon/rondon.md)
+- [Sopa de Cangrejo](sopa_de_cangrejo/sopa_de_cangrejo.md)
+- [Bolas de Pescado](bolas_de_pescado/bolas_de_pescado.md)
+- [Caracol Guisado](caracol_guisado/caracol_guisado.md)
+- [Pollo Guisado con Dumplings](pollo_guisado_con_dumplings/pollo_guisado_con_dumplings.md)
+- [Frijoles con Cola de Cerdo](frijoles_con_cola_de_cerdo/frijoles_con_cola_de_cerdo.md)
+- [Crab Backs (Cangrejo Relleno)](crab_backs/crab_backs.md)
+- [Crab Patty (Empanada de Cangrejo)](crab_patty/crab_patty.md)
+- [Torta de Calabaza](torta_de_calabaza/torta_de_calabaza.md)
+- [Cocadas](cocadas/cocadas.md)
 
 ---
 

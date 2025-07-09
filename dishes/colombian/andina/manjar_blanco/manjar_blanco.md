@@ -1,4 +1,4 @@
-# Manjar Blanco
+## Manjar Blanco
 
 El Manjar Blanco es un postre tradicional de la región andina colombiana, especialmente popular en el Valle del Cauca y Boyacá. Se elabora a base de leche, azúcar y arroz, cocido lentamente hasta obtener una textura cremosa y un sabor delicadamente dulce.
 

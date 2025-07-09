@@ -38,18 +38,18 @@ La cocina pacífica colombiana es rica en pescados, mariscos, plátano y coco. L
 
 ---
 
-## Índice de Archivos
+## Índice de Recetas
 
-- `/encocado_de_pescado/encocado_de_pescado.md`
-- `/sancocho_de_pescado/sancocho_de_pescado.md`
-- `/tapao_de_pescado/tapao_de_pescado.md`
-- `/cazuela_de_mariscos/cazuela_de_mariscos.md`
-- `/arroz_atollado_con_mariscos/arroz_atollado_con_mariscos.md`
-- `/tollo_ahumado/tollo_ahumado.md`
-- `/aborrajados_de_pescado/aborrajados_de_pescado.md`
-- `/empanadas_de_jaiba/empanadas_de_jaiba.md`
-- `/chancacas/chancacas.md`
-- `/pusandao/pusandao.md`
+- [Encocado de Pescado](encocado_de_pescado/encocado_de_pescado.md)
+- [Sancocho de Pescado](sancocho_de_pescado/sancocho_de_pescado.md)
+- [Tapao de Pescado](tapao_de_pescado/tapao_de_pescado.md)
+- [Cazuela de Mariscos](cazuela_de_mariscos/cazuela_de_mariscos.md)
+- [Arroz Atollado con Mariscos](arroz_atollado_con_mariscos/arroz_atollado_con_mariscos.md)
+- [Tollo Ahumado](tollo_ahumado/tollo_ahumado.md)
+- [Aborrajados de Pescado](aborrajados_de_pescado/aborrajados_de_pescado.md)
+- [Empanadas de Jaiba](empanadas_de_jaiba/empanadas_de_jaiba.md)
+- [Chancacas](chancacas/chancacas.md)
+- [Pusandao](pusandao/pusandao.md)
 
 ---
 

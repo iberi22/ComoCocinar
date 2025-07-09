@@ -1,4 +1,31 @@
-# Salchipapa
+---
+title: "Salchipapa"
+region: "Nacional"
+categories: ["Snack", "Comida rápida", "Street food", "Para compartir"]
+sensory:
+  flavor: ["Salado", "Umami"]
+  texture: ["Crujiente (papa)", "Suave (salchicha)", "Cremoso (salsas)"]
+  aroma: ["Frito", "Ahumado", "Especiado"]
+  presentation: "Se sirve en porciones generosas, ideal para compartir en reuniones, fiestas o después de salir de fiesta. Muy popular entre jóvenes y familias."
+main_ingredients: ["Papa frita", "Salchicha", "Queso rallado", "Salsas", "Huevo"]
+difficulty: "★☆☆☆☆"
+prep_time: "15 minutos"
+cook_time: "15 minutos"
+servings: "2-3"
+images:
+  - url: "https://pixabay.com/photos/salchipapa-colombia-street-food-6146292/"
+    description: "Salchipapa tradicional colombiana (Pixabay)"
+  - url: "https://unsplash.com/s/photos/salchipapa"
+    description: "Variaciones de salchipapa en Unsplash"
+sources:
+  - "https://cookpad.com/co/buscar/salchipapa"
+  - "https://www.youtube.com/results?search_query=salchipapa+colombia"
+  - "https://www.tiktok.com/tag/salchipapa"
+license: "MIT"
+tags: ["colombiano", "tradicional", "salchipapa", "open source"]
+---
+
+
 
 La salchipapa es uno de los platos callejeros más populares y virales de Colombia. Consiste en papas fritas cortadas en bastones y salchichas fritas, acompañadas de salsas, queso rallado y a veces huevo, carne o chorizo. Es un ícono de la comida rápida urbana y protagonista de ferias, puestos nocturnos y redes sociales.
 

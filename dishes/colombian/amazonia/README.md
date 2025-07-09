@@ -38,18 +38,18 @@ La cocina amazónica colombiana destaca por el uso de ingredientes autóctonos c
 
 ---
 
-## Índice de Archivos
+## Índice de Recetas
 
-- `/tacacho_con_cecina/tacacho_con_cecina.md`
-- `/mojojoy/mojojoy.md`
-- `/inchicapi/inchicapi.md`
-- `/casabe/casabe.md`
-- `/juanes_de_yuca/juanes_de_yuca.md`
-- `/pescado_moqueado/pescado_moqueado.md`
-- `/farina/farina.md`
-- `/aji_negro/aji_negro.md`
-- `/patarasca/patarasca.md`
-- `/pirarucu_frito/pirarucu_frito.md`
+- [Tacacho con Cecina](tacacho_con_cecina/tacacho_con_cecina.md)
+- [Mojojoy](mojojoy/mojojoy.md)
+- [Inchicapi](inchicapi/inchicapi.md)
+- [Casabe](casabe/casabe.md)
+- [Juanes de Yuca](juanes_de_yuca/juanes_de_yuca.md)
+- [Pescado Moqueado](pescado_moqueado/pescado_moqueado.md)
+- [Fariña](farina/farina.md)
+- [Ají Negro](aji_negro/aji_negro.md)
+- [Patarasca](patarasca/patarasca.md)
+- [Pirarucú Frito](pirarucu_frito/pirarucu_frito.md)
 
 ---
 

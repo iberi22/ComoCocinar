@@ -1,4 +1,4 @@
-# Caracol Guisado
+## Caracol Guisado
 
 El Caracol Guisado es un plato icónico de la región Insular, especialmente de San Andrés y Providencia. Se prepara con caracol de mar fresco, cocido lentamente en un guiso de leche de coco, vegetales y especias isleñas, logrando una textura tierna y un sabor profundo y marino.
 

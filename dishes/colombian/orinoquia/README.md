@@ -38,18 +38,18 @@ La cocina llanera destaca por el uso de carnes asadas, pescados de río y tubér
 
 ---
 
-## Índice de Archivos
+## Índice de Recetas
 
-- `/mamona/mamona.md`
-- `/cachama_asada/cachama_asada.md`
-- `/carne_a_la_perra/carne_a_la_perra.md`
-- `/casabe/casabe.md`
-- `/arroz_llanero/arroz_llanero.md`
-- `/chiguiro_asado/chiguiro_asado.md`
-- `/entreverado/entreverado.md`
-- `/hervido_de_gumarra/hervido_de_gumarra.md`
-- `/pabellon_llanero/pabellon_llanero.md`
-- `/pan_de_arroz/pan_de_arroz.md`
+- [Mamona](mamona/mamona.md)
+- [Cachama Asada](cachama_asada/cachama_asada.md)
+- [Carne a la Perra](carne_a_la_perra/carne_a_la_perra.md)
+- [Casabe](casabe/casabe.md)
+- [Arroz Llanero](arroz_llanero/arroz_llanero.md)
+- [Chigüiro Asado](chiguiro_asado/chiguiro_asado.md)
+- [Entreverado](entreverado/entreverado.md)
+- [Hervido de Gumarra](hervido_de_gumarra/hervido_de_gumarra.md)
+- [Pabellón Llanero](pabellon_llanero/pabellon_llanero.md)
+- [Pan de Arroz](pan_de_arroz/pan_de_arroz.md)
 
 ---
 

@@ -14,7 +14,7 @@
 - [Orinoquía](./orinoquia/README.md)
 - [Pacífica](./pacifica/README.md)
 
-### Nuevas Categorías Nacionales
+### Categorías Nacionales y Temáticas
 - [Nacionales y Street Food](./nacionales/README.md)
 - [Bebidas](./bebidas/README.md)
 - [Snacks y Antojitos](./snacks/README.md)

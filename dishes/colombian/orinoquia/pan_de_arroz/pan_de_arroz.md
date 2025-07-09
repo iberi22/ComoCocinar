@@ -1,4 +1,4 @@
-# Pan de Arroz
+## Pan de Arroz
 
 El Pan de Arroz es una delicia tradicional de la Orinoquía colombiana, especialmente popular en los Llanos Orientales. Se elabora con arroz molido, queso llanero y manteca, resultando en un panecillo crujiente por fuera y suave por dentro, perfecto para acompañar desayunos o meriendas.
 

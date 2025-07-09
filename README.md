@@ -1,425 +1,604 @@
-# 程序员做饭指南
+# ComoCocinar
 
-[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/Anduin2017/HowToCook)](./LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Anduin2017/HowToCook)](https://github.com/Anduin2017/HowToCook/graphs/contributors)
-[![npm](https://img.shields.io/npm/v/how-to-cook)](https://www.npmjs.com/package/how-to-cook)
-![Man hours](https://manhours.aiursoft.cn/r/github.com/anduin2017/howtocook.svg)
-[![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://github.com/Anduin2017/HowToCook/pkgs/container/how-to-cook)
-[![Join the AnduinOS Community on Revolt](https://img.shields.io/badge/Revolt-Join-fd6671?style=flat-square)](https://rvlt.gg/ndApqZEs)
+> **Este repositorio es un fork y adaptación profunda de [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook).**
+>
+> Inspirado en el proyecto original, la meta de ComoCocinar es crear la base de datos recetaria más completa, estructurada y abierta del mundo, abarcando todas las cocinas y culturas, con documentación en español y estándares para agentes de IA y usuarios humanos.
+>
+> El objetivo a largo plazo es recopilar, estandarizar y enriquecer recetas de toda la humanidad, facilitando la preservación, el aprendizaje y la innovación culinaria global desde una perspectiva abierta y colaborativa.
 
-最近宅在家做饭，作为程序员，我偶尔在网上找找菜谱和做法。但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。
+**Repositorio open source para la documentación, estandarización y enriquecimiento de recetas colombianas y latinoamericanas.**
 
-所以，我计划自己搜寻菜谱并结合实际做菜的经验，准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。
+---
 
-同样，我希望它是一个由社区驱动和维护的开源项目，使更多人能够一起做一个有趣的仓库。所以非常欢迎大家贡献它~
+> **Este repositorio es un fork y adaptación profunda de [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook).**
+>
+> Inspirado en el proyecto original, la meta de ComoCocinar es crear la base de datos recetaria más completa, estructurada y abierta del mundo, abarcando todas las cocinas y culturas, con documentación en español y estándares para agentes de IA y usuarios humanos.
+>
+> El objetivo a largo plazo es recopilar, estandarizar y enriquecer recetas de toda la humanidad, facilitando la preservación, el aprendizaje y la innovación culinaria global desde una perspectiva abierta y colaborativa.
 
-## 本地部署
 
-如果需要在本地部署菜谱 Web 服务，可以在安装 Docker 后运行下面命令：
+**Repositorio open source para la documentación, estandarización y enriquecimiento de recetas colombianas y latinoamericanas.**
 
-```bash
-docker pull ghcr.io/anduin2017/how-to-cook:latest
-docker run -d -p 5000:80 ghcr.io/anduin2017/how-to-cook:latest
+---
+
+## 🌎 Visión del Proyecto
+
+Este repositorio es una base de conocimiento curada, estructurada y abierta para alimentar agentes de IA enfocados en la gastronomía colombiana y latinoamericana. El objetivo es preservar, estructurar y facilitar el acceso a recetas auténticas, permitiendo búsquedas inteligentes, descubrimiento de sabores y aplicaciones educativas y culinarias.
+
+
+Este repositorio es una base de conocimiento curada, estructurada y abierta para alimentar agentes de IA enfocados en la gastronomía colombiana y latinoamericana. El objetivo es preservar, estructurar y facilitar el acceso a recetas auténticas, permitiendo búsquedas inteligentes, descubrimiento de sabores y aplicaciones educativas y culinarias.
+
+## 📈 Estado de avance
+
+Todas las recetas principales de las regiones (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) y de las categorías Nacionales, Bebidas, Snacks, Panes, Condimentos y Otras preparaciones están completamente estandarizadas y enriquecidas:
+
+- YAML Front Matter robusto y validado
+- Análisis sensorial y nutricional detallado
+- Imágenes libres de uso (Pixabay, Unsplash, Pexels)
+- Fuentes y enlaces de referencia científica y colectiva
+- Licencia open source (MIT)
+
+Consulta el archivo `COLOMBIAN_RECIPES_PLAN.md` para ver el detalle de avance, metodología y próximos pasos.
+
+
+Todas las recetas principales de las regiones (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) y de las categorías Nacionales, Bebidas, Snacks, Panes, Condimentos y Otras preparaciones están completamente estandarizadas y enriquecidas:
+
+- YAML Front Matter robusto y validado
+- Análisis sensorial y nutricional detallado
+- Imágenes libres de uso (Pixabay, Unsplash, Pexels)
+- Fuentes y enlaces de referencia científica y colectiva
+- Licencia open source (MIT)
+
+Consulta el archivo `COLOMBIAN_RECIPES_PLAN.md` para ver el detalle de avance, metodología y próximos pasos.
+
+## 📂 Estructura del repositorio y formato estándar
+
+Cada receta debe comenzar con un bloque YAML Front Matter que contenga los metadatos clave. Esto permite búsquedas, filtrados y procesamiento automático por agentes inteligentes y facilita la interoperabilidad.
+
+### Ejemplo de bloque YAML
+
+```yaml
+---
+title: "Chuzo Colombiano"
+region: "Nacional"
+categories: ["Snack", "Comida callejera", "Plato fuerte"]
+sensory:
+  flavor: ["Umami", "Ahumado"]
+  texture: ["Jugoso", "Dorado por fuera"]
+  aroma: ["Ahumado", "Especiado"]
+  presentation: "Se sirve en brocheta, acompañado de papa y arepa. Ideal para compartir en fiestas y eventos nocturnos."
+main_ingredients:
+  - Carne de res
+  - Pollo
+  - Papa salada
+  - Arepa
+difficulty: "★★☆☆☆"
+prep_time: "40 minutos"
+servings: 6
+images:
+  - url: "https://pixabay.com/es/photos/chorizo-parrilla-barbacoa-2314640/"
+    description: "Chuzo colombiano en parrilla (Pixabay)"
+sources:
+  - "https://www.recetasdecolombia.com/chuzo"
+  - "https://www.youtube.com/results?search_query=chuzo+colombiano"
+license: "MIT"
+---
 ```
 
-如需下载 PDF 版本，可以在浏览器中访问 [/document.pdf](https://cook.aiursoft.cn/document.pdf)
 
-## 如何贡献
+Cada receta debe comenzar con un bloque YAML Front Matter que contenga los metadatos clave. Esto permite búsquedas, filtrados y procesamiento automático por agentes inteligentes y facilita la interoperabilidad.
 
-针对发现的问题，直接修改并提交 Pull request 即可。
+### Ejemplo de bloque YAML
 
-在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
+```yaml
+---
+title: "Chuzo Colombiano"
+region: "Nacional"
+categories: ["Snack", "Comida callejera", "Plato fuerte"]
+sensory:
+  flavor: ["Umami", "Ahumado"]
+  texture: ["Jugoso", "Dorado por fuera"]
+  aroma: ["Ahumado", "Especiado"]
+  presentation: "Se sirve en brocheta, acompañado de papa y arepa. Ideal para compartir en fiestas y eventos nocturnos."
+main_ingredients:
+  - Carne de res
+  - Pollo
+  - Papa salada
+  - Arepa
+difficulty: "★★☆☆☆"
+prep_time: "40 minutos"
+servings: 6
+images:
+  - url: "https://pixabay.com/es/photos/chorizo-parrilla-barbacoa-2314640/"
+    description: "Chuzo colombiano en parrilla (Pixabay)"
+sources:
+  - "https://www.recetasdecolombia.com/chuzo"
+  - "https://www.youtube.com/results?search_query=chuzo+colombiano"
+license: "MIT"
+---
+```
 
-## 搭建环境
 
-- [厨房准备](tips/厨房准备.md)
-- [如何选择现在吃什么](tips/如何选择现在吃什么.md)
-- [食材相克与禁忌](tips/食材相克与禁忌.md)
-- [高压力锅](tips/learn/高压力锅.md)
-- [空气炸锅](tips/learn/空气炸锅.md)
-- [去腥](tips/learn/去腥.md)
-- [食品安全](tips/learn/食品安全.md)
-- [微波炉](tips/learn/微波炉.md)
-- [学习焯水](tips/learn/学习焯水.md)
-- [学习炒与煎](tips/learn/学习炒与煎.md)
-- [学习凉拌](tips/learn/学习凉拌.md)
-- [学习腌](tips/learn/学习腌.md)
-- [学习蒸](tips/learn/学习蒸.md)
-- [学习煮](tips/learn/学习煮.md)
 
-## 菜谱
+## 📑 Estado del Proyecto
 
-### 按难度索引
+- Todas las recetas principales estandarizadas y enriquecidas (YAML, sensorial, nutricional, imágenes, fuentes, licencia)
+- En proceso de revisión y enriquecimiento de recetas secundarias y nuevas adiciones
+- Sincronización de índices, enlaces y documentación
+- Preparación para integración con agentes de IA, búsqueda semántica y vectorización
 
-- [1 星难度](starsystem/1Star.md)
-- [2 星难度](starsystem/2Star.md)
-- [3 星难度](starsystem/3Star.md)
-- [4 星难度](starsystem/4Star.md)
-- [5 星难度](starsystem/5Star.md)
 
-### 素菜
+- Todas las recetas principales estandarizadas y enriquecidas (YAML, sensorial, nutricional, imágenes, fuentes, licencia)
+- En proceso de revisión y enriquecimiento de recetas secundarias y nuevas adiciones
+- Sincronización de índices, enlaces y documentación
+- Preparación para integración con agentes de IA, búsqueda semántica y vectorización
+---
 
-- [拔丝土豆](dishes/vegetable_dish/拔丝土豆/拔丝土豆.md)
-- [白灼菜心](dishes/vegetable_dish/白灼菜心/白灼菜心.md)
-- [包菜炒鸡蛋粉丝](dishes/vegetable_dish/包菜炒鸡蛋粉丝/包菜炒鸡蛋粉丝.md)
-- [菠菜炒鸡蛋](dishes/vegetable_dish/菠菜炒鸡蛋/菠菜炒鸡蛋.md)
-- [炒滑蛋](dishes/vegetable_dish/炒滑蛋/炒滑蛋.md)
-- [炒茄子](dishes/vegetable_dish/炒茄子.md)
-- [炒青菜](dishes/vegetable_dish/炒青菜.md)
-- [葱煎豆腐](dishes/vegetable_dish/葱煎豆腐.md)
-- [脆皮豆腐](dishes/vegetable_dish/脆皮豆腐.md)
-- [地三鲜](dishes/vegetable_dish/地三鲜.md)
-- [干锅花菜](dishes/vegetable_dish/干锅花菜/干锅花菜.md)
-- [蚝油三鲜菇](dishes/vegetable_dish/蚝油三鲜菇/蚝油三鲜菇.md)
-- [蚝油生菜](dishes/vegetable_dish/蚝油生菜.md)
-- [红烧冬瓜](dishes/vegetable_dish/红烧冬瓜/红烧冬瓜.md)
-- [红烧茄子](dishes/vegetable_dish/红烧茄子.md)
-- [虎皮青椒](dishes/vegetable_dish/虎皮青椒/虎皮青椒.md)
-- [话梅煮毛豆](dishes/vegetable_dish/话梅煮毛豆/话梅煮毛豆.md)
-- [鸡蛋羹](dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md)
-- [微波炉鸡蛋羹](dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.md)
-- [蒸箱鸡蛋羹](dishes/vegetable_dish/鸡蛋羹/蒸箱鸡蛋羹.md)
-- [鸡蛋火腿炒黄瓜](dishes/vegetable_dish/鸡蛋火腿炒黄瓜.md)
-- [茄子炖土豆](dishes/vegetable_dish/茄子炖土豆.md)
-- [椒盐玉米](dishes/vegetable_dish/椒盐玉米/椒盐玉米.md)
-- [金针菇日本豆腐煲](dishes/vegetable_dish/金针菇日本豆腐煲.md)
-- [烤茄子](dishes/vegetable_dish/烤茄子/烤茄子.md)
-- [榄菜肉末四季豆](dishes/vegetable_dish/榄菜肉末四季豆/榄菜肉末四季豆.md)
-- [雷椒皮蛋](dishes/vegetable_dish/雷椒皮蛋.md)
-- [凉拌豆腐](dishes/vegetable_dish/凉拌豆腐.md)
-- [凉拌黄瓜](dishes/vegetable_dish/凉拌黄瓜.md)
-- [凉拌金针菇](dishes/vegetable_dish/凉拌金针菇.md)
-- [凉拌木耳](dishes/vegetable_dish/凉拌木耳/凉拌木耳.md)
-- [凉拌莴笋](dishes/vegetable_dish/凉拌莴笋/凉拌莴笋.md)
-- [凉拌油麦菜](dishes/vegetable_dish/凉拌油麦菜.md)
-- [蒲烧茄子](dishes/vegetable_dish/蒲烧茄子.md)
-- [芹菜拌茶树菇](dishes/vegetable_dish/芹菜拌茶树菇/芹菜拌茶树菇.md)
-- [清炒花菜](dishes/vegetable_dish/清炒花菜.md)
-- [清蒸南瓜](dishes/vegetable_dish/清蒸南瓜.md)
-- [陕北熬豆角](dishes/vegetable_dish/陕北熬豆角.md)
-- [上汤娃娃菜](dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md)
-- [手撕包菜](dishes/vegetable_dish/手撕包菜/手撕包菜.md)
-- [水油焖蔬菜](dishes/vegetable_dish/水油焖蔬菜.md)
-- [松仁玉米](dishes/vegetable_dish/松仁玉米.md)
-- [素炒豆角](dishes/vegetable_dish/素炒豆角.md)
-- [酸辣土豆丝](dishes/vegetable_dish/酸辣土豆丝.md)
-- [蒜蓉空心菜](dishes/vegetable_dish/蒜蓉空心菜/蒜蓉空心菜.md)
-- [蒜蓉西兰花](dishes/vegetable_dish/蒜蓉西兰花.md)
-- [糖拌西红柿](dishes/vegetable_dish/糖拌西红柿/糖拌西红柿.md)
-- [莴笋叶煎饼](dishes/vegetable_dish/莴笋叶煎饼/莴笋叶煎饼.md)
-- [西红柿炒鸡蛋](dishes/vegetable_dish/西红柿炒鸡蛋.md)
-- [西红柿豆腐汤羹](dishes/vegetable_dish/西红柿豆腐汤羹/西红柿豆腐汤羹.md)
-- [西葫芦炒鸡蛋](dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md)
-- [小炒藕丁](dishes/vegetable_dish/小炒藕丁/小炒藕丁.md)
-- [洋葱炒鸡蛋](dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md)
-- [油醋爆蛋](dishes/vegetable_dish/油醋爆蛋.md)
+## 📋 Campos estándar de metadatos YAML para recetas
 
-### 荤菜
+Cada receta debe incluir un bloque YAML Front Matter al inicio, con los siguientes campos:
 
-- [巴基斯坦牛肉咖喱](dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.md)
-- [白菜猪肉炖粉条](dishes/meat_dish/白菜猪肉炖粉条.md)
-- [豉汁蒸白鱔食谱](dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔食谱.md)
-- [带把肘子](dishes/meat_dish/带把肘子.md)
-- [冬瓜酿肉](dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md)
-- [豆豉鲮鱼油麦菜](dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.md)
-- [番茄红酱](dishes/meat_dish/番茄红酱.md)
-- [粉蒸肉](dishes/meat_dish/粉蒸肉.md)
-- [干煸仔鸡](dishes/meat_dish/干煸仔鸡/干煸仔鸡.md)
-- [宫保鸡丁](dishes/meat_dish/宫保鸡丁/宫保鸡丁.md)
-- [咕噜肉](dishes/meat_dish/咕噜肉.md)
-- [广式萝卜牛腩](dishes/meat_dish/广式萝卜牛腩/广式萝卜牛腩.md)
-- [贵州辣子鸡](dishes/meat_dish/贵州辣子鸡/贵州辣子鸡.md)
-- [荷兰豆炒腊肠](dishes/meat_dish/荷兰豆炒腊肠/荷兰豆炒腊肠.md)
-- [黑椒牛柳](dishes/meat_dish/黑椒牛柳/黑椒牛柳.md)
-- [简易红烧肉](dishes/meat_dish/红烧肉/简易红烧肉.md)
-- [南派红烧肉](dishes/meat_dish/红烧肉/南派红烧肉.md)
-- [红烧猪蹄](dishes/meat_dish/红烧猪蹄/红烧猪蹄.md)
-- [湖南家常红烧肉](dishes/meat_dish/湖南家常红烧肉/湖南家常红烧肉.md)
-- [虎皮肘子](dishes/meat_dish/虎皮肘子.md)
-- [黄瓜炒肉](dishes/meat_dish/黄瓜炒肉.md)
-- [黄焖鸡](dishes/meat_dish/黄焖鸡.md)
-- [徽派红烧肉](dishes/meat_dish/徽派红烧肉/徽派红烧肉.md)
-- [回锅肉](dishes/meat_dish/回锅肉/回锅肉.md)
-- [尖椒炒牛肉](dishes/meat_dish/尖椒炒牛肉.md)
-- [尖叫牛蛙](dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.md)
-- [姜炒鸡](dishes/meat_dish/姜炒鸡/姜炒鸡.md)
-- [姜葱捞鸡](dishes/meat_dish/姜葱捞鸡/姜葱捞鸡.md)
-- [酱牛肉](dishes/meat_dish/酱牛肉/酱牛肉.md)
-- [酱排骨](dishes/meat_dish/酱排骨/酱排骨.md)
-- [茭白炒肉](dishes/meat_dish/茭白炒肉/茭白炒肉.md)
-- [椒盐排条](dishes/meat_dish/椒盐排条.md)
-- [芥末罗氏虾](dishes/meat_dish/芥末罗氏虾/芥末罗氏虾.md)
-- [咖喱肥牛](dishes/meat_dish/咖喱肥牛/咖喱肥牛.md)
-- [烤鸡翅](dishes/meat_dish/烤鸡翅.md)
-- [可乐鸡翅](dishes/meat_dish/可乐鸡翅.md)
-- [口水鸡](dishes/meat_dish/口水鸡/口水鸡.md)
-- [辣椒炒肉](dishes/meat_dish/辣椒炒肉.md)
-- [老妈蹄花](dishes/meat_dish/老妈蹄花/老妈蹄花.md)
-- [老式锅包肉](dishes/meat_dish/老式锅包肉/老式锅包肉.md)
-- [冷吃兔](dishes/meat_dish/冷吃兔.md)
-- [荔枝肉](dishes/meat_dish/荔枝肉/荔枝肉.md)
-- [凉拌鸡丝](dishes/meat_dish/凉拌鸡丝/凉拌鸡丝.md)
-- [卤菜](dishes/meat_dish/卤菜/卤菜.md)
-- [萝卜炖羊排](dishes/meat_dish/萝卜炖羊排.md)
-- [麻辣香锅](dishes/meat_dish/麻辣香锅.md)
-- [麻婆豆腐](dishes/meat_dish/麻婆豆腐/麻婆豆腐.md)
-- [蚂蚁上树](dishes/meat_dish/蚂蚁上树.md)
-- [梅菜扣肉](dishes/meat_dish/梅菜扣肉/梅菜扣肉.md)
-- [奶酪培根通心粉](dishes/meat_dish/奶酪培根通心粉/奶酪培根通心粉.md)
-- [牛排](dishes/meat_dish/牛排/牛排.md)
-- [农家一碗香](dishes/meat_dish/农家一碗香/农家一碗香.md)
-- [啤酒鸭](dishes/meat_dish/啤酒鸭/啤酒鸭.md)
-- [黔式腊肠娃娃菜](dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.md)
-- [青椒土豆炒肉](dishes/meat_dish/青椒土豆炒肉/青椒土豆炒肉.md)
-- [清蒸鳜鱼](dishes/meat_dish/清蒸鳜鱼/清蒸鳜鱼.md)
-- [肉饼炖蛋](dishes/meat_dish/肉饼炖蛋.md)
-- [杀猪菜](dishes/meat_dish/杀猪菜.md)
-- [山西过油肉](dishes/meat_dish/山西过油肉.md)
-- [商芝肉](dishes/meat_dish/商芝肉.md)
-- [瘦肉土豆片](dishes/meat_dish/瘦肉土豆片/瘦肉土豆片.md)
-- [水煮牛肉](dishes/meat_dish/水煮牛肉/水煮牛肉.md)
-- [水煮肉片](dishes/meat_dish/水煮肉片.md)
-- [蒜苔炒肉末](dishes/meat_dish/蒜苔炒肉末.md)
-- [台式卤肉饭](dishes/meat_dish/台式卤肉饭/台式卤肉饭.md)
-- [糖醋里脊](dishes/meat_dish/糖醋里脊.md)
-- [糖醋排骨](dishes/meat_dish/糖醋排骨/糖醋排骨.md)
-- [甜辣烤全翅](dishes/meat_dish/甜辣烤全翅.md)
-- [土豆炖排骨](dishes/meat_dish/土豆炖排骨/土豆炖排骨.md)
-- [无骨鸡爪](dishes/meat_dish/无骨鸡爪/无骨鸡爪.md)
-- [西红柿牛腩](dishes/meat_dish/西红柿牛腩/西红柿牛腩.md)
-- [西红柿土豆炖牛肉](dishes/meat_dish/西红柿土豆炖牛肉/西红柿土豆炖牛肉.md)
-- [乡村啤酒鸭](dishes/meat_dish/乡村啤酒鸭.md)
-- [香干芹菜炒肉](dishes/meat_dish/香干芹菜炒肉/香干芹菜炒肉.md)
-- [香干肉丝](dishes/meat_dish/香干肉丝.md)
-- [香菇滑鸡](dishes/meat_dish/香菇滑鸡/香菇滑鸡.md)
-- [香煎五花肉](dishes/meat_dish/香煎五花肉/香煎五花肉.md)
-- [香辣鸡爪煲](dishes/meat_dish/香辣鸡爪煲/香辣鸡爪煲.md)
-- [湘祁米夫鸭](dishes/meat_dish/湘祁米夫鸭/湘祁米夫鸭.md)
-- [小炒黄牛肉](dishes/meat_dish/小炒黄牛肉/小炒黄牛肉.md)
-- [小炒鸡肝](dishes/meat_dish/小炒鸡肝/小炒鸡肝.md)
-- [小炒肉](dishes/meat_dish/小炒肉.md)
-- [小米辣炒肉](dishes/meat_dish/小米辣炒肉.md)
-- [小酥肉](dishes/meat_dish/小酥肉.md)
-- [新疆大盘鸡](dishes/meat_dish/新疆大盘鸡/新疆大盘鸡.md)
-- [血浆鸭](dishes/meat_dish/血浆鸭/血浆鸭.md)
-- [羊排焖面](dishes/meat_dish/羊排焖面/羊排焖面.md)
-- [洋葱炒猪肉](dishes/meat_dish/洋葱炒猪肉.md)
-- [意式烤鸡](dishes/meat_dish/意式烤鸡.md)
-- [鱼香茄子](dishes/meat_dish/鱼香茄子/鱼香茄子.md)
-- [鱼香肉丝](dishes/meat_dish/鱼香肉丝.md)
-- [枝竹羊腩煲](dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md)
-- [猪皮冻](dishes/meat_dish/猪皮冻/猪皮冻.md)
-- [猪肉烩酸菜](dishes/meat_dish/猪肉烩酸菜.md)
-- [柱候牛腩](dishes/meat_dish/柱候牛腩/柱候牛腩.md)
-- [孜然牛肉](dishes/meat_dish/孜然牛肉.md)
-- [醉排骨](dishes/meat_dish/醉排骨/醉排骨.md)
+- `title`: Nombre completo del plato.
+- `region`: Región o categoría principal (ejemplo: Andina, Caribe, Nacional).
+- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
+- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
+- `main_ingredients`: Ingredientes principales o diferenciadores.
+- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
+- `prep_time`: Tiempo estimado de preparación total.
+- `servings`: Porciones aproximadas.
+- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
+- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
+- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
 
-### 水产
+Consulta ejemplos y plantillas en los archivos de cada región y en `COLOMBIAN_RECIPES_PLAN.md`.
 
-- [白灼虾](dishes/aquatic/白灼虾/白灼虾.md)
-- [鳊鱼炖豆腐](dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md)
-- [蛏抱蛋](dishes/aquatic/蛏抱蛋/蛏抱蛋.md)
-- [葱烧海参](dishes/aquatic/葱烧海参/葱烧海参.md)
-- [葱油桂鱼](dishes/aquatic/葱油桂鱼/葱油桂鱼.md)
-- [干煎阿根廷红虾](dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md)
-- [红烧鲤鱼](dishes/aquatic/红烧鲤鱼.md)
-- [红烧鱼](dishes/aquatic/红烧鱼.md)
-- [红烧鱼头](dishes/aquatic/红烧鱼头.md)
-- [黄油煎虾](dishes/aquatic/黄油煎虾/黄油煎虾.md)
-- [烤鱼](dishes/aquatic/混合烤鱼/烤鱼.md)
-- [芥末黄油罗氏虾](dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md)
-- [咖喱炒蟹](dishes/aquatic/咖喱炒蟹.md)
-- [鲤鱼炖白菜](dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.md)
+
+Cada receta debe incluir un bloque YAML Front Matter al inicio, con los siguientes campos:
+
+- `title`: Nombre completo del plato.
+- `region`: Región o categoría principal (ejemplo: Andina, Caribe, Nacional).
+- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
+- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
+- `main_ingredients`: Ingredientes principales o diferenciadores.
+- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
+- `prep_time`: Tiempo estimado de preparación total.
+- `servings`: Porciones aproximadas.
+- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
+- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
+- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
+
+Consulta ejemplos y plantillas en los archivos de cada región y en `COLOMBIAN_RECIPES_PLAN.md`.
+
+## 🤝 Cómo Contribuir
+
+1. Crea tus recetas siguiendo la plantilla YAML Front Matter y el estándar de enriquecimiento sensorial/nutricional.
+2. Haz un Pull Request. Solo se aceptarán cambios que cumplan con la estructura y pasen la validación automática.
+3. Consulta el archivo `.github/PULL_REQUEST_TEMPLATE.md` y la documentación para detalles.
+
+
+1. Crea tus recetas siguiendo la plantilla YAML Front Matter y el estándar de enriquecimiento sensorial/nutricional.
+2. Haz un Pull Request. Solo se aceptarán cambios que cumplan con la estructura y pasen la validación automática.
+3. Consulta el archivo `.github/PULL_REQUEST_TEMPLATE.md` y la documentación para detalles.
+
+## 🛡️ Licencia
+
+Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+
+Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+## 📚 Enlaces y recursos
+
+- [COLOMBIAN_RECIPES_PLAN.md](dishes/colombian/COLOMBIAN_RECIPES_PLAN.md): Plan y metodología detallada
+- [PLAN_SABORES_LATINOS.md](PLAN_SABORES_LATINOS.md): Plan para otras cocinas latinoamericanas
+- [plan_enriquecimiento_recetas.md](plan_enriquecimiento_recetas.md): Metodología de enriquecimiento sensorial y nutricional
+- Carpetas por región y categoría en `dishes/colombian/`
+
+
+- [COLOMBIAN_RECIPES_PLAN.md](dishes/colombian/COLOMBIAN_RECIPES_PLAN.md): Plan y metodología detallada
+- [PLAN_SABORES_LATINOS.md](PLAN_SABORES_LATINOS.md): Plan para otras cocinas latinoamericanas
+- [plan_enriquecimiento_recetas.md](plan_enriquecimiento_recetas.md): Metodología de enriquecimiento sensorial y nutricional
+- Carpetas por región y categoría en `dishes/colombian/`
+
+## 📝 Metodología y lecciones aprendidas
+
+La estandarización y enriquecimiento de recetas se basa en:
+
+- Investigación en fuentes académicas, colectivas y restaurantes reconocidos
+- Análisis sensorial y nutricional por ingrediente
+- Inclusión de imágenes libres y enlaces verificados
+- Documentación abierta y colaborativa
+
+Para detalles, consulta los archivos de metodología y el plan general.
+
+Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado para IA, conocimiento abierto y la cocina colombiana.
+- [Buñuelos](dishes/colombian/snacks/buñuelo/buñuelo.md)
+- [Almojábanas](dishes/colombian/snacks/almojábana/almojábana.md)
+- [Arepa de Huevo](dishes/colombian/caribe/arepa_de_huevo/arepa_de_huevo.md)
+- [Pandebono](dishes/colombian/panes/pandebono/pandebono.md)
+
+### Salsas y Acompañamientos
+
+- [Hogao](dishes/colombian/condimentos/hogao/hogao.md)
+- [Ají Picante](dishes/colombian/condimentos/aji_picante/aji_picante.md)
+- [Guacamole Colombiano](dishes/colombian/condimentos/guacamole_colombiano/guacamole_colombiano.md)
+- [Suero Costeño](dishes/colombian/condimentos/suero_costeño/suero_costeño.md)
+
+# 🌍 Recetas del Mundo (Pendientes de Adaptación)
+
+### Platos de Carne
+
+- [Cerdo salteado con cebolla (pendiente de traducir)](dishes/meat_dish/洋葱炒猪肉.md)
+- [Pollo asado a la italiana (pendiente de traducir)](dishes/meat_dish/意式烤鸡.md)
+- [Berenjena en salsa de pescado (pendiente de traducir)](dishes/meat_dish/鱼香茄子/鱼香茄子.md)
+- [Cerdo en salsa de pescado (pendiente de traducir)](dishes/meat_dish/鱼香肉丝.md)
+- [Estofado de cordero con tofu seco (pendiente de traducir)](dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md)
+- [Gelatina de piel de cerdo (pendiente de traducir)](dishes/meat_dish/猪皮冻/猪皮冻.md)
+- [Cerdo estofado con chucrut (pendiente de traducir)](dishes/meat_dish/猪肉烩酸菜.md)
+- [Cerdo cocido dos veces (pendiente de traducir)](dishes/meat_dish/回锅肉.md)
+
+### Pescados y Mariscos
+
+- [Perca al vapor con aceite de cebollín (pendiente de traducir)](dishes/aquatic/葱油桂鱼/葱油桂鱼.md)
+- [Langostinos rojos argentinos a la plancha (pendiente de traducir)](dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md)
+- [Carpa estofada en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鲤鱼.md)
+- [Pescado estofado en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鱼.md)
+- [Cabeza de pescado estofada en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鱼头.md)
+- [Langostinos salteados con mantequilla (pendiente de traducir)](dishes/aquatic/黄油煎虾/黄油煎虾.md)
+- [Pescado a la parrilla mixto (pendiente de traducir)](dishes/aquatic/混合烤鱼/烤鱼.md)
+- [Langostinos con mantequilla y mostaza (pendiente de traducir)](dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md)
 - [清蒸鲈鱼](dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.md)
-- [清蒸生蚝](dishes/aquatic/清蒸生蚝.md)
-- [水煮鱼](dishes/aquatic/水煮鱼.md)
-- [蒜蓉虾](dishes/aquatic/蒜蓉虾/蒜蓉虾.md)
-- [蒜香黄油虾](dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md)
-- [糖醋鲤鱼](dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md)
-- [微波葱姜黑鳕鱼](dishes/aquatic/微波葱姜黑鳕鱼.md)
-- [香煎翘嘴鱼](dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md)
-- [小龙虾](dishes/aquatic/小龙虾/小龙虾.md)
-- [油焖大虾](dishes/aquatic/油焖大虾/油焖大虾.md)
 
-### 早餐
+- [清蒸生蚝](dishes/aquatic/清蒸生蚝.md)
+
+- [水煮鱼](dishes/aquatic/水煮鱼.md)
+
+- [蒜蓉虾](dishes/aquatic/蒜蓉虾/蒜蓉虾.md)
+
+- [蒜香黄油虾](dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md)
+
+- [糖醋鲤鱼](dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md)
+
+- [微波葱姜黑鳕鱼](dishes/aquatic/微波葱姜黑鳕鱼.md)
+
+- [香煎翘嘴鱼](dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md)
+
+- [小龙虾](dishes/aquatic/小龙虾/小龙虾.md)
+
+- [油焖大虾](dishes/aquatic/油焖大虾/油焖大虾.md)
+#
+## 早餐
 
 - [茶叶蛋](dishes/breakfast/茶叶蛋.md)
-- [蛋煎糍粑](dishes/breakfast/蛋煎糍粑.md)
-- [桂圆红枣粥](dishes/breakfast/桂圆红枣粥.md)
-- [鸡蛋三明治](dishes/breakfast/鸡蛋三明治.md)
-- [煎饺](dishes/breakfast/煎饺.md)
-- [金枪鱼酱三明治](dishes/breakfast/金枪鱼酱三明治.md)
-- [空气炸锅面包片](dishes/breakfast/空气炸锅面包片.md)
-- [美式炒蛋](dishes/breakfast/美式炒蛋.md)
-- [牛奶燕麦](dishes/breakfast/牛奶燕麦.md)
-- [手抓饼](dishes/breakfast/手抓饼.md)
-- [水煮玉米](dishes/breakfast/水煮玉米.md)
-- [苏格兰蛋](dishes/breakfast/苏格兰蛋/苏格兰蛋.md)
-- [太阳蛋](dishes/breakfast/太阳蛋.md)
-- [溏心蛋](dishes/breakfast/溏心蛋.md)
-- [吐司果酱](dishes/breakfast/吐司果酱.md)
-- [完美水煮蛋](dishes/breakfast/完美水煮蛋.md)
-- [微波炉蛋糕](dishes/breakfast/微波炉蛋糕.md)
-- [微波炉荷包蛋](dishes/breakfast/微波炉荷包蛋.md)
-- [温泉蛋](dishes/breakfast/温泉蛋/温泉蛋.md)
-- [燕麦鸡蛋饼](dishes/breakfast/燕麦鸡蛋饼.md)
-- [蒸花卷](dishes/breakfast/蒸花卷.md)
-- [蒸水蛋](dishes/breakfast/蒸水蛋.md)
 
-### 主食
+- [蛋煎糍粑](dishes/breakfast/蛋煎糍粑.md)
+
+- [桂圆红枣粥](dishes/breakfast/桂圆红枣粥.md)
+
+- [鸡蛋三明治](dishes/breakfast/鸡蛋三明治.md)
+
+- [煎饺](dishes/breakfast/煎饺.md)
+
+- [金枪鱼酱三明治](dishes/breakfast/金枪鱼酱三明治.md)
+
+- [空气炸锅面包片](dishes/breakfast/空气炸锅面包片.md)
+
+- [美式炒蛋](dishes/breakfast/美式炒蛋.md)
+
+- [牛奶燕麦](dishes/breakfast/牛奶燕麦.md)
+
+- [手抓饼](dishes/breakfast/手抓饼.md)
+
+- [水煮玉米](dishes/breakfast/水煮玉米.md)
+
+- [苏格兰蛋](dishes/breakfast/苏格兰蛋/苏格兰蛋.md)
+
+- [太阳蛋](dishes/breakfast/太阳蛋.md)
+
+- [溏心蛋](dishes/breakfast/溏心蛋.md)
+
+- [吐司果酱](dishes/breakfast/吐司果酱.md)
+
+- [完美水煮蛋](dishes/breakfast/完美水煮蛋.md)
+
+- [微波炉蛋糕](dishes/breakfast/微波炉蛋糕.md)
+
+- [微波炉荷包蛋](dishes/breakfast/微波炉荷包蛋.md)
+
+- [温泉蛋](dishes/breakfast/温泉蛋/温泉蛋.md)
+
+- [燕麦鸡蛋饼](dishes/breakfast/燕麦鸡蛋饼.md)
+
+- [蒸花卷](dishes/breakfast/蒸花卷.md)
+
+- [蒸水蛋](dishes/breakfast/蒸水蛋.md)
+#
+## 主食
 
 - [炒方便面](dishes/staple/炒方便面.md)
-- [炒河粉](dishes/staple/炒河粉.md)
-- [炒凉粉](dishes/staple/炒凉粉/炒凉粉.md)
-- [炒馍](dishes/staple/炒馍.md)
-- [炒年糕](dishes/staple/炒年糕.md)
-- [炒意大利面](dishes/staple/炒意大利面/炒意大利面.md)
-- [葱油拌面](dishes/staple/葱油拌面.md)
-- [蛋包饭](dishes/staple/蛋包饭.md)
-- [蛋炒饭](dishes/staple/蛋炒饭.md)
-- [电饭煲三文鱼炊饭](dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.md)
-- [豆角焖面](dishes/staple/豆角焖面/豆角焖面.md)
-- [韩式拌饭](dishes/staple/韩式拌饭/韩式拌饭.md)
-- [河南蒸面条](dishes/staple/河南蒸面条/河南蒸面条.md)
-- [火腿饭团](dishes/staple/火腿饭团/火腿饭团.md)
-- [基础牛奶面包](dishes/staple/基础牛奶面包/基础牛奶面包.md)
-- [茄子肉煎饼](dishes/staple/茄子肉煎饼/茄子肉煎饼.md)
-- [鲣鱼海苔玉米饭](dishes/staple/鲣鱼海苔玉米饭/鲣鱼海苔玉米饭.md)
-- [酱拌荞麦面](dishes/staple/酱拌荞麦面/酱拌荞麦面.md)
-- [韭菜盒子](dishes/staple/韭菜盒子.md)
-- [空气炸锅照烧鸡饭](dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.md)
-- [醪糟小汤圆](dishes/staple/醪糟小汤圆.md)
-- [老干妈拌面](dishes/staple/老干妈拌面.md)
-- [老友猪肉粉](dishes/staple/老友猪肉粉/老友猪肉粉.md)
-- [烙饼](dishes/staple/烙饼/烙饼.md)
-- [凉粉](dishes/staple/凉粉/凉粉.md)
-- [螺蛳粉](dishes/staple/螺蛳粉.md)
-- [麻辣减脂荞麦面](dishes/staple/麻辣减脂荞麦面.md)
-- [麻油拌面](dishes/staple/麻油拌面.md)
-- [电饭煲蒸米饭](dishes/staple/米饭/电饭煲蒸米饭.md)
-- [煮锅蒸米饭](dishes/staple/米饭/煮锅蒸米饭.md)
-- [披萨饼皮](dishes/staple/披萨饼皮/披萨饼皮.md)
-- [热干面](dishes/staple/热干面.md)
-- [日式肥牛丼饭](dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md)
-- [日式咖喱饭](dishes/staple/日式咖喱饭/日式咖喱饭.md)
-- [肉蛋盖饭](dishes/staple/肉蛋盖饭.md)
-- [芝麻烧饼](dishes/staple/烧饼/芝麻烧饼.md)
-- [手工水饺](dishes/staple/手工水饺.md)
-- [酸辣蕨根粉](dishes/staple/酸辣蕨根粉.md)
-- [汤面](dishes/staple/汤面.md)
-- [微波炉腊肠煲仔饭](dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md)
-- [西红柿鸡蛋挂面](dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md)
-- [扬州炒饭](dishes/staple/扬州炒饭/扬州炒饭.md)
-- [意式肉酱面](dishes/staple/意式肉酱面/意式肉酱面.md)
-- [炸酱面](dishes/staple/炸酱面.md)
-- [蒸卤面](dishes/staple/蒸卤面.md)
-- [中式馅饼](dishes/staple/中式馅饼/中式馅饼.md)
-- [煮泡面加蛋](dishes/staple/煮泡面加蛋.md)
 
-### 半成品加工
+- [炒河粉](dishes/staple/炒河粉.md)
+
+- [炒凉粉](dishes/staple/炒凉粉/炒凉粉.md)
+
+- [炒馍](dishes/staple/炒馍.md)
+
+- [炒年糕](dishes/staple/炒年糕.md)
+
+- [炒意大利面](dishes/staple/炒意大利面/炒意大利面.md)
+
+- [葱油拌面](dishes/staple/葱油拌面.md)
+
+- [蛋包饭](dishes/staple/蛋包饭.md)
+
+- [蛋炒饭](dishes/staple/蛋炒饭.md)
+
+- [电饭煲三文鱼炊饭](dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.md)
+
+- [豆角焖面](dishes/staple/豆角焖面/豆角焖面.md)
+
+- [韩式拌饭](dishes/staple/韩式拌饭/韩式拌饭.md)
+
+- [河南蒸面条](dishes/staple/河南蒸面条/河南蒸面条.md)
+
+- [火腿饭团](dishes/staple/火腿饭团/火腿饭团.md)
+
+- [基础牛奶面包](dishes/staple/基础牛奶面包/基础牛奶面包.md)
+
+- [茄子肉煎饼](dishes/staple/茄子肉煎饼/茄子肉煎饼.md)
+
+- [鲣鱼海苔玉米饭](dishes/staple/鲣鱼海苔玉米饭/鲣鱼海苔玉米饭.md)
+
+- [酱拌荞麦面](dishes/staple/酱拌荞麦面/酱拌荞麦面.md)
+
+- [韭菜盒子](dishes/staple/韭菜盒子.md)
+
+- [空气炸锅照烧鸡饭](dishes/staple/空气炸锅照烧鸡饭/空气炸锅照烧鸡饭.md)
+
+- [醪糟小汤圆](dishes/staple/醪糟小汤圆.md)
+
+- [老干妈拌面](dishes/staple/老干妈拌面.md)
+
+- [老友猪肉粉](dishes/staple/老友猪肉粉/老友猪肉粉.md)
+
+- [烙饼](dishes/staple/烙饼/烙饼.md)
+
+- [凉粉](dishes/staple/凉粉/凉粉.md)
+
+- [螺蛳粉](dishes/staple/螺蛳粉.md)
+
+- [麻辣减脂荞麦面](dishes/staple/麻辣减脂荞麦面.md)
+
+- [麻油拌面](dishes/staple/麻油拌面.md)
+
+- [电饭煲蒸米饭](dishes/staple/米饭/电饭煲蒸米饭.md)
+
+- [煮锅蒸米饭](dishes/staple/米饭/煮锅蒸米饭.md)
+
+- [披萨饼皮](dishes/staple/披萨饼皮/披萨饼皮.md)
+
+- [热干面](dishes/staple/热干面.md)
+
+- [日式肥牛丼饭](dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md)
+
+- [日式咖喱饭](dishes/staple/日式咖喱饭/日式咖喱饭.md)
+
+- [肉蛋盖饭](dishes/staple/肉蛋盖饭.md)
+
+- [芝麻烧饼](dishes/staple/烧饼/芝麻烧饼.md)
+
+- [手工水饺](dishes/staple/手工水饺.md)
+
+- [酸辣蕨根粉](dishes/staple/酸辣蕨根粉.md)
+
+- [汤面](dishes/staple/汤面.md)
+
+- [微波炉腊肠煲仔饭](dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md)
+
+- [西红柿鸡蛋挂面](dishes/staple/西红柿鸡蛋挂面/西红柿鸡蛋挂面.md)
+
+- [扬州炒饭](dishes/staple/扬州炒饭/扬州炒饭.md)
+
+- [意式肉酱面](dishes/staple/意式肉酱面/意式肉酱面.md)
+
+- [炸酱面](dishes/staple/炸酱面.md)
+
+- [蒸卤面](dishes/staple/蒸卤面.md)
+
+- [中式馅饼](dishes/staple/中式馅饼/中式馅饼.md)
+
+- [煮泡面加蛋](dishes/staple/煮泡面加蛋.md)
+#
+## 半成品加工
 
 - [半成品意面](dishes/semi-finished/半成品意面.md)
-- [空气炸锅鸡翅中](dishes/semi-finished/空气炸锅鸡翅中/空气炸锅鸡翅中.md)
-- [空气炸锅羊排](dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md)
-- [懒人蛋挞](dishes/semi-finished/懒人蛋挞/懒人蛋挞.md)
-- [凉皮](dishes/semi-finished/凉皮.md)
-- [牛油火锅底料](dishes/semi-finished/牛油火锅底料.md)
-- [速冻馄饨](dishes/semi-finished/速冻馄饨.md)
-- [速冻水饺](dishes/semi-finished/速冻水饺.md)
-- [速冻汤圆](dishes/semi-finished/速冻汤圆/速冻汤圆.md)
-- [炸薯条](dishes/semi-finished/炸薯条/炸薯条.md)
 
-### 汤与粥
+- [空气炸锅鸡翅中](dishes/semi-finished/空气炸锅鸡翅中/空气炸锅鸡翅中.md)
+
+- [空气炸锅羊排](dishes/semi-finished/空气炸锅羊排/空气炸锅羊排.md)
+
+- [懒人蛋挞](dishes/semi-finished/懒人蛋挞/懒人蛋挞.md)
+
+- [凉皮](dishes/semi-finished/凉皮.md)
+
+- [牛油火锅底料](dishes/semi-finished/牛油火锅底料.md)
+
+- [速冻馄饨](dishes/semi-finished/速冻馄饨.md)
+
+- [速冻水饺](dishes/semi-finished/速冻水饺.md)
+
+- [速冻汤圆](dishes/semi-finished/速冻汤圆/速冻汤圆.md)
+
+- [炸薯条](dishes/semi-finished/炸薯条/炸薯条.md)
+#
+## 汤与粥
 
 - [昂刺鱼豆腐汤](dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md)
-- [陈皮排骨汤](dishes/soup/陈皮排骨汤/陈皮排骨汤.md)
-- [陈皮排骨汤](dishes/soup/陈皮排骨汤.md)
-- [番茄牛肉蛋花汤](dishes/soup/番茄牛肉蛋花汤.md)
-- [勾芡香菇汤](dishes/soup/勾芡香菇汤/勾芡香菇汤.md)
-- [金针菇汤](dishes/soup/金针菇汤.md)
-- [菌菇炖乳鸽](dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.md)
-- [腊八粥](dishes/soup/腊八粥.md)
-- [罗宋汤](dishes/soup/罗宋汤.md)
-- [米粥](dishes/soup/米粥.md)
-- [奶油蘑菇汤](dishes/soup/奶油蘑菇汤.md)
-- [排骨苦瓜汤](dishes/soup/排骨苦瓜汤/排骨苦瓜汤.md)
-- [皮蛋瘦肉粥](dishes/soup/皮蛋瘦肉粥.md)
-- [生汆丸子汤](dishes/soup/生汆丸子汤.md)
-- [西红柿鸡蛋汤](dishes/soup/西红柿鸡蛋汤.md)
-- [小米粥](dishes/soup/小米粥.md)
-- [羊肉汤](dishes/soup/羊肉汤/羊肉汤.md)
-- [银耳莲子粥](dishes/soup/银耳莲子粥/银耳莲子粥.md)
-- [玉米排骨汤](dishes/soup/玉米排骨汤/玉米排骨汤.md)
-- [朱雀汤](dishes/soup/朱雀汤/朱雀汤.md)
-- [紫菜蛋花汤](dishes/soup/紫菜蛋花汤.md)
 
-### 饮料
+- [陈皮排骨汤](dishes/soup/陈皮排骨汤/陈皮排骨汤.md)
+
+- [陈皮排骨汤](dishes/soup/陈皮排骨汤.md)
+
+- [番茄牛肉蛋花汤](dishes/soup/番茄牛肉蛋花汤.md)
+
+- [勾芡香菇汤](dishes/soup/勾芡香菇汤/勾芡香菇汤.md)
+
+- [金针菇汤](dishes/soup/金针菇汤.md)
+
+- [菌菇炖乳鸽](dishes/soup/菌菇炖乳鸽/菌菇炖乳鸽.md)
+
+- [腊八粥](dishes/soup/腊八粥.md)
+
+- [罗宋汤](dishes/soup/罗宋汤.md)
+
+- [米粥](dishes/soup/米粥.md)
+
+- [奶油蘑菇汤](dishes/soup/奶油蘑菇汤.md)
+
+- [排骨苦瓜汤](dishes/soup/排骨苦瓜汤/排骨苦瓜汤.md)
+
+- [皮蛋瘦肉粥](dishes/soup/皮蛋瘦肉粥.md)
+
+- [生汆丸子汤](dishes/soup/生汆丸子汤.md)
+
+- [西红柿鸡蛋汤](dishes/soup/西红柿鸡蛋汤.md)
+
+- [小米粥](dishes/soup/小米粥.md)
+
+- [羊肉汤](dishes/soup/羊肉汤/羊肉汤.md)
+
+- [银耳莲子粥](dishes/soup/银耳莲子粥/银耳莲子粥.md)
+
+- [玉米排骨汤](dishes/soup/玉米排骨汤/玉米排骨汤.md)
+
+- [朱雀汤](dishes/soup/朱雀汤/朱雀汤.md)
+
+- [紫菜蛋花汤](dishes/soup/紫菜蛋花汤.md)
+#
+## 饮料
 
 - [耙耙柑茶](dishes/drink/耙耙柑茶/耙耙柑茶.md)
-- [百香果橙子特调](dishes/drink/百香果橙子特调/百香果橙子特调.md)
-- [冰粉](dishes/drink/冰粉/冰粉.md)
-- [菠萝咖啡特调](dishes/drink/菠萝咖啡特调/菠萝咖啡特调.md)
-- [冬瓜茶](dishes/drink/冬瓜茶.md)
-- [海边落日](dishes/drink/海边落日/海边落日.md)
-- [金菲士](dishes/drink/金菲士/金菲士.md)
-- [金汤力](dishes/drink/金汤力/金汤力.md)
-- [酒酿醪糟](dishes/drink/酒酿醪糟/酒酿醪糟.md)
-- [可乐桶](dishes/drink/可乐桶.md)
-- [奶茶](dishes/drink/奶茶.md)
-- [柠檬水](dishes/drink/柠檬水/柠檬水.md)
-- [奇异果菠菜特调](dishes/drink/奇异果菠菜特调/奇异果菠菜特调.md)
-- [砂糖椰子冰沙](dishes/drink/砂糖椰子冰沙/砂糖椰子冰沙.md)
-- [酸梅汤](dishes/drink/酸梅汤/酸梅汤.md)
-- [酸梅汤（半成品加工）](dishes/drink/酸梅汤（半成品加工）.md)
-- [泰国手标红茶](dishes/drink/泰国手标红茶/泰国手标红茶.md)
-- [杨枝甘露](dishes/drink/杨枝甘露.md)
-- [长岛冰茶](dishes/drink/长岛冰茶.md)
-- [B52轰炸机](dishes/drink/B52轰炸机.md)
-- [Mojito莫吉托](dishes/drink/Mojito莫吉托.md)
 
-### 酱料和其它材料
+- [百香果橙子特调](dishes/drink/百香果橙子特调/百香果橙子特调.md)
+
+- [冰粉](dishes/drink/冰粉/冰粉.md)
+
+- [菠萝咖啡特调](dishes/drink/菠萝咖啡特调/菠萝咖啡特调.md)
+
+- [冬瓜茶](dishes/drink/冬瓜茶.md)
+
+- [海边落日](dishes/drink/海边落日/海边落日.md)
+
+- [金菲士](dishes/drink/金菲士/金菲士.md)
+
+- [金汤力](dishes/drink/金汤力/金汤力.md)
+
+- [酒酿醪糟](dishes/drink/酒酿醪糟/酒酿醪糟.md)
+
+- [可乐桶](dishes/drink/可乐桶.md)
+
+- [奶茶](dishes/drink/奶茶.md)
+
+- [柠檬水](dishes/drink/柠檬水/柠檬水.md)
+
+- [奇异果菠菜特调](dishes/drink/奇异果菠菜特调/奇异果菠菜特调.md)
+
+- [砂糖椰子冰沙](dishes/drink/砂糖椰子冰沙/砂糖椰子冰沙.md)
+
+- [酸梅汤](dishes/drink/酸梅汤/酸梅汤.md)
+
+- [酸梅汤（半成品加工）](dishes/drink/酸梅汤（半成品加工）.md)
+
+- [泰国手标红茶](dishes/drink/泰国手标红茶/泰国手标红茶.md)
+
+- [杨枝甘露](dishes/drink/杨枝甘露.md)
+
+- [长岛冰茶](dishes/drink/长岛冰茶.md)
+
+- [B52轰炸机](dishes/drink/B52轰炸机.md)
+
+- [Mojito莫吉托](dishes/drink/Mojito莫吉托.md)
+#
+## 酱料和其它材料
 
 - [草莓酱](dishes/condiment/草莓酱/草莓酱.md)
-- [葱油](dishes/condiment/葱油.md)
-- [简易版炒糖色](dishes/condiment/简易版炒糖色.md)
-- [蒜香酱油](dishes/condiment/蒜香酱油.md)
-- [糖醋汁](dishes/condiment/糖醋汁.md)
-- [油泼辣子](dishes/condiment/油泼辣子/油泼辣子.md)
-- [油酥](dishes/condiment/油酥.md)
-- [炸串酱料](dishes/condiment/炸串酱料.md)
-- [蔗糖糖浆](dishes/condiment/蔗糖糖浆/蔗糖糖浆.md)
 
-### 甜品
+- [葱油](dishes/condiment/葱油.md)
+
+- [简易版炒糖色](dishes/condiment/简易版炒糖色.md)
+
+- [蒜香酱油](dishes/condiment/蒜香酱油.md)
+
+- [糖醋汁](dishes/condiment/糖醋汁.md)
+
+- [油泼辣子](dishes/condiment/油泼辣子/油泼辣子.md)
+
+- [油酥](dishes/condiment/油酥.md)
+
+- [炸串酱料](dishes/condiment/炸串酱料.md)
+
+- [蔗糖糖浆](dishes/condiment/蔗糖糖浆/蔗糖糖浆.md)
+#
+## 甜品
 
 - [奥利奥冰淇淋](dishes/dessert/奥利奥冰淇淋/奥利奥冰淇淋.md)
+
 - [草莓冰淇淋](dishes/dessert/草莓冰淇淋/草莓冰淇淋.md)
+
 - [反沙芋头](dishes/dessert/反沙芋头/反沙芋头.md)
+
 - [龟苓膏](dishes/dessert/龟苓膏/龟苓膏.md)
+
 - [红柚蛋糕](dishes/dessert/红柚蛋糕/红柚蛋糕.md)
+
 - [咖啡椰奶冻](dishes/dessert/咖啡椰奶冻/咖啡椰奶冻.md)
+
 - [烤蛋挞](dishes/dessert/烤蛋挞/烤蛋挞.md)
+
 - [玛格丽特饼干](dishes/dessert/玛格丽特饼干/玛格丽特饼干.md)
+
 - [魔芋蛋糕](dishes/dessert/魔芋蛋糕/魔芋蛋糕.md)
+
 - [戚风蛋糕](dishes/dessert/戚风蛋糕/戚风蛋糕.md)
+
 - [酸奶意式奶冻](dishes/dessert/酸奶意式奶冻/酸奶意式奶冻.md)
+
 - [提拉米苏](dishes/dessert/提拉米苏/提拉米苏.md)
+
 - [无厨师机蜂蜜面包](dishes/dessert/无厨师机蜂蜜面包/无厨师机蜂蜜面包.md)
+
 - [雪花酥](dishes/dessert/雪花酥/雪花酥.md)
+
 - [英式司康](dishes/dessert/英式司康/英式司康.md)
+
 - [芋泥雪媚娘](dishes/dessert/芋泥雪媚娘/芋泥雪媚娘.md)
+
 - [炸鲜奶](dishes/dessert/炸鲜奶/炸鲜奶.md)
 
 ## 进阶知识学习
 
 如果你已经做了许多上面的菜，对于厨艺已经入门，并且想学习更加高深的烹饪技巧，请继续阅读下面的内容：
 
+### Técnicas de ingredientes
+
 - [辅料技巧](tips/advanced/辅料技巧.md)
+
+### Términos profesionales avanzados
+
 - [高级专业术语](tips/advanced/高级专业术语.md)
+
+### Caramelización del azúcar
+
 - [糖色的炒制](tips/advanced/糖色的炒制.md)
+
+### Técnicas para medir la temperatura del aceite
+
 - [油温判断技巧](tips/advanced/油温判断技巧.md)
 
-## 衍生作品推荐
+## Proyectos derivados
 
 - [HowToCook-mcp 让 AI 助手变身私人大厨，为你的一日三餐出谋划策](https://github.com/worryzyy/HowToCook-mcp)
+
 - [HowToCook-py-mcp 让 AI 助手变身私人大厨，为你的一日三餐出谋划策 (Python)](https://github.com/DusKing1/howtocook-py-mcp)
