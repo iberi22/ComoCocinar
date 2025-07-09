@@ -1,5 +1,6 @@
 # ComoCocinar/HowToCook
 
+<!-- Cambio de prueba para disparar workflow CI/CD: 2025-07-09 -->
 A modern, open-source recipe repository inspired by HowToCook.
 This project aims to create a comprehensive, structured, and accessible collection of global recipes—enriched with metadata, automation, and AI-ready features.
 Includes CI/CD workflows, community-driven contributions, and support for advanced search and AI applications.
