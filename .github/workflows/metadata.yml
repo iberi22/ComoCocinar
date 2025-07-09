@@ -49,6 +49,13 @@ jobs:
           reviewers: iberi22
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: 🤖 Auto-approve metadata PR
+        if: steps.cpr.outputs.pull-request-number
+        uses: hmarr/auto-approve-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+
       - name: 🤖 Enable automerge for metadata PR
         if: steps.cpr.outputs.pull-request-number
         uses: peter-evans/enable-pull-request-automerge@v3
