@@ -1,4 +1,4 @@
-# Mute Santandereano
+## Mute Santandereano
 
 El Mute Santandereano es uno de los platos más tradicionales del departamento de Santander, Colombia. Es una sopa robusta y rica en ingredientes, famosa por su textura espesa y sabor profundo, resultado de la combinación de carnes, granos y tubérculos.
 

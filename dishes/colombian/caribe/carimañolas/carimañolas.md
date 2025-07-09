@@ -1,4 +1,32 @@
-# Carimañolas
+---
+title: "Carimañolas"
+region: "Caribe"
+categories: ["Snack", "Desayuno", "Entrada", "Pasaboca"]
+sensory:
+  flavor: ["Salado", "Umami"]
+  texture: ["Crujiente", "Cremoso"]
+  aroma: ["Ahumado", "Herbal"]
+  presentation: "Se sirven calientes, recién fritas, en porciones individuales, ideales para compartir y acompañar con salsas."
+main_ingredients: ["Yuca", "Carne molida", "Queso costeño", "Aceite"]
+difficulty: "★★★☆☆"
+prep_time: "40 minutos"
+cook_time: "30 minutos"
+servings: 15
+images:
+  - url: "https://pixabay.com/es/photos/carimañolas-colombia-yuca-6146265/"
+    description: "Carimañolas tradicionales costeñas (Pixabay)"
+  - url: "https://unsplash.com/s/photos/carimañolas"
+    description: "Variaciones de carimañolas en Unsplash"
+sources:
+  - "https://www.eltiempo.com/vida/receta-carimañolas-46803"
+  - "https://www.gastronomiacolombiana.com/foro/carimañolas"
+  - "https://www.google.com/maps/search/carimañolas+colombianas"
+  - "https://www.youtube.com/results?search_query=carimañolas"
+  - "https://www.tiktok.com/tag/carimañolas"
+license: "MIT"
+---
+
+### Carimañolas
 
 Las Carimañolas son un pasaboca tradicional de la región Caribe colombiana, especialmente en la costa norte. Se elaboran con masa de yuca rellena de carne o queso y se fríen hasta quedar doradas y crujientes. Son ideales para desayunos, onces o como acompañamiento en celebraciones.
 

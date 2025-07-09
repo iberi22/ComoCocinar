@@ -38,18 +38,18 @@ La cocina andina colombiana es diversa y rica en tubérculos, carnes, lácteos y
 
 ---
 
-## Índice de Archivos
+## Índice de Recetas
 
-- `/ajiaco_santafereño/ajiaco_santafereño.md`
-- `/bandeja_paisa/bandeja_paisa.md`
-- `/caldo_de_costilla/caldo_de_costilla.md`
-- `/changua/changua.md`
-- `/cocido_boyacense/cocido_boyacense.md`
-- `/empanadas/empanadas.md`
-- `/lechona_tolimense/lechona_tolimense.md`
-- `/manjar_blanco/manjar_blanco.md`
-- `/mute_santandereano/mute_santandereano.md`
-- `/tamal_tolimense/tamal_tolimense.md`
+- [Ajiaco Santafereño](ajiaco_santafereño/ajiaco_santafereño.md)
+- [Bandeja Paisa](bandeja_paisa/bandeja_paisa.md)
+- [Caldo de Costilla](caldo_de_costilla/caldo_de_costilla.md)
+- [Changua](changua/changua.md)
+- [Cocido Boyacense](cocido_boyacense/cocido_boyacense.md)
+- [Empanadas](empanadas/empanadas.md)
+- [Lechona Tolimense](lechona_tolimense/lechona_tolimense.md)
+- [Manjar Blanco](manjar_blanco/manjar_blanco.md)
+- [Mute Santandereano](mute_santandereano/mute_santandereano.md)
+- [Tamal Tolimense](tamal_tolimense/tamal_tolimense.md)
 
 ---
 

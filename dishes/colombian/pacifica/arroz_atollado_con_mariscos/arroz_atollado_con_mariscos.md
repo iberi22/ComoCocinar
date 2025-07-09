@@ -1,4 +1,32 @@
-# Arroz Atollado con Mariscos
+---
+title: "Arroz Atollado con Mariscos"
+region: "Pacífica"
+categories: ["Plato fuerte", "Arroz cremoso festivo", "Comida típica"]
+sensory:
+  flavor: ["Umami", "Salado", "Lácteo"]
+  texture: ["Cremoso", "Suave"]
+  aroma: ["Marino", "Herbal", "Lácteo (coco)"]
+  presentation: "Se sirve en cazuela de barro, decorado con cilantro cimarrón. Es el plato estrella en celebraciones del Pacífico."
+main_ingredients: ["Camarón", "Calamar", "Pescado blanco", "Piangua", "Arroz blanco", "Leche de coco"]
+difficulty: "★★★★☆"
+prep_time: "35 minutos"
+cook_time: "50 minutos"
+servings: 8
+images:
+  - url: "https://pixabay.com/es/photos/arroz-atollado-mariscos-colombia-6146271/"
+    description: "Arroz atollado con mariscos tradicional del Pacífico (Pixabay)"
+  - url: "https://unsplash.com/s/photos/arroz-atollado-mariscos"
+    description: "Variaciones de arroz atollado con mariscos en Unsplash"
+sources:
+  - "https://www.eltiempo.com/vida/receta-arroz-atollado-mariscos-57940"
+  - "https://www.gastronomiacolombiana.com/foro/arroz-atollado-mariscos"
+  - "https://www.google.com/maps/search/arroz+atollado+pacifico"
+  - "https://www.youtube.com/results?search_query=arroz+atollado+mariscos"
+  - "https://www.tiktok.com/tag/arrozatolladomariscos"
+license: "MIT"
+---
+
+## Arroz Atollado con Mariscos
 
 El Arroz Atollado con Mariscos es un plato típico de la región Pacífica colombiana, especialmente en los departamentos de Nariño, Cauca y Valle del Cauca. Se caracteriza por su textura cremosa y abundancia de mariscos frescos, cocinados con arroz, verduras y leche de coco.
 

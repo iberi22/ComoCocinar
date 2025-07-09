@@ -1,52 +1,137 @@
 # ComoCocinar
 
-**Base de conocimiento open source para agentes de cocina y descubrimiento de sabores.**
+> **Este repositorio es un fork y adaptación profunda de [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook).**
+>
+> Inspirado en el proyecto original, la meta de ComoCocinar es crear la base de datos recetaria más completa, estructurada y abierta del mundo, abarcando todas las cocinas y culturas, con documentación en español y estándares para agentes de IA y usuarios humanos.
+>
+> El objetivo a largo plazo es recopilar, estandarizar y enriquecer recetas de toda la humanidad, facilitando la preservación, el aprendizaje y la innovación culinaria global desde una perspectiva abierta y colaborativa.
+
+**Repositorio open source para la documentación, estandarización y enriquecimiento de recetas colombianas y latinoamericanas.**
+
+---
+
+> **Este repositorio es un fork y adaptación profunda de [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook).**
+>
+> Inspirado en el proyecto original, la meta de ComoCocinar es crear la base de datos recetaria más completa, estructurada y abierta del mundo, abarcando todas las cocinas y culturas, con documentación en español y estándares para agentes de IA y usuarios humanos.
+>
+> El objetivo a largo plazo es recopilar, estandarizar y enriquecer recetas de toda la humanidad, facilitando la preservación, el aprendizaje y la innovación culinaria global desde una perspectiva abierta y colaborativa.
+
+
+**Repositorio open source para la documentación, estandarización y enriquecimiento de recetas colombianas y latinoamericanas.**
 
 ---
 
 ## 🌎 Visión del Proyecto
 
-Este repositorio es una base de conocimiento curada, estructurada y abierta para alimentar agentes de IA enfocados en la gastronomía colombiana (y escalable a otras cocinas). El objetivo es preservar, estructurar y facilitar el acceso a recetas auténticas, permitiendo búsquedas inteligentes, descubrimiento de sabores y aplicaciones educativas y culinarias.
+Este repositorio es una base de conocimiento curada, estructurada y abierta para alimentar agentes de IA enfocados en la gastronomía colombiana y latinoamericana. El objetivo es preservar, estructurar y facilitar el acceso a recetas auténticas, permitiendo búsquedas inteligentes, descubrimiento de sabores y aplicaciones educativas y culinarias.
 
-## 📚 Estructura de Datos (YAML Front Matter)
 
-Cada receta debe comenzar con un bloque YAML que contenga los metadatos clave. Esto permite búsquedas, filtrados y procesamiento automático por agentes inteligentes.
+Este repositorio es una base de conocimiento curada, estructurada y abierta para alimentar agentes de IA enfocados en la gastronomía colombiana y latinoamericana. El objetivo es preservar, estructurar y facilitar el acceso a recetas auténticas, permitiendo búsquedas inteligentes, descubrimiento de sabores y aplicaciones educativas y culinarias.
 
-### Ejemplo
+## 📈 Estado de avance
+
+Todas las recetas principales de las regiones (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) y de las categorías Nacionales, Bebidas, Snacks, Panes, Condimentos y Otras preparaciones están completamente estandarizadas y enriquecidas:
+
+- YAML Front Matter robusto y validado
+- Análisis sensorial y nutricional detallado
+- Imágenes libres de uso (Pixabay, Unsplash, Pexels)
+- Fuentes y enlaces de referencia científica y colectiva
+- Licencia open source (MIT)
+
+Consulta el archivo `COLOMBIAN_RECIPES_PLAN.md` para ver el detalle de avance, metodología y próximos pasos.
+
+
+Todas las recetas principales de las regiones (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) y de las categorías Nacionales, Bebidas, Snacks, Panes, Condimentos y Otras preparaciones están completamente estandarizadas y enriquecidas:
+
+- YAML Front Matter robusto y validado
+- Análisis sensorial y nutricional detallado
+- Imágenes libres de uso (Pixabay, Unsplash, Pexels)
+- Fuentes y enlaces de referencia científica y colectiva
+- Licencia open source (MIT)
+
+Consulta el archivo `COLOMBIAN_RECIPES_PLAN.md` para ver el detalle de avance, metodología y próximos pasos.
+
+## 📂 Estructura del repositorio y formato estándar
+
+Cada receta debe comenzar con un bloque YAML Front Matter que contenga los metadatos clave. Esto permite búsquedas, filtrados y procesamiento automático por agentes inteligentes y facilita la interoperabilidad.
+
+### Ejemplo de bloque YAML
 
 ```yaml
 ---
 title: "Chuzo Colombiano"
 region: "Nacional"
-type: "Snack"
-difficulty: "Fácil"
-cooking_time_minutes: 30
+categories: ["Snack", "Comida callejera", "Plato fuerte"]
+sensory:
+  flavor: ["Umami", "Ahumado"]
+  texture: ["Jugoso", "Dorado por fuera"]
+  aroma: ["Ahumado", "Especiado"]
+  presentation: "Se sirve en brocheta, acompañado de papa y arepa. Ideal para compartir en fiestas y eventos nocturnos."
 main_ingredients:
-
-- carne de res
-
-- chorizo
-
-- pollo
-tags:
-
-- callejero
-
-- parrilla
-
-- fiesta
+  - Carne de res
+  - Pollo
+  - Papa salada
+  - Arepa
+difficulty: "★★☆☆☆"
+prep_time: "40 minutos"
+servings: 6
+images:
+  - url: "https://pixabay.com/es/photos/chorizo-parrilla-barbacoa-2314640/"
+    description: "Chuzo colombiano en parrilla (Pixabay)"
+sources:
+  - "https://www.recetasdecolombia.com/chuzo"
+  - "https://www.youtube.com/results?search_query=chuzo+colombiano"
+license: "MIT"
 ---
 ```
 
 
+Cada receta debe comenzar con un bloque YAML Front Matter que contenga los metadatos clave. Esto permite búsquedas, filtrados y procesamiento automático por agentes inteligentes y facilita la interoperabilidad.
+
+### Ejemplo de bloque YAML
+
+```yaml
+---
+title: "Chuzo Colombiano"
+region: "Nacional"
+categories: ["Snack", "Comida callejera", "Plato fuerte"]
+sensory:
+  flavor: ["Umami", "Ahumado"]
+  texture: ["Jugoso", "Dorado por fuera"]
+  aroma: ["Ahumado", "Especiado"]
+  presentation: "Se sirve en brocheta, acompañado de papa y arepa. Ideal para compartir en fiestas y eventos nocturnos."
+main_ingredients:
+  - Carne de res
+  - Pollo
+  - Papa salada
+  - Arepa
+difficulty: "★★☆☆☆"
+prep_time: "40 minutos"
+servings: 6
+images:
+  - url: "https://pixabay.com/es/photos/chorizo-parrilla-barbacoa-2314640/"
+    description: "Chuzo colombiano en parrilla (Pixabay)"
+sources:
+  - "https://www.recetasdecolombia.com/chuzo"
+  - "https://www.youtube.com/results?search_query=chuzo+colombiano"
+license: "MIT"
+---
+```
+
+
+
 ## 📑 Estado del Proyecto
 
-- Recetas estandarizadas en proceso (migrando a YAML Front Matter)
+- Todas las recetas principales estandarizadas y enriquecidas (YAML, sensorial, nutricional, imágenes, fuentes, licencia)
+- En proceso de revisión y enriquecimiento de recetas secundarias y nuevas adiciones
+- Sincronización de índices, enlaces y documentación
+- Preparación para integración con agentes de IA, búsqueda semántica y vectorización
 
-- Integración de imágenes libres y análisis sensorial
 
-- Preparación para búsqueda semántica y vectorización
-
+- Todas las recetas principales estandarizadas y enriquecidas (YAML, sensorial, nutricional, imágenes, fuentes, licencia)
+- En proceso de revisión y enriquecimiento de recetas secundarias y nuevas adiciones
+- Sincronización de índices, enlaces y documentación
+- Preparación para integración con agentes de IA, búsqueda semántica y vectorización
 ---
 
 ## 📋 Campos estándar de metadatos YAML para recetas
@@ -63,105 +148,107 @@ Cada receta debe incluir un bloque YAML Front Matter al inicio, con los siguient
 - `servings`: Porciones aproximadas.
 - `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
 - `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
-- `license`: Licencia de uso del contenido (ejemplo: CC BY 4.0).
+- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
 
-Ejemplo de bloque YAML:
+Consulta ejemplos y plantillas en los archivos de cada región y en `COLOMBIAN_RECIPES_PLAN.md`.
 
-```yaml
----
-title: "Chuzo Colombiano (Brocheta Callejera)"
-region: "Nacional"
-categories: ["Snack", "Comida callejera", "Plato fuerte"]
-sensory:
-  flavor: ["Umami", "Ahumado"]
-  texture: ["Jugoso", "Dorado por fuera"]
-  aroma: ["Ahumado", "Especiado"]
-  presentation: "Se sirve en brocheta, acompañado de papa y arepa. Ideal para compartir en fiestas y eventos nocturnos."
-main_ingredients: ["Carne de res", "Pollo", "Papa salada", "Arepa"]
-difficulty: "★★☆☆☆"
-prep_time: "40 minutos"
-servings: 6
-images:
-  - url: "https://pixabay.com/es/photos/chorizo-parrilla-barbacoa-2314640/"
-    description: "Chuzo colombiano en parrilla (Pixabay)"
-  - url: "https://pixabay.com/es/images/search/chuzo/"
-    description: "Variaciones de chuzo en Pixabay"
-sources:
-  - "https://www.recetasdecolombia.com/chuzo"
-  - "https://www.youtube.com/results?search_query=chuzo+colombiano"
-  - "https://www.tiktok.com/tag/chuzo"
-license: "CC BY 4.0"
----
-```
 
+Cada receta debe incluir un bloque YAML Front Matter al inicio, con los siguientes campos:
+
+- `title`: Nombre completo del plato.
+- `region`: Región o categoría principal (ejemplo: Andina, Caribe, Nacional).
+- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
+- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
+- `main_ingredients`: Ingredientes principales o diferenciadores.
+- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
+- `prep_time`: Tiempo estimado de preparación total.
+- `servings`: Porciones aproximadas.
+- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
+- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
+- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
+
+Consulta ejemplos y plantillas en los archivos de cada región y en `COLOMBIAN_RECIPES_PLAN.md`.
 
 ## 🤝 Cómo Contribuir
 
-1. Crea tus recetas siguiendo la plantilla YAML Front Matter.
+1. Crea tus recetas siguiendo la plantilla YAML Front Matter y el estándar de enriquecimiento sensorial/nutricional.
+2. Haz un Pull Request. Solo se aceptarán cambios que cumplan con la estructura y pasen la validación automática.
+3. Consulta el archivo `.github/PULL_REQUEST_TEMPLATE.md` y la documentación para detalles.
+
+
+1. Crea tus recetas siguiendo la plantilla YAML Front Matter y el estándar de enriquecimiento sensorial/nutricional.
 2. Haz un Pull Request. Solo se aceptarán cambios que cumplan con la estructura y pasen la validación automática.
 3. Consulta el archivo `.github/PULL_REQUEST_TEMPLATE.md` y la documentación para detalles.
 
 ## 🛡️ Licencia
 
 Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+
+Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
 ---
 
-### About
+## 📚 Enlaces y recursos
+
+- [COLOMBIAN_RECIPES_PLAN.md](dishes/colombian/COLOMBIAN_RECIPES_PLAN.md): Plan y metodología detallada
+- [PLAN_SABORES_LATINOS.md](PLAN_SABORES_LATINOS.md): Plan para otras cocinas latinoamericanas
+- [plan_enriquecimiento_recetas.md](plan_enriquecimiento_recetas.md): Metodología de enriquecimiento sensorial y nutricional
+- Carpetas por región y categoría en `dishes/colombian/`
+
+
+- [COLOMBIAN_RECIPES_PLAN.md](dishes/colombian/COLOMBIAN_RECIPES_PLAN.md): Plan y metodología detallada
+- [PLAN_SABORES_LATINOS.md](PLAN_SABORES_LATINOS.md): Plan para otras cocinas latinoamericanas
+- [plan_enriquecimiento_recetas.md](plan_enriquecimiento_recetas.md): Metodología de enriquecimiento sensorial y nutricional
+- Carpetas por región y categoría en `dishes/colombian/`
+
+## 📝 Metodología y lecciones aprendidas
+
+La estandarización y enriquecimiento de recetas se basa en:
+
+- Investigación en fuentes académicas, colectivas y restaurantes reconocidos
+- Análisis sensorial y nutricional por ingrediente
+- Inclusión de imágenes libres y enlaces verificados
+- Documentación abierta y colaborativa
+
+Para detalles, consulta los archivos de metodología y el plan general.
 
 Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado para IA, conocimiento abierto y la cocina colombiana.
+- [Buñuelos](dishes/colombian/snacks/buñuelo/buñuelo.md)
+- [Almojábanas](dishes/colombian/snacks/almojábana/almojábana.md)
+- [Arepa de Huevo](dishes/colombian/caribe/arepa_de_huevo/arepa_de_huevo.md)
+- [Pandebono](dishes/colombian/panes/pandebono/pandebono.md)
 
-## Recetas
+### Salsas y Acompañamientos
 
-- [洋葱炒猪肉](dishes/meat_dish/洋葱炒猪肉.md)
+- [Hogao](dishes/colombian/condimentos/hogao/hogao.md)
+- [Ají Picante](dishes/colombian/condimentos/aji_picante/aji_picante.md)
+- [Guacamole Colombiano](dishes/colombian/condimentos/guacamole_colombiano/guacamole_colombiano.md)
+- [Suero Costeño](dishes/colombian/condimentos/suero_costeño/suero_costeño.md)
 
-- [意式烤鸡](dishes/meat_dish/意式烤鸡.md)
+# 🌍 Recetas del Mundo (Pendientes de Adaptación)
 
-- [鱼香茄子](dishes/meat_dish/鱼香茄子/鱼香茄子.md)
+### Platos de Carne
 
-- [鱼香肉丝](dishes/meat_dish/鱼香肉丝.md)
+- [Cerdo salteado con cebolla (pendiente de traducir)](dishes/meat_dish/洋葱炒猪肉.md)
+- [Pollo asado a la italiana (pendiente de traducir)](dishes/meat_dish/意式烤鸡.md)
+- [Berenjena en salsa de pescado (pendiente de traducir)](dishes/meat_dish/鱼香茄子/鱼香茄子.md)
+- [Cerdo en salsa de pescado (pendiente de traducir)](dishes/meat_dish/鱼香肉丝.md)
+- [Estofado de cordero con tofu seco (pendiente de traducir)](dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md)
+- [Gelatina de piel de cerdo (pendiente de traducir)](dishes/meat_dish/猪皮冻/猪皮冻.md)
+- [Cerdo estofado con chucrut (pendiente de traducir)](dishes/meat_dish/猪肉烩酸菜.md)
+- [Cerdo cocido dos veces (pendiente de traducir)](dishes/meat_dish/回锅肉.md)
 
-- [枝竹羊腩煲](dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md)
+### Pescados y Mariscos
 
-- [猪皮冻](dishes/meat_dish/猪皮冻/猪皮冻.md)
-
-- [猪肉烩酸菜](dishes/meat_dish/猪肉烩酸菜.md)
-
-- [柱候牛腩](dishes/meat_dish/柱候牛腩/柱候牛腩.md)
-
-- [孜然牛肉](dishes/meat_dish/孜然牛肉.md)
-
-- [醉排骨](dishes/meat_dish/醉排骨/醉排骨.md)
-#
-## 水产
-
-- [白灼虾](dishes/aquatic/白灼虾/白灼虾.md)
-
-- [鳊鱼炖豆腐](dishes/aquatic/鳊鱼炖豆腐/鳊鱼炖豆腐.md)
-
-- [蛏抱蛋](dishes/aquatic/蛏抱蛋/蛏抱蛋.md)
-
-- [葱烧海参](dishes/aquatic/葱烧海参/葱烧海参.md)
-
-- [葱油桂鱼](dishes/aquatic/葱油桂鱼/葱油桂鱼.md)
-
-- [干煎阿根廷红虾](dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md)
-
-- [红烧鲤鱼](dishes/aquatic/红烧鲤鱼.md)
-
-- [红烧鱼](dishes/aquatic/红烧鱼.md)
-
-- [红烧鱼头](dishes/aquatic/红烧鱼头.md)
-
-- [黄油煎虾](dishes/aquatic/黄油煎虾/黄油煎虾.md)
-
-- [烤鱼](dishes/aquatic/混合烤鱼/烤鱼.md)
-
-- [芥末黄油罗氏虾](dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md)
-
-- [咖喱炒蟹](dishes/aquatic/咖喱炒蟹.md)
-
-- [鲤鱼炖白菜](dishes/aquatic/鲤鱼炖白菜/鲤鱼炖白菜.md)
-
+- [Perca al vapor con aceite de cebollín (pendiente de traducir)](dishes/aquatic/葱油桂鱼/葱油桂鱼.md)
+- [Langostinos rojos argentinos a la plancha (pendiente de traducir)](dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md)
+- [Carpa estofada en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鲤鱼.md)
+- [Pescado estofado en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鱼.md)
+- [Cabeza de pescado estofada en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鱼头.md)
+- [Langostinos salteados con mantequilla (pendiente de traducir)](dishes/aquatic/黄油煎虾/黄油煎虾.md)
+- [Pescado a la parrilla mixto (pendiente de traducir)](dishes/aquatic/混合烤鱼/烤鱼.md)
+- [Langostinos con mantequilla y mostaza (pendiente de traducir)](dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md)
 - [清蒸鲈鱼](dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.md)
 
 - [清蒸生蚝](dishes/aquatic/清蒸生蚝.md)

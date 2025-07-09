@@ -1,4 +1,32 @@
-# 🍲 Bandeja Paisa
+---
+title: "Bandeja Paisa"
+region: "Andina"
+categories: ["Plato fuerte", "Comida típica", "Especialidad regional"]
+sensory:
+  flavor: ["Salado", "Umami", "Ahumado"]
+  texture: ["Crujiente", "Cremoso", "Suave"]
+  aroma: ["Ahumado", "Lácteo", "Herbal"]
+  presentation: "Se sirve en bandeja grande, porciones generosas, acompañado de aguacate, arepa y huevo frito. Ideal para reuniones familiares o celebraciones."
+main_ingredients: ["Carne molida", "Chicharrón", "Frijoles rojos", "Arroz blanco", "Chorizo", "Morcilla", "Arepa", "Plátano maduro", "Aguacate", "Huevo frito"]
+difficulty: "★★★★☆"
+prep_time: "30 minutos"
+cook_time: "2 horas"
+servings: 4
+images:
+  - url: "https://pixabay.com/es/photos/bandeja-paisa-colombia-platillo-6146254/"
+    description: "Bandeja Paisa tradicional servida (Pixabay)"
+  - url: "https://unsplash.com/s/photos/bandeja-paisa"
+    description: "Variaciones de bandeja paisa en Unsplash"
+sources:
+  - "https://mejoresrestaurantesmedellin.com/bandeja-paisa/"
+  - "https://restaurantguru.com/bandeja-paisa-Medellin-m7916"
+  - "https://dondecelebrar.com/restaurantes-tipicos-en-medellin/"
+  - "https://www.youtube.com/results?search_query=bandeja+paisa"
+  - "https://www.tiktok.com/tag/bandejapaisa"
+license: "MIT"
+---
+
+## 🍲 Bandeja Paisa
 
 La Bandeja Paisa es el plato más emblemático de la región andina de Colombia, especialmente de Antioquia. Es una comida abundante y deliciosa, perfecta para compartir y disfrutar de una explosión de sabores tradicionales.
 

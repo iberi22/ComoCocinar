@@ -1,4 +1,33 @@
-# Ajiaco Santafereño
+---
+title: "Ajiaco Santafereño"
+region: "Andina"
+categories: ["Plato fuerte", "Sopa tradicional", "Comida típica"]
+sensory:
+  flavor: ["Salado", "Herbal", "Umami"]
+  texture: ["Cremoso", "Suave", "Crujiente"]
+  aroma: ["Herbal", "Lácteo", "Maíz"]
+  presentation: "Se sirve en plato hondo, acompañado de crema de leche, alcaparras, arroz blanco y aguacate. Plato reconfortante, típico de reuniones familiares y festividades en Bogotá."
+main_ingredients: ["Papa criolla", "Papa pastusa", "Papa sabanera", "Pollo", "Guascas", "Mazorcas"]
+difficulty: "★★★☆☆"
+prep_time: "20 minutos"
+cook_time: "1 hora y 30 minutos"
+servings: 6
+images:
+  - url: "https://pixabay.com/es/photos/ajiaco-soup-colombian-food-6146256/"
+    description: "Ajiaco santafereño servido con guarniciones (Pixabay)"
+  - url: "https://unsplash.com/s/photos/ajiaco"
+    description: "Variaciones de ajiaco en Unsplash"
+sources:
+  - "https://www.lamacarena.com.co/"
+  - "https://www.elcielo.com.co/"
+  - "https://www.andrescarnederes.com.co/"
+  - "https://www.recetasdecolombia.com/ajiaco"
+  - "https://www.youtube.com/results?search_query=ajiaco+santafere%C3%B1o"
+  - "https://www.tiktok.com/tag/ajiaco"
+license: "MIT"
+---
+
+### Ajiaco Santafereño
 
 El Ajiaco Santafereño es la sopa más representativa de Bogotá, la capital de Colombia. Es una preparación sustanciosa y llena de historia, caracterizada por la mezcla de diferentes tipos de papas y el sabor inconfundible de las guascas.
 

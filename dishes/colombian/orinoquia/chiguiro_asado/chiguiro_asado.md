@@ -1,4 +1,4 @@
-# Chigüiro Asado
+## Chigüiro Asado
 
 El Chigüiro Asado es un plato tradicional y emblemático de la Orinoquía colombiana, preparado con carne de chigüiro (capibara), el roedor más grande del mundo. Su carne es apreciada por su sabor suave y textura jugosa, y suele asarse a la brasa y servirse con yuca, plátano y ají llanero.
 

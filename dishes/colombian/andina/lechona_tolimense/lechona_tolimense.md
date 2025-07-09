@@ -1,4 +1,4 @@
-# Lechona Tolimense
+## Lechona Tolimense
 
 La Lechona Tolimense es uno de los platos más emblemáticos del Tolima y el centro de Colombia. Consiste en cerdo relleno de arroz, arveja y condimentos, horneado lentamente hasta lograr una piel crujiente y un relleno jugoso y aromático.
 

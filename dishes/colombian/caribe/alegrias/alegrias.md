@@ -1,6 +1,6 @@
 # Alegrías
 
-Las Alegrías son un dulce tradicional de la región Caribe colombiana, especialmente popular en Cartagena y los pueblos costeros. Se elaboran con semillas de amaranto, panela y coco, formando barras energéticas y nutritivas que son parte esencial de la cultura festiva costeña.
+Alegrías son un dulce tradicional de la región Caribe colombiana, especialmente popular en Cartagena y los pueblos costeros. Se elaboran con semillas de amaranto, panela y coco, formando barras energéticas y nutritivas que son parte esencial de la cultura festiva costeña.
 
 ## Información General
 

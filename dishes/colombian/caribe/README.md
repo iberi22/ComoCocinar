@@ -38,18 +38,18 @@ La cocina caribeña colombiana es colorida, sabrosa y rica en productos del mar,
 
 ---
 
-## Índice de Archivos
+## Índice de Recetas
 
-- `/arepa_de_huevo/arepa_de_huevo.md`
-- `/arroz_con_coco/arroz_con_coco.md`
-- `/butifarra_soledeña/butifarra_soledeña.md`
-- `/carimañolas/carimañolas.md`
-- `/cazuela_de_mariscos/cazuela_de_mariscos.md`
-- `/ceviche_de_camaron/ceviche_de_camaron.md`
-- `/mote_de_queso/mote_de_queso.md`
-- `/sancocho_costeño/sancocho_costeño.md`
-- `/viudo_de_pescado/viudo_de_pescado.md`
-- `/alegrias/alegrias.md`
+- [Arepa de Huevo](arepa_de_huevo/arepa_de_huevo.md)
+- [Arroz con Coco](arroz_con_coco/arroz_con_coco.md)
+- [Butifarra Soledeña](butifarra_soledeña/butifarra_soledeña.md)
+- [Carimañolas](carimañolas/carimañolas.md)
+- [Cazuela de Mariscos](cazuela_de_mariscos/cazuela_de_mariscos.md)
+- [Ceviche de Camarón](ceviche_de_camaron/ceviche_de_camaron.md)
+- [Mote de Queso](mote_de_queso/mote_de_queso.md)
+- [Sancocho Costeño](sancocho_costeño/sancocho_costeño.md)
+- [Viudo de Pescado](viudo_de_pescado/viudo_de_pescado.md)
+- [Alegrías](alegrias/alegrias.md)
 
 ---
 
