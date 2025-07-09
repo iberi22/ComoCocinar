@@ -21,12 +21,21 @@ jobs:
       - name: Extract YAML Front Matter and generate recipes_metadata.json
         run: |
           python .github/scripts/extract_metadata.py
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Create Pull Request for metadata update
+        id: cpr
+        uses: peter-evans/create-pull-request@v5
         with:
-          commit_message: '[metadata] Update recipes_metadata.json'
-          file_pattern: 'recipes_metadata.json'
-          branch: main
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
-          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          commit-message: '[metadata] Update recipes_metadata.json'
+          branch: metadata/update-recipes-metadata
+          title: 'Update recipes_metadata.json'
+          body: 'Automated update of recipes_metadata.json via workflow.'
+          base: main
+          add-paths: recipes_metadata.json
+
+      - name: Enable automerge for metadata PR
+        if: steps.cpr.outputs.pull-request-number
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
+          merge-method: squash
