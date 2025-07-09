@@ -34,6 +34,22 @@ Este repositorio integra:
 - **Extracción de metadatos:** Genera automáticamente `recipes_metadata.json` con los metadatos de todas las recetas (`metadata.yml`).
 - **Vectorización IA:** Script para generar vectores de recetas (`.github/scripts/vectorize_recipes.py`).
 
+### 🧰 Herramientas de Desarrollo Local (Pre-commit)
+
+Para asegurar la calidad y consistencia del código desde el momento de su creación, el proyecto utiliza hooks de pre-commit automáticos.
+
+- **Husky:** Gestiona los hooks de Git, permitiendo ejecutar scripts en diferentes etapas del ciclo de vida de Git (como `pre-commit`).
+- **lint-staged:** Ejecuta linters (como `markdownlint`) únicamente sobre los archivos que están en el "staging area" de Git (`git add`). Esto hace que el proceso sea rápido y eficiente.
+
+**¿Cómo funciona?**
+
+1.  Cuando ejecutas `git commit`, Husky se activa.
+2.  Husky ejecuta la configuración de `lint-staged` definida en `package.json`.
+3.  `lint-staged` revisa los archivos `.md` que vas a guardar y les aplica `markdownlint --fix` para corregir errores de formato automáticamente.
+4.  Si no hay errores, el commit se completa.
+
+Este flujo garantiza que todo el contenido Markdown que llega al repositorio cumple con las reglas de estilo, evitando errores en el CI/CD y manteniendo la legibilidad.
+
 ### 🚦 Flujo automatizado de metadatos y protección de rama
 
 1. **Extracción y generación automática de metadatos:**
