@@ -1,6 +1,6 @@
 # 📖 Plan Maestro: Recetario de Sabores Latinos
 
-Este documento sirve como guía central para el agente de codificación "Jules" y futuros colaboradores. El objetivo es transformar este repositorio en la enciclopedia definitiva de la cocina latinoamericana, uniendo tradición, ciencia y comunidad.
+Este documento sirve como guía central para el agentes de codificación investigacion y colaboradores. El objetivo es transformar este repositorio en la enciclopedia definitiva de la cocina latinoamericana, uniendo tradición, ciencia y comunidad.
 
 ---
 
