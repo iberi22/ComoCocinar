@@ -1,103 +1,28 @@
 ---
-title: "Mazamorra Colombiana"
-categories: ["bebida", "postre", "andina"]
-region: "andina"
-difficulty: "fácil"
-prep_time: "2 horas"
-servings: "6"
-license: "MIT"
+title: "Mazamorra Antioqueña"
 images:
-  - "https://unsplash.com/es/s/fotos/maiz"
-  - "https://unsplash.com/es/s/fotos/leche"
+  - "https://www.misrecetas.com/fotos/photo/main/1368/mazamorra.jpg"
+  - "https://www.recetasgratis.net/co/images/4/5/7/mazamorra_23754_600.jpg"
 sources:
-  - "https://www.recetasdecolombia.com/mazamorra"
-  - "https://www.youtube.com/results?search_query=mazamorra+colombiana"
-  - "https://www.tiktok.com/tag/mazamorra"
-tags: ["mazamorra", "maíz", "postre", "bebida", "tradicional", "colombia"]
+  - "https://www.mycolombianrecipes.com/es/mazamorra-antioquena/"
+  - "https://www.recetasgratis.net/receta-de-mazamorra-antioquena-23754.html"
+license: "MIT"
+yaml_validation: "https://yaml-online-parser.appspot.com/"
 ---
 
-# Mazamorra Colombiana
+## Ingredientes
 
-La mazamorra es una bebida y postre tradicional, elaborada con maíz pelado cocido y servida con leche y panela. Es tendencia en ventas ambulantes y hogares rurales por su sencillez y valor nutritivo.
+*   1 libra de maíz blanco trillado
+*   Agua (cantidad suficiente para cubrir)
+*   Leche al gusto para servir
+*   Panela rallada o bocadillo en trozos para acompañar
 
-## Información General
+## Preparación
 
-* **Dificultad:** ★☆☆☆☆
-* **Tiempo de preparación:** 2 horas
-* **Porciones:** 6
-
----
-
-## 📝 Ingredientes
-
-- 500 g de maíz blanco pelado
-- 2 litros de agua
-- 1 taza de leche
-- Panela rallada o azúcar al gusto
-
----
-
-## 👨‍🍳 Instrucciones
-
-1. Lava y remoja el maíz por 8 horas o toda la noche.
-2. Cocina el maíz en agua a fuego medio hasta que esté blando (1.5-2 horas).
-3. Sirve caliente o frío, añadiendo leche y panela al gusto.
-
----
-
-## 💡 Variaciones y Consejos
-
-- Puedes añadir canela o clavos de olor durante la cocción.
-- Sirve con bocadillo (guayaba) para versión dulce.
-- Usa leche condensada para mayor cremosidad.
-
----
-
-## 📸 Galería
-
-*Próximamente...*
-
----
-
-## 🔬 Análisis Sensorial y de Uso
-
-- **Tipo de plato:** Bebida, postre
-- **Perfil de sabor dominante:** Suave, lácteo
-- **Textura principal:** Cremoso, con granos tiernos
-- **Aroma destacado:** Maíz, leche
-- **Presentación y experiencia:** Se sirve en taza o pocillo, ideal para meriendas y sobremesas.
-
----
-
-## 🗣️ Opiniones y Experiencia de Usuario
-
-- "La mazamorra es el postre de la abuela en Antioquia." (Instagram)
-- "Me encanta con mucha panela y leche fría." (YouTube)
-- "En las plazas la venden en vasitos y es deliciosa." (TikTok)
-
----
-
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
-
-| Ingrediente | Calorías (kcal) | Carbs (g) | Proteínas (g) | Grasas (g) | Compuestos Destacados |
-|-------------|-----------------|-----------|---------------|------------|----------------------|
-| Maíz        | 86              | 19        | 3.2           | 1.2        | Fibra, vitamina B3   |
-| Leche       | 60              | 5         | 3.2           | 3.2        | Calcio, vitamina D   |
-
-*Fuente: USDA FoodData Central, blogs de cocina tradicional colombiana*
-
----
-
-## 📚 Fuentes y Enlaces
-
-- [Receta de mazamorra - Recetas de Colombia](https://www.recetasdecolombia.com/mazamorra)
-- [Mazamorra colombiana - YouTube](https://www.youtube.com/results?search_query=mazamorra+colombiana)
-- [TikTok #mazamorra](https://www.tiktok.com/tag/mazamorra)
-
----
-
-## 🤓 Sabiduría Colectiva y Consejos
-
-- "El secreto es cocinar el maíz lentamente hasta que esté muy tierno."
-- "Sírvela con bocadillo para experiencia auténtica."
-- "Perfecta para sobremesas y meriendas tradicionales."
+1.  Lava bien el maíz y déjalo en remojo en abundante agua desde la noche anterior.
+2.  Al día siguiente, escurre el maíz y ponlo en una olla a presión con agua limpia que lo cubra por completo (unos 4-5 dedos por encima).
+3.  Cocina a fuego alto hasta que la olla empiece a pitar. Luego, baja el fuego a medio-bajo y cocina durante 1.5 a 2 horas, o hasta que el maíz esté muy blando y haya reventado.
+4.  Deja que la olla pierda la presión de forma natural.
+5.  Una vez cocido, puedes guardarlo en la nevera con su propia agua de cocción.
+6.  Para servir, toma una porción de maíz con un poco de su agua y añade leche fría al gusto. Se sirve tradicionalmente como postre o acompañamiento.
+7.  Acompaña con panela rallada o un trozo de bocadillo de guayaba.

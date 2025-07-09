@@ -1,105 +1,30 @@
 ---
 title: "Postre de Natas"
-categories: ["postre", "dulce", "andina", "caribe"]
-region: "nacional"
-difficulty: "media"
-prep_time: "2 horas"
-servings: "8"
-license: "MIT"
 images:
-  - "https://unsplash.com/es/s/fotos/postre"
-  - "https://unsplash.com/es/s/fotos/leche"
+  - "https://www.misrecetas.com/fotos/photo/main/1368/postre_de_natas.jpg"
+  - "https://www.recetasgratis.net/co/images/4/5/7/postre_de_natas_23754_600.jpg"
 sources:
-  - "https://www.recetasdecolombia.com/postre-de-natas"
-  - "https://www.youtube.com/results?search_query=postre+de+natas+colombiano"
-  - "https://www.tiktok.com/tag/postredenatas"
-tags: ["postre de natas", "postre", "dulce", "tradicional", "colombia"]
+  - "https://www.mycolombianrecipes.com/es/postre-de-natas/"
+  - "https://www.recetasgratis.net/receta-de-postre-de-natas-23754.html"
+license: "MIT"
+yaml_validation: "https://yaml-online-parser.appspot.com/"
 ---
 
-# Postre de Natas
+## Ingredientes
 
-El postre de natas es un clásico de la repostería colombiana, elaborado a base de leche, azúcar y huevos. Es tendencia en celebraciones familiares y restaurantes tradicionales por su textura cremosa y sabor delicado.
+*   2 litros de leche entera
+*   1 taza de azúcar
+*   2 yemas de huevo, ligeramente batidas
+*   1 cucharadita de esencia de vainilla
+*   Opcional: uvas pasas y un chorrito de ron o brandy
 
-## Información General
+## Preparación
 
-* **Dificultad:** ★★☆☆☆
-* **Tiempo de preparación:** 2 horas (incluye reposo)
-* **Porciones:** 8
-
----
-
-## 📝 Ingredientes
-
-- 2 litros de leche entera
-- 1 taza de azúcar
-- 6 huevos
-- 1 cucharadita de esencia de vainilla
-- Canela en polvo (opcional)
-
----
-
-## 👨‍🍳 Instrucciones
-
-1. Hierve la leche a fuego bajo en una olla ancha. Cuando suba nata a la superficie, retírala cuidadosamente y resérvala. Repite hasta que no salga más nata.
-2. Bate las yemas con el azúcar y la vainilla.
-3. Incorpora las natas y la mezcla de yemas a la leche restante. Cocina a fuego bajo hasta espesar.
-4. Vierte en un molde y deja enfriar. Refrigera antes de servir.
-
----
-
-## 💡 Variaciones y Consejos
-
-- Puedes añadir pasas o coco rallado.
-- Sirve con canela espolvoreada.
-- Usa leche fresca para mejor textura.
-
----
-
-## 📸 Galería
-
-*Próximamente...*
-
----
-
-## 🔬 Análisis Sensorial y de Uso
-
-- **Tipo de plato:** Postre tradicional
-- **Perfil de sabor dominante:** Lácteo, dulce
-- **Textura principal:** Cremoso, suave
-- **Aroma destacado:** Leche, vainilla
-- **Presentación y experiencia:** Se sirve frío, en porciones individuales o familiar. Ideal para celebraciones y reuniones familiares.
-
----
-
-## 🗣️ Opiniones y Experiencia de Usuario
-
-- "El postre de natas es el favorito de mi abuela." (Instagram)
-- "Me encanta su textura cremosa y sabor a leche." (YouTube)
-- "En cada casa tienen una receta especial." (TikTok)
-
----
-
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
-
-| Ingrediente | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|-------------|-----------------|--------------|-----------|------------|----------------------|
-| Leche       | 60              | 3.2          | 5         | 3.2        | Calcio, vitamina D   |
-| Huevo       | 155             | 13           | 1         | 11         | Colina, vitamina D   |
-
-*Fuente: USDA FoodData Central, blogs de repostería colombiana*
-
----
-
-## 📚 Fuentes y Enlaces
-
-- [Receta de postre de natas - El Gourmet](https://elgourmet.com/recetas/postre-de-natas/)
-- [Postre de natas colombiano - YouTube](https://www.youtube.com/results?search_query=postre+de+natas+colombiano)
-- [TikTok #postredenatas](https://www.tiktok.com/tag/postredenatas)
-
----
-
-## 🤓 Sabiduría Colectiva y Consejos
-
-- "El secreto es retirar la nata con paciencia y usar leche fresca."
-- "Sírvelo bien frío para mejor sabor."
-- "Perfecto para reuniones familiares y celebraciones."
+1.  Hierve la leche en una olla a fuego bajo. Cada vez que se forme una capa de nata en la superficie, retírala con una espumadera y guárdala en un plato aparte. Repite este proceso varias veces hasta que hayas recolectado una buena cantidad de natas (esto requiere paciencia).
+2.  En la leche que queda en la olla, disuelve el azúcar.
+3.  Agrega las natas que recolectaste de nuevo a la olla.
+4.  Cocina a fuego muy bajo, revolviendo suavemente, hasta que la mezcla espese y tome un color ligeramente dorado. Esto puede tardar entre 45 y 60 minutos.
+5.  En un tazón pequeño, mezcla un poco del líquido caliente con las yemas de huevo batidas para temperarlas. Luego, vierte esta mezcla de nuevo en la olla, revolviendo rápidamente.
+6.  Cocina por 2-3 minutos más sin dejar que hierva.
+7.  Retira del fuego, añade la vainilla y las pasas con el licor (si los usas).
+8.  Vierte en moldes individuales o en una refractaria y deja enfriar. Refrigera por al menos 4 horas antes de servir.

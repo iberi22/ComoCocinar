@@ -1,12 +1,16 @@
-# 10 recetas más emblemáticas de la región Orinoquía de Colombia
+# Recetas de la Orinoquía
 
-1.  Mamona (Ternera a la Llanera)
-2.  Carne a la Perra
-3.  Chigüiro Asado
-4.  Pabellón Llanero
-5.  Entreverado
-6.  Hervido de Gumarra
-7.  Cachama Asada
-8.  Arroz Llanero
-9.  Pan de Arroz
-10. Casabe
+La gastronomía de la Orinoquía colombiana es un reflejo de su cultura llanera, con una fuerte presencia de carnes a la parrilla y productos locales.
+
+## Platos Emblemáticos
+
+- **Mamona o Ternera a la Llanera**: El plato más icónico de la región.
+- **Hallacas**: Una versión llanera del tamal, rellena de múltiples carnes.
+- **Pabellón Criollo**: Adaptación llanera del plato venezolano.
+- **Carne a la Perra**: Carne sudada y desmechada, cocinada en su propio jugo.
+- **Sancocho de Gallina Criolla**: Sopa robusta y tradicional.
+- **Chigüiro Asado**: Carne de capibara, un manjar exótico de la región.
+- **Arroz Llanero**: Arroz cocido con rabo de res.
+- **Cachapas de Maíz Tierno**: Tortillas dulces de maíz.
+- **Tungo de Arroz**: Envuelto de arroz con leche y panela.
+- **Pan de Arroz**: Un panecillo crujiente y tradicional.
