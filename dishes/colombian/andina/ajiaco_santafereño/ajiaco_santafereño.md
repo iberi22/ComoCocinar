@@ -115,3 +115,5 @@ Referencias:
 [2] Entrevista con María Elvira Velasco, chef del restaurante "El Cielo" en Bogotá. (2022). Recuperado de <https://www.elcielo.com.co/>
 
 [3] Entrevista con Andrés D.C., chef del restaurante "Andrés Carne de Res" en Bogotá. (2022). Recuperado de <https://www.andrescarnederes.com.co/>
+
+<!-- Cambio menor para probar workflow de metadatos -->
