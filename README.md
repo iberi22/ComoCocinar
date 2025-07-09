@@ -30,7 +30,7 @@ Este repositorio integra:
 
 ### Workflows principales
 
-- **Lint y Build:** Valida y compila la documentación y recetas (`ci.yml`, `build.yml`).
+- **Linting:** Valida la calidad y el formato de las recetas (`ci.yml`).
 - **Extracción de metadatos:** Genera automáticamente `recipes_metadata.json` con los metadatos de todas las recetas (`metadata.yml`).
 - **Vectorización IA:** Script para generar vectores de recetas (`.github/scripts/vectorize_recipes.py`).
 
