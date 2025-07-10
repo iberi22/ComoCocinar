@@ -24,7 +24,6 @@ sources:
 license: "MIT"
 ---
 
-# Lulada
 
 La lulada es una bebida refrescante tradicional del Valle del Cauca y muy popular en todo el suroccidente colombiano. Su base es la pulpa de lulo fresca, mezclada con hielo, azúcar y, a veces, limón o soda. Es símbolo de la cultura caleña y tendencia en redes sociales por su color y sabor exótico.
 
@@ -88,7 +87,7 @@ La lulada es una bebida refrescante tradicional del Valle del Cauca y muy popula
 
 ---
 
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
+## Análisis Nutricional de Ingredientes Clave (por 100g)
 
 | Ingrediente | Calorías (kcal) | Vitamina C (mg) | Carbs (g) | Fibra (g) | Compuestos Destacados |
 |-------------|-----------------|-----------------|-----------|-----------|----------------------|
@@ -99,7 +98,7 @@ La lulada es una bebida refrescante tradicional del Valle del Cauca y muy popula
 
 ---
 
-## 📚 Fuentes y Enlaces
+## Fuentes y Referencias
 
 - [Receta de lulada - El Gourmet](https://elgourmet.com/recetas/lulada/)
 - [Lulada: bebida típica de Cali - YouTube](https://www.youtube.com/results?search_query=lulada+cali)

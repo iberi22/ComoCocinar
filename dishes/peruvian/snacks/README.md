@@ -3,6 +3,7 @@
 Los snacks peruanos incluyen preparaciones ligeras, frituras, bocados y antojitos típicos de la costa, sierra y selva.
 
 ## Ejemplos de snacks emblemáticos
+
 - Papa rellena
 - Tamal peruano
 - Choclo con queso

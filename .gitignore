@@ -7,5 +7,5 @@ site/
 .idea
 *.iml
 # ¡NO ignores .husky! Los hooks deben versionarse para Husky
-.husky/
+# .husky/
 mkdocs.yml

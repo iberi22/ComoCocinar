@@ -3,6 +3,7 @@
 El pan en el Perú tiene una historia rica y diversa, con variedades regionales y técnicas tradicionales.
 
 ## Ejemplos de panes emblemáticos
+
 - Pan chuta
 - Pan de maíz
 - Pan de yema

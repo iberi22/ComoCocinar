@@ -1,4 +1,4 @@
-## Entreverado
+# Entreverado
 
 El Entreverado es un plato típico de la Orinoquía colombiana, especialmente en los llanos orientales. Es una mezcla de diferentes tipos de carnes (res, cerdo, pollo, chigüiro) asadas al carbón y servidas juntas, acompañadas de yuca, plátano y ají llanero. Es el plato estrella en celebraciones y reuniones familiares.
 

@@ -7,6 +7,7 @@
 ## Índice General
 
 ### Regiones
+
 - [Amazonía](./amazonia/README.md)
 - [Andina](./andina/README.md)
 - [Caribe](./caribe/README.md)
@@ -15,6 +16,7 @@
 - [Pacífica](./pacifica/README.md)
 
 ### Categorías Nacionales y Temáticas
+
 - [Nacionales y Street Food](./nacionales/README.md)
 - [Bebidas](./bebidas/README.md)
 - [Snacks y Antojitos](./snacks/README.md)

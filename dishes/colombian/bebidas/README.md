@@ -3,6 +3,7 @@
 Selección de bebidas frías y calientes que acompañan la mesa colombiana, desde jugos y refrescos hasta cafés y bebidas tradicionales.
 
 ## Índice de Recetas
+
 - [Aguapanela](aguapanela/aguapanela.md)
 - [Chicha](chicha/chicha.md)
 - [Lulada](lulada/lulada.md)

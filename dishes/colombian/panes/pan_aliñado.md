@@ -25,7 +25,7 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "pan", "aliñado", "open source"]
 ---
 
-# Pan Aliñado Colombiano
+## Pan Aliñado Colombiano
 
 El pan aliñado es un pan suave, aromático y ligeramente dulce, típico de panaderías colombianas. Se caracteriza por su aroma a mantequilla y especias, y es tendencia por su versatilidad en desayunos y meriendas.
 

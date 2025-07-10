@@ -1,4 +1,4 @@
-## Bolas de Pescado (Fish Balls)
+# Bolas de Pescado (Fish Balls)
 
 Las Bolas de Pescado son un clásico de la cocina isleña de San Andrés y Providencia. Se preparan a partir de pescado fresco desmenuzado, sazonado con especias y vegetales, y luego se forman bolas que se fríen hasta dorar. Son ideales como entrada, acompañante o plato principal.
 

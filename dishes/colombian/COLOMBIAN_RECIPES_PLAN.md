@@ -6,7 +6,6 @@ _Última actualización: 2025-07-07_
 
 **Estado General:** [100% - Todas las regiones principales (Andina, Caribe, Pacífica, Orinoquía, Amazonía, Insular) han sido revisadas y estandarizadas en cuanto a lints MD025 y estructura. Las nuevas categorías y bloques de recetas principales también están alineadas al estándar.]
 
-
 El proyecto se encuentra en la fase final de enriquecimiento de contenido. Se ha completado la investigación de recetas base para las 6 regiones de Colombia y se ha aplicado el análisis nutricional detallado a todas las recetas principales.
 
 **Progreso por Componente:**
@@ -58,7 +57,6 @@ A partir de julio de 2025 se implementa un proceso exhaustivo y ordenado para ca
 
 Este enfoque garantiza que el recetario colombiano sea referencia global para agentes, investigadores y entusiastas culinarios, y que cada receta sea fácilmente indexable, enriquecida y reutilizable.
 
-
 - Para cada receta emblemática:
     1. Investigar reseñas y menús de restaurantes reconocidos y bien calificados en Google, TripAdvisor y prensa local.
     2. Extraer descripciones de sabor, técnicas, acompañamientos y trucos de chefs y comensales.
@@ -93,7 +91,8 @@ Cada receta debe clasificarse y documentarse bajo las siguientes categorías:
 
 ---
 
-#### Fuentes clave recientes:
+#### Fuentes clave recientes
+
 - [Cinco restaurantes en Bogotá para probar el mejor ajiaco típico santafereño - Infobae](https://www.infobae.com/america/colombia/2020/11/01/cinco-restaurantes-en-bogota-para-probar-el-mejor-ajiaco-tipico-santafereno/)
 - [Los mejores ajiacos de Bogotá: 4 lugares para comer la receta original - El Espectador](https://www.elespectador.com/gastronomia-y-recetas/los-mejores-ajiacos-de-bogota-4-lugares-para-comer-la-receta-original/)
 - [El mejor ajiaco del mundo, Bogotá - TripAdvisor](https://www.tripadvisor.com/Restaurant_Review-g294074-d4466515-Reviews-El_mejor_ajiaco_del_mundo-Bogota.html)
@@ -137,6 +136,7 @@ A partir de 2025, el recetario se expande para incluir categorías transversales
 ### 🧭 Metodología de Investigación y Documentación
 
 Para cada categoría:
+
 - Investigar tendencias en redes sociales, menús de restaurantes urbanos, ventas ambulantes y publicaciones gastronómicas recientes.
 - Seleccionar al menos 5 recetas icónicas o virales por categoría.
 - Documentar cada receta siguiendo la estructura enriquecida: ingredientes, preparación, variantes, análisis sensorial, perfil nutricional, opiniones de usuarios, contexto cultural, fuentes y enlaces.
@@ -150,6 +150,7 @@ Para cada categoría:
 Es viable y recomendable complementar las recetas con imágenes reales, siempre respetando los derechos de autor y las licencias de uso. No todas las imágenes encontradas en Google son reutilizables; se debe verificar la licencia y preferir fuentes explícitamente libres de derechos.
 
 **Bancos recomendados de imágenes libres:**
+
 - [Pixabay](https://pixabay.com/es/)
 - [Unsplash](https://unsplash.com/)
 - [Pexels](https://www.pexels.com/es-es/)
@@ -158,6 +159,7 @@ Es viable y recomendable complementar las recetas con imágenes reales, siempre 
 - [Recursos TIC educación](http://recursostic.educacion.es/bancoimagenes/web/)
 
 **Criterios de selección y uso:**
+
 - Buscar imágenes representativas del plato, preferiblemente con contexto colombiano.
 - Verificar que la licencia permita el uso para fines educativos o de divulgación (Creative Commons CC0, dominio público, etc.).
 - Citar la fuente y/o autor de la imagen en la receta (ejemplo: "Imagen: Pixabay/usuario").
@@ -165,6 +167,7 @@ Es viable y recomendable complementar las recetas con imágenes reales, siempre 
 - No usar imágenes con marcas de agua, logotipos comerciales ni restricciones explícitas.
 
 **Procedimiento sugerido:**
+
 1. Buscar el nombre del plato en los bancos recomendados.
 2. Descargar la imagen seleccionada y renombrarla según la receta.
 3. Incluir la imagen en la carpeta correspondiente y enlazarla en el archivo markdown de la receta, citando la fuente.
@@ -172,10 +175,10 @@ Es viable y recomendable complementar las recetas con imágenes reales, siempre 
 
 Esto garantiza que el recetario cumpla con buenas prácticas de derechos de autor y facilite la visualización de las preparaciones para los usuarios.
 
-
 ### 📋 Ejemplo de índice por categoría
 
 #### `/nacionales/`
+
 - Salchipapa
 - Fritanga
 - Papas Aborrajadas
@@ -183,6 +186,7 @@ Esto garantiza que el recetario cumpla con buenas prácticas de derechos de auto
 - Chuzo de Pollo/Carne
 
 #### `/bebidas/`
+
 - Lulada
 - Salpicón
 - Chocolate Santafereño
@@ -190,6 +194,7 @@ Esto garantiza que el recetario cumpla con buenas prácticas de derechos de auto
 - Avena
 
 #### `/snacks/`
+
 - Empanada
 - Buñuelo
 - Almojábana
@@ -197,6 +202,7 @@ Esto garantiza que el recetario cumpla con buenas prácticas de derechos de auto
 - Pandebono
 
 #### `/panes/`
+
 - Pan de Bono
 - Pan de Yuca
 - Pan Aliñado
@@ -204,6 +210,7 @@ Esto garantiza que el recetario cumpla con buenas prácticas de derechos de auto
 - Mogolla
 
 #### `/condimentos/`
+
 - Hogao
 - Ají Picante
 - Salsa Rosada
@@ -211,6 +218,7 @@ Esto garantiza que el recetario cumpla con buenas prácticas de derechos de auto
 - Suero Costeño
 
 #### `/otras_preparaciones/`
+
 - Arequipe
 - Natilla
 - Mazamorra
@@ -218,6 +226,7 @@ Esto garantiza que el recetario cumpla con buenas prácticas de derechos de auto
 - Posta Negra
 
 ### 🔎 Criterios de Selección y Fuentes
+
 - Prioridad a recetas con alta presencia en redes sociales, ventas ambulantes y menús urbanos.
 - Consultar foros, videos virales, blogs, artículos de prensa gastronómica y publicaciones académicas recientes.
 - Citar explícitamente todas las fuentes y enlaces relevantes.

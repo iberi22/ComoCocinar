@@ -18,7 +18,7 @@ La misión es crear un recetario digital, de código abierto y perpetuamente enr
 
 Para asegurar la escalabilidad y organización, todas las recetas se estructurarán por país. Cada receta tendrá su propia carpeta, que contendrá el archivo `.md` y una subcarpeta para imágenes.
 
-```
+```markdown
 /dishes/
 ├── /argentina/
 │   ├── /asado/
@@ -32,7 +32,7 @@ Para asegurar la escalabilidad y organización, todas las recetas se estructurar
 │   ├── /ceviche/
 │   └── /lomo_saltado/
 └── ... (y así sucesivamente con cada país)
-```
+```markdown
 
 ## 🛠️ 3. Metodología de Enriquecimiento de Recetas (Guía para Jules)
 

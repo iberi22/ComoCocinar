@@ -23,6 +23,7 @@ sources:
   - "https://tipishca.blogspot.com/2014/09/estampas-de-la-amazonia-2.html"
   - "https://www.tripadvisor.co/ShowUserReviews-g317037-d3164418-r750285171-Tierras_Amazonicas-Leticia_Amazonas_Department.html"
 license: "MIT"
+---
 
 La Fariña es un alimento ancestral de la Amazonía, elaborado a partir de yuca amarga rallada, secada y tostada hasta obtener una harina gruesa y crujiente. Es un acompañante esencial en la dieta indígena y amazónica, ideal para sopas, caldos, pescados y como base de bebidas refrescantes.
 

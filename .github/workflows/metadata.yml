@@ -1,77 +1,45 @@
-name: Extract Recipe Metadata
+name: Generate Recipe Metadata and Embeddings
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  extract-metadata:
-    name: Extract and PR metadata
+  generate-data:
+    name: Generate Data
     runs-on: ubuntu-latest
+
     steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🐍 Set up Python
-        uses: actions/setup-python@v5
+      - name: 🛠️ Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '20'
+          cache: 'npm'
 
       - name: 📦 Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml python-frontmatter
+        run: npm ci
 
-      - name: 📝 Debug: List recipes to process
+      - name: 📝 Extract metadata and generate embeddings
         run: |
-          ls -lR dishes/colombian || echo 'No recipes folder found.'
+          npx ts-node .github/scripts_ts/extract_metadata.ts
+          npx ts-node .github/scripts_ts/vectorize_recipes.ts
 
-      - name: 📝 Extract YAML Front Matter and generate recipes_metadata.json
-        id: extract_metadata
-        run: |
-          set -e
-          if [ ! -d "dishes/colombian" ]; then
-            echo "ERROR: La carpeta dishes/colombian no existe."
-            exit 1
-          fi
-          python .github/scripts/extract_metadata.py || (echo 'Error ejecutando el script de extracción.' && exit 1)
-          echo "::set-output name=changed::$(git status --porcelain | grep recipes_metadata.json || true)"
-
-      - name: 🚦 Create Pull Request for metadata update
-        id: cpr
-        if: steps.extract_metadata.outputs.changed != ''
-        uses: peter-evans/create-pull-request@v6
+      - name: ✨ Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit-message: 'chore(metadata): update recipes_metadata.json [skip ci]'
-          branch: auto/metadata-update
-          title: 'chore(metadata): update recipes_metadata.json'
-          body: |
-            Actualización automática de metadatos tras cambios en recetas.
-            - Generado por workflow CI/CD seguro.
-            - Merge automático habilitado si pasan los checks.
-          base: main
-          add-paths: |
-            recipes_metadata.json
-          delete-branch: true
-          labels: automerge, metadata
-          reviewers: iberi22
-          token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: 'chore(data): 🤖 update recipe metadata and embeddings'
+          file_pattern: 'recipes_metadata.json recipes_vectors.jsonl'
+          commit_user_name: 'GitHub Actions Bot'
+          commit_user_email: 'actions@github.com'
+          commit_author: 'GitHub Actions Bot <actions@github.com>'
 
-      - name: 🤖 Enable automerge for metadata PR
-        if: steps.cpr.outputs.pull-request-number
-        uses: peter-evans/enable-pull-request-automerge@v3
+      - name: 📤 Upload Embeddings Artifact
+        uses: actions/upload-artifact@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ steps.cpr.outputs.pull-request-number }}
-          merge-method: squash
-
-      - name: 📋 Show PR URL (debug)
-        if: steps.cpr.outputs.pull-request-url
-        run: echo "PR generado: ${{ steps.cpr.outputs.pull-request-url }}"
-
-    outputs:
-      pr-url: ${{ steps.cpr.outputs.pull-request-url }}
-      pr-number: ${{ steps.cpr.outputs.pull-request-number }}
+          name: recipe-embeddings
+          path: recipes_vectors.jsonl

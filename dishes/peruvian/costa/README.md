@@ -3,6 +3,7 @@
 La cocina costera del Perú destaca por su riqueza en pescados, mariscos y la fusión de tradiciones criollas y marinas. Aquí se encuentran platos emblemáticos como el ceviche, tiradito, chupe de camarones y arroz con pato.
 
 ## Platos emblemáticos
+
 - Ceviche
 - Tiradito
 - Chupe de camarones

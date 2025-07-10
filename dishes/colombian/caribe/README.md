@@ -16,6 +16,7 @@ Este directorio reúne las 10 recetas más representativas de la región Caribe,
 10. Alegrias
 
 Cada receta incluye:
+
 - Ingredientes y preparación detallada
 - Variaciones y consejos tradicionales
 - Análisis sensorial (sabor, textura, aroma, experiencia)

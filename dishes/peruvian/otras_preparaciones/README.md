@@ -3,6 +3,7 @@
 En esta sección se agrupan preparaciones tradicionales que no encajan en las categorías anteriores, pero son parte fundamental de la cultura culinaria peruana.
 
 ## Ejemplos de otras preparaciones
+
 - Mazamorra morada
 - Arroz zambito
 - Turrón de Doña Pepa

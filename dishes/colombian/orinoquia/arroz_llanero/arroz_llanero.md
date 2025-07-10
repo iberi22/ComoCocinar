@@ -1,4 +1,4 @@
-## Arroz Llanero
+# Arroz Llanero
 
 El Arroz Llanero es un plato emblemático de la Orinoquía colombiana, preparado con arroz, carnes variadas (res, cerdo, pollo), verduras y condimentos locales. Es una receta festiva, ideal para grandes reuniones y celebraciones en los llanos.
 

@@ -1,19 +1,20 @@
 # ComoCocinar/HowToCook
-
 <!-- Cambio de prueba para disparar workflow CI/CD: 2025-07-09 -->
+
 A modern, open-source recipe repository inspired by HowToCook.
 This project aims to create a comprehensive, structured, and accessible collection of global recipes—enriched with metadata, automation, and AI-ready features.
 Includes CI/CD workflows, community-driven contributions, and support for advanced search and AI applications.
-
 Recetario automatizado y enriquecido, con flujos CI/CD, integración para IA y comunidad bilingüe.
-
 Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook).
 
 ## 📑 Estado del Proyecto
 
 - Todas las recetas principales estandarizadas y enriquecidas (YAML, sensorial, nutricional, imágenes, fuentes, licencia)
+
 - En proceso de revisión y enriquecimiento de recetas secundarias y nuevas adiciones
+
 - Sincronización de índices, enlaces y documentación
+
 - Preparación para integración con agentes de IA, búsqueda semántica y vectorización
 
 ## 🚀 Integración final y automatización
@@ -21,17 +22,33 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook).
 Este repositorio integra:
 
 - Recetas colombianas estandarizadas con YAML Front Matter, imágenes libres, fuentes y licencia open source.
+
 - Automatización CI/CD: generación automática de metadatos (`recipes_metadata.json`) tras cada push a main.
+
 - Scripts y workflows para vectorización de recetas, listos para IA/RAG (ChromaDB, Qdrant, etc).
+
 - Documentos de comunidad en español e inglés.
+
 - Rama `main` protegida con checks automáticos.
 
-## 📦 Flujos CI/CD (Automatización)
+## 📦 Flujos CI/CD y Documentación
+
+Para una guía completa sobre el flujo CI/CD, el sistema de pre-commit, la vectorización para IA y cómo contribuir, consulta la nueva documentación en la carpeta [`docs/`](./docs):
+
+- [Flujo CI/CD y protección de rama](./docs/CI_CD.md)
+
+- [Sistema de pre-commit (husky + lint-staged)](./docs/precommit.md)
+
+- [Cómo contribuir y replicar el entorno local](./docs/contribuir.md)
+
+- [Vectorización de recetas e integración con IA](./docs/vectorizacion.md)
 
 ### Workflows principales
 
 - **Linting:** Valida la calidad y el formato de las recetas (`ci.yml`).
+
 - **Extracción de metadatos:** Genera automáticamente `recipes_metadata.json` con los metadatos de todas las recetas (`metadata.yml`).
+
 - **Vectorización IA:** Script para generar vectores de recetas (`.github/scripts/vectorize_recipes.py`).
 
 ### 🧰 Herramientas de Desarrollo Local (Pre-commit)
@@ -39,15 +56,17 @@ Este repositorio integra:
 Para asegurar la calidad y consistencia del código desde el momento de su creación, el proyecto utiliza hooks de pre-commit automáticos.
 
 - **Husky:** Gestiona los hooks de Git, permitiendo ejecutar scripts en diferentes etapas del ciclo de vida de Git (como `pre-commit`).
-- **lint-staged:** Ejecuta linters (como `markdownlint`) únicamente sobre los archivos que están en el "staging area" de Git (`git add`). Esto hace que el proceso sea rápido y eficiente.
 
+- **lint-staged:** Ejecuta linters (como `markdownlint`) únicamente sobre los archivos que están en el "staging area" de Git (`git add`). Esto hace que el proceso sea rápido y eficiente.
 **¿Cómo funciona?**
 
-1.  Cuando ejecutas `git commit`, Husky se activa.
-2.  Husky ejecuta la configuración de `lint-staged` definida en `package.json`.
-3.  `lint-staged` revisa los archivos `.md` que vas a guardar y les aplica `markdownlint --fix` para corregir errores de formato automáticamente.
-4.  Si no hay errores, el commit se completa.
+1. Cuando ejecutas `git commit`, Husky se activa.
 
+2. Husky ejecuta la configuración de `lint-staged` definida en `package.json`.
+
+3. `lint-staged` revisa los archivos `.md` que vas a guardar y les aplica `markdownlint --fix` para corregir errores de formato automáticamente.
+
+4. Si no hay errores, el commit se completa.
 Este flujo garantiza que todo el contenido Markdown que llega al repositorio cumple con las reglas de estilo, evitando errores en el CI/CD y manteniendo la legibilidad.
 
 ### 🚦 Flujo automatizado de metadatos y protección de rama
@@ -69,42 +88,59 @@ Este flujo garantiza que todo el contenido Markdown que llega al repositorio cum
 ### Ejemplo de flujo completo
 
 - Un colaborador o workflow genera cambios en recetas.
+
 - Se actualiza `recipes_metadata.json` automáticamente.
+
 - Se abre un Pull Request automático con los cambios de metadatos.
+
 - Los workflows de CI/CD validan el PR.
+
 - Si todo es correcto, el PR se fusiona automáticamente a `main`.
 
 ### Requisitos para contribuir
 
 - Todas las recetas deben tener YAML Front Matter completo y cumplir la metodología.
+
 - Corrección de lints obligatoria (Markdown).
+
 - Los workflows deben pasar antes de aceptar un Pull Request.
+
 - Consulta la sección "Automatización" para entender cómo se integran los cambios de metadatos y cómo se revisan de forma automática.
 
 ## 🤖 Vectorización para IA y RAG
 
 1. Ejecuta el script `.github/scripts/vectorize_recipes.py` tras actualizar los metadatos.
+
 2. El archivo `recipes_vectors.jsonl` estará listo para importar en ChromaDB, Qdrant o motores RAG.
+
 3. Puedes adaptar los campos a vectorizar según necesidades de tu app o agente.
 
 ## 🤝 ¿Cómo contribuir?
 
 - Crea una rama desde main.
+
 - Usa la plantilla de receta y sigue la metodología documentada.
+
 - Agrega fuentes, imágenes libres y licencia.
+
 - Haz Pull Request y espera que los checks CI/CD pasen.
+
 - Puedes contribuir en español o inglés. Consulta `CONTRIBUTING.md` y `CONTRIBUTING.es.md`.
 
 ## 🛡️ Protección de rama main
 
 - Solo se puede mergear a main si todos los checks CI/CD pasan.
+
 - No se permite force-push ni borrado accidental de main.
+
 - Los administradores pueden ajustar las reglas en Settings > Branches.
 
 ## 📑 Documentos clave
 
 - [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) | [`CODE_OF_CONDUCT.es.md`](./CODE_OF_CONDUCT.es.md)
+
 - [`CONTRIBUTING.md`](./CONTRIBUTING.md) | [`CONTRIBUTING.es.md`](./CONTRIBUTING.es.md)
+
 - [`METODOLOGIA.md`](./METODOLOGIA.md)
 
 ## 📚 Licencia
@@ -154,60 +190,83 @@ license: "MIT"
 Cada receta debe incluir un bloque YAML Front Matter al inicio, con los siguientes campos:
 
 - `title`: Nombre completo del plato.
-- `region`: Región o categoría principal (ejemplo: Andina, Caribe, Nacional).
-- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
-- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
-- `main_ingredients`: Ingredientes principales o diferenciadores.
-- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
-- `prep_time`: Tiempo estimado de preparación total.
-- `servings`: Porciones aproximadas.
-- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
-- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
-- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
 
+- `region`: Región o categoría principal (ejemplo: Andina, Caribe, Nacional).
+
+- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
+
+- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
+
+- `main_ingredients`: Ingredientes principales o diferenciadores.
+
+- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
+
+- `prep_time`: Tiempo estimado de preparación total.
+
+- `servings`: Porciones aproximadas.
+
+- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
+
+- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
+
+- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
 Consulta ejemplos y plantillas en los archivos de cada región y en `COLOMBIAN_RECIPES_PLAN.md`.
 
 - `region`: Región o categoría principal (ejemplo: Andina, Caribe, Nacional).
-- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
-- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
-- `main_ingredients`: Ingredientes principales o diferenciadores.
-- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
-- `prep_time`: Tiempo estimado de preparación total.
-- `servings`: Porciones aproximadas.
-- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
-- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
-- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
 
+- `categories`: Lista de categorías de uso (ejemplo: Snack, Plato fuerte, Comida callejera).
+
+- `sensory`: Objeto con subcampos para `flavor` (sabores dominantes), `texture` (texturas principales), `aroma` (aromas destacados) y `presentation` (descripción de presentación y experiencia).
+
+- `main_ingredients`: Ingredientes principales o diferenciadores.
+
+- `difficulty`: Dificultad estimada (puede ser en estrellas o texto).
+
+- `prep_time`: Tiempo estimado de preparación total.
+
+- `servings`: Porciones aproximadas.
+
+- `images`: Lista de objetos con `url` y `description` de imágenes libres de uso.
+
+- `sources`: Lista de enlaces a fuentes, recetas, videos, artículos o entrevistas.
+
+- `license`: Licencia de uso del contenido (ejemplo: MIT, CC BY 4.0).
 Consulta ejemplos y plantillas en los archivos de cada región y en `COLOMBIAN_RECIPES_PLAN.md`.
 
 ## 🤝 Cómo Contribuir
 
 1. Crea tus recetas siguiendo la plantilla YAML Front Matter y el estándar de enriquecimiento sensorial/nutricional.
+
 2. Haz un Pull Request. Solo se aceptarán cambios que cumplan con la estructura y pasen la validación automática.
+
 3. Consulta el archivo `.github/PULL_REQUEST_TEMPLATE.md` y la documentación para detalles.
 
 1. Crea tus recetas siguiendo la plantilla YAML Front Matter y el estándar de enriquecimiento sensorial/nutricional.
+
 2. Haz un Pull Request. Solo se aceptarán cambios que cumplan con la estructura y pasen la validación automática.
+
 3. Consulta el archivo `.github/PULL_REQUEST_TEMPLATE.md` y la documentación para detalles.
 
 ## 🛡️ Licencia
 
 Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
----
-
 ## 📚 Enlaces y recursos
 
 - [COLOMBIAN_RECIPES_PLAN.md](dishes/colombian/COLOMBIAN_RECIPES_PLAN.md): Plan y metodología detallada
+
 - [PLAN_SABORES_LATINOS.md](PLAN_SABORES_LATINOS.md): Plan para otras cocinas latinoamericanas
+
 - [plan_enriquecimiento_recetas.md](plan_enriquecimiento_recetas.md): Metodología de enriquecimiento sensorial y nutricional
+
 - Carpetas por región y categoría en `dishes/colombian/`
 
 - [COLOMBIAN_RECIPES_PLAN.md](dishes/colombian/COLOMBIAN_RECIPES_PLAN.md): Plan y metodología detallada
+
 - [PLAN_SABORES_LATINOS.md](PLAN_SABORES_LATINOS.md): Plan para otras cocinas latinoamericanas
+
 - [plan_enriquecimiento_recetas.md](plan_enriquecimiento_recetas.md): Metodología de enriquecimiento sensorial y nutricional
+
 - Carpetas por región y categoría en `dishes/colombian/`
 
 ## 📝 Metodología y lecciones aprendidas
@@ -215,49 +274,73 @@ Este proyecto es open source bajo la licencia MIT. Consulta el archivo `LICENSE`
 La estandarización y enriquecimiento de recetas se basa en:
 
 - Investigación en fuentes académicas, colectivas y restaurantes reconocidos
+
 - Análisis sensorial y nutricional por ingrediente
+
 - Inclusión de imágenes libres y enlaces verificados
+
 - Documentación abierta y colaborativa
-
 Para detalles, consulta los archivos de metodología y el plan general.
-
 Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado para IA, conocimiento abierto y la cocina colombiana.
 
 - [Buñuelos](dishes/colombian/snacks/buñuelo/buñuelo.md)
+
 - [Almojábanas](dishes/colombian/snacks/almojábana/almojábana.md)
+
 - [Arepa de Huevo](dishes/colombian/caribe/arepa_de_huevo/arepa_de_huevo.md)
+
 - [Pandebono](dishes/colombian/panes/pandebono/pandebono.md)
 
 ### Salsas y Acompañamientos
 
 - [Hogao](dishes/colombian/condimentos/hogao/hogao.md)
+
 - [Ají Picante](dishes/colombian/condimentos/aji_picante/aji_picante.md)
+
 - [Guacamole Colombiano](dishes/colombian/condimentos/guacamole_colombiano/guacamole_colombiano.md)
+
 - [Suero Costeño](dishes/colombian/condimentos/suero_costeño/suero_costeño.md)
 
-# 🌍 Recetas del Mundo (Pendientes de Adaptación)
+## 🌍 Recetas del Mundo (Pendientes de Adaptación)
 
-### Platos de Carne
+## Platos de Carne
 
 - [Cerdo salteado con cebolla (pendiente de traducir)](dishes/meat_dish/洋葱炒猪肉.md)
+
+{{ ... }}
+
 - [Pollo asado a la italiana (pendiente de traducir)](dishes/meat_dish/意式烤鸡.md)
+
 - [Berenjena en salsa de pescado (pendiente de traducir)](dishes/meat_dish/鱼香茄子/鱼香茄子.md)
+
 - [Cerdo en salsa de pescado (pendiente de traducir)](dishes/meat_dish/鱼香肉丝.md)
+
 - [Estofado de cordero con tofu seco (pendiente de traducir)](dishes/meat_dish/枝竹羊腩煲/枝竹羊腩煲.md)
+
 - [Gelatina de piel de cerdo (pendiente de traducir)](dishes/meat_dish/猪皮冻/猪皮冻.md)
+
 - [Cerdo estofado con chucrut (pendiente de traducir)](dishes/meat_dish/猪肉烩酸菜.md)
+
 - [Cerdo cocido dos veces (pendiente de traducir)](dishes/meat_dish/回锅肉.md)
 
-### Pescados y Mariscos
+## Pescados y Mariscos
 
 - [Perca al vapor con aceite de cebollín (pendiente de traducir)](dishes/aquatic/葱油桂鱼/葱油桂鱼.md)
+
 - [Langostinos rojos argentinos a la plancha (pendiente de traducir)](dishes/aquatic/干煎阿根廷红虾/干煎阿根廷红虾.md)
+
 - [Carpa estofada en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鲤鱼.md)
+
 - [Pescado estofado en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鱼.md)
+
 - [Cabeza de pescado estofada en salsa roja (pendiente de traducir)](dishes/aquatic/红烧鱼头.md)
+
 - [Langostinos salteados con mantequilla (pendiente de traducir)](dishes/aquatic/黄油煎虾/黄油煎虾.md)
+
 - [Pescado a la parrilla mixto (pendiente de traducir)](dishes/aquatic/混合烤鱼/烤鱼.md)
+
 - [Langostinos con mantequilla y mostaza (pendiente de traducir)](dishes/aquatic/芥末黄油罗氏虾/芥末黄油罗氏虾.md)
+
 - [清蒸鲈鱼](dishes/aquatic/清蒸鲈鱼/清蒸鲈鱼.md)
 
 - [清蒸生蚝](dishes/aquatic/清蒸生蚝.md)
@@ -278,9 +361,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [油焖大虾](dishes/aquatic/油焖大虾/油焖大虾.md)
 
-#
+---
 
-## 早餐
+## Desayuno
 
 - [茶叶蛋](dishes/breakfast/茶叶蛋.md)
 
@@ -326,9 +409,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [蒸水蛋](dishes/breakfast/蒸水蛋.md)
 
-#
+---
 
-## 主食
+## Platos Principales
 
 - [炒方便面](dishes/staple/炒方便面.md)
 
@@ -424,9 +507,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [煮泡面加蛋](dishes/staple/煮泡面加蛋.md)
 
-#
+---
 
-## 半成品加工
+## Semi-elaborados
 
 - [半成品意面](dishes/semi-finished/半成品意面.md)
 
@@ -448,9 +531,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [炸薯条](dishes/semi-finished/炸薯条/炸薯条.md)
 
-#
+---
 
-## 汤与粥
+## Sopas y Gachas
 
 - [昂刺鱼豆腐汤](dishes/soup/昂刺鱼豆腐汤/昂刺鱼豆腐汤.md)
 
@@ -494,9 +577,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [紫菜蛋花汤](dishes/soup/紫菜蛋花汤.md)
 
-#
+---
 
-## 饮料
+## Bebidas
 
 - [耙耙柑茶](dishes/drink/耙耙柑茶/耙耙柑茶.md)
 
@@ -540,9 +623,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [Mojito莫吉托](dishes/drink/Mojito莫吉托.md)
 
-#
+---
 
-## 酱料和其它材料
+## Salsas y Otros Ingredientes
 
 - [草莓酱](dishes/condiment/草莓酱/草莓酱.md)
 
@@ -562,9 +645,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [蔗糖糖浆](dishes/condiment/蔗糖糖浆/蔗糖糖浆.md)
 
-#
+---
 
-## 甜品
+## Postres
 
 - [奥利奥冰淇淋](dishes/dessert/奥利奥冰淇淋/奥利奥冰淇淋.md)
 
@@ -600,9 +683,9 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 
 - [炸鲜奶](dishes/dessert/炸鲜奶/炸鲜奶.md)
 
-## 进阶知识学习
+## Conocimientos Avanzados
 
-如果你已经做了许多上面的菜，对于厨艺已经入门，并且想学习更加高深的烹饪技巧，请继续阅读下面的内容：
+Si ya has hecho muchas de las recetas anteriores, has entrado en el mundo de la cocina y quieres aprender técnicas más avanzadas, sigue leyendo:
 
 ### Técnicas de ingredientes
 
@@ -625,3 +708,68 @@ Inspirado en [HowToCook](https://github.com/Anduin2017/HowToCook) y adaptado par
 - [HowToCook-mcp 让 AI 助手变身私人大厨，为你的一日三餐出谋划策](https://github.com/worryzyy/HowToCook-mcp)
 
 - [HowToCook-py-mcp 让 AI 助手变身私人大厨，为你的一日三餐出谋划策 (Python)](https://github.com/DusKing1/howtocook-py-mcp)
+
+## AI Agent Integration
+
+Este repositorio proporciona datos de recetas estructurados en dos formatos:
+
+1. `recipes_metadata.json`: Contiene metadatos para todas las recetas en el repositorio, incluyendo título, descripción, ingredientes y otros campos.
+2. `recipes_vectors.jsonl`: Contiene embeddings vectoriales para cada receta, que se pueden utilizar para búsqueda semántica y recuperación.
+
+### Uso de los datos
+
+Los agentes de IA pueden utilizar estos archivos para:
+
+- Recuperar información de recetas por ID o título
+- Realizar búsqueda semántica utilizando embeddings vectoriales
+- Construir sistemas de recomendación
+
+#### Ejemplo: Cargar metadatos
+
+```json
+// recipes_metadata.json es un arreglo de objetos de recetas
+[
+  {
+    "nombre": "Nombre de la receta",
+    "descripcion": "Descripción de la receta",
+    ...
+  }
+]
+```
+
+#### Ejemplo: Uso de embeddings
+
+El archivo `recipes_vectors.jsonl` está en formato JSON Lines. Cada línea es un objeto JSON con:
+
+- Los metadatos de la receta
+- Un campo `vector` que contiene el arreglo de embeddings
+
+Los agentes pueden cargar los embeddings en una base de datos vectorial como ChromaDB o Qdrant para búsqueda de similitud eficiente.
+
+### Actualizaciones automáticas
+
+Estos archivos se actualizan automáticamente mediante GitHub Actions cuando se realizan cambios en la rama `main`. Los archivos actualizados se comprometen en el repositorio y están disponibles para su uso.
+
+#### Ejemplo: Búsqueda de similitud
+
+```typescript
+import { ChromaClient } from 'chromadb';
+
+const client = new ChromaClient();
+const collection = await client.getCollection('recipes');
+
+// Consulta para recetas similares
+const results = await collection.query({
+  queryEmbeddings: [/* tu vector de embeddings de consulta */],
+  nResults: 5
+});
+
+// Los resultados contendrán las 5 recetas más similares
+console.log(results);
+```
+
+Para generar los archivos `recipes_metadata.json` y `recipes_vectors.jsonl`, puedes ejecutar los scripts:
+
+```bash
+npx markdownlint "**/*.md" --fix --ignore node_modules && npx ts-node .github/scripts_ts/extract_metadata.ts && npx ts-node .github/scripts_ts/vectorize_recipes.ts
+```
