@@ -3,6 +3,8 @@ name: Extract Recipe Metadata
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -23,10 +25,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml python-frontmatter
 
+      - name: 📝 Debug: List recipes to process
+        run: |
+          ls -lR dishes/colombian || echo 'No recipes folder found.'
+
       - name: 📝 Extract YAML Front Matter and generate recipes_metadata.json
         id: extract_metadata
         run: |
-          python .github/scripts/extract_metadata.py
+          set -e
+          if [ ! -d "dishes/colombian" ]; then
+            echo "ERROR: La carpeta dishes/colombian no existe."
+            exit 1
+          fi
+          python .github/scripts/extract_metadata.py || (echo 'Error ejecutando el script de extracción.' && exit 1)
           echo "::set-output name=changed::$(git status --porcelain | grep recipes_metadata.json || true)"
 
       - name: 🚦 Create Pull Request for metadata update
