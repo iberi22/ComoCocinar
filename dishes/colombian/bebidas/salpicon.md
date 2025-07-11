@@ -25,7 +25,7 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "bebida", "salpicon", "open source"]
 ---
 
-# Salpicón Colombiano
+## Salpicón Colombiano
 
 El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias, plazas y cafeterías de Colombia. Se prepara con frutas frescas picadas y jugo de sandía o gaseosa roja, y es tendencia en redes por su presentación vistosa y sabor frutal.
 
@@ -85,7 +85,7 @@ El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias,
 
 ---
 
-## 🗣️ Opiniones y Experiencia de Usuario
+## 🗣️ Comentarios de Usuarios
 
 - "El salpicón es el sabor de la infancia y las ferias." (Instagram)
 - "Me encanta con mucha fruta y hielo." (YouTube)
@@ -93,7 +93,7 @@ El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias,
 
 ---
 
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
+### Análisis Nutricional de Ingredientes Clave (por 100g)
 
 | Ingrediente | Calorías (kcal) | Vitamina C (mg) | Carbs (g) | Fibra (g) | Compuestos Destacados |
 |-------------|-----------------|-----------------|-----------|-----------|----------------------|
@@ -105,7 +105,7 @@ El salpicón es una bebida-postre refrescante y colorida, tradicional en ferias,
 
 ---
 
-## 📚 Fuentes y Enlaces
+## 📚 Fuentes y Referencias
 
 - [Receta de salpicón - El Gourmet](https://elgourmet.com/recetas/salpicon/)
 - [Salpicón colombiano - YouTube](https://www.youtube.com/results?search_query=salpicon+colombiano)

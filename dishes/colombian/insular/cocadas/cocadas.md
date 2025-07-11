@@ -1,4 +1,4 @@
-## Cocadas
+# Cocadas
 
 Las cocadas son uno de los dulces más tradicionales de la región Insular y de toda la costa Caribe colombiana. En San Andrés y Providencia, se preparan con coco fresco rallado, azúcar y, en ocasiones, leche condensada o frutas tropicales. Son ideales como postre o snack para compartir.
 

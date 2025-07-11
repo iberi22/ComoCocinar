@@ -25,7 +25,7 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "pan", "pandebono", "open source"]
 ---
 
-# Pan de Bono
+## Pan de Bono
 
 El pan de bono es uno de los panes más tradicionales y queridos de Colombia, especialmente en el Valle del Cauca. Esponjoso, ligeramente dulce y con intenso sabor a queso, es infaltable en desayunos y onces. Su popularidad lo ha convertido en tendencia en cafeterías y redes sociales.
 

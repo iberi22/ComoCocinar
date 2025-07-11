@@ -1,4 +1,4 @@
-## Sopa de Cangrejo (Crab Soup)
+# Sopa de Cangrejo (Crab Soup)
 
 La Sopa de Cangrejo es uno de los platos más emblemáticos de San Andrés y Providencia. Este caldo espeso y aromático combina carne de cangrejo, leche de coco, tubérculos y especias isleñas, evocando la tradición marinera y el mestizaje cultural del archipiélago.
 

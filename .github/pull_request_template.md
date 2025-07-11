@@ -1,15 +1,17 @@
-## 注意
+# Plantilla de Pull Request
 
-Pull Request 提交后，预计 1 分钟内将会得到自动化格式检查的结果。只有通过自动化检查的 Pull Request 才会被人工审核。
+## Nota Importante
 
-- [ ] 请确保此 Pull Request 能够通过自动化代码检查。
+Después de enviar este Pull Request, recibirás los resultados de la verificación automática de formato en aproximadamente 1 minuto. Solo los Pull Requests que pasen la verificación automática serán revisados manualmente.
 
-## 签署
+- [ ] Asegúrate de que este Pull Request pase la verificación automática de código.
 
-必须签署下面的对话框才能开始审核。
+## Acuerdo de Licencia
 
-### HowToCook 仓库采用了 [The Unlicense](https://unlicense.org/) 协议
+Debes aceptar el siguiente acuerdo para que comience la revisión.
 
-菜谱在签入前，必须确保其可以**直接声明进入 "公共领域"（public domain)**。这意味着一旦合并后，任何人都**可以**自由复制，修改，发布，使用，编译，出售或以菜谱的形式或菜的形式分发，**无论**是出于**商业目的**还是**非商目的**，以及**任何**手段。
+### Este repositorio utiliza la licencia [The Unlicense](https://unlicense.org/)
 
-- [ ] 我确保了我的内容不涉及版权内容，并且授权它 The Unlicense 协议。
+Antes de incluir una receta, debes asegurarte de que puede ser declarada directamente de "dominio público" (public domain). Esto significa que una vez fusionada, cualquier persona podrá copiar, modificar, publicar, usar, compilar, vender o distribuir la receta en cualquier forma, ya sea con fines comerciales o no comerciales, por cualquier medio.
+
+- [ ] Confirmo que mi contenido no infringe derechos de autor y lo libero bajo los términos de The Unlicense.

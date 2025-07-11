@@ -25,7 +25,7 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "pan", "snack", "almojabana", "open source"]
 ---
 
-# Almojábana
+## Almojábana
 
 La almojábana es un panecillo suave y esponjoso, típico de la zona andina colombiana. Se elabora con queso, harina de maíz y trigo, y es protagonista de desayunos, onces y cafeterías. Es tendencia en redes por su sabor y textura únicos.
 

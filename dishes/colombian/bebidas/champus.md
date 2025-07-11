@@ -24,7 +24,6 @@ sources:
 license: "MIT"
 ---
 
-# Champús Colombiano
 
 El champús es una bebida tradicional del suroccidente colombiano, especialmente del Valle del Cauca y Nariño. Se prepara con maíz, frutas (lulo, piña), panela y especias. Es tendencia en festividades y ferias por su sabor exótico y refrescante.
 
@@ -83,7 +82,7 @@ El champús es una bebida tradicional del suroccidente colombiano, especialmente
 
 ---
 
-## 🗣️ Opiniones y Experiencia de Usuario
+## 🗣️ Comentarios de Usuarios
 
 - "El champús es el sabor de las fiestas del Valle." (Instagram)
 - "Me encanta con mucho hielo y fruta fresca." (YouTube)
@@ -91,7 +90,7 @@ El champús es una bebida tradicional del suroccidente colombiano, especialmente
 
 ---
 
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
+## Análisis Nutricional de Ingredientes Clave (por 100g)
 
 | Ingrediente | Calorías (kcal) | Carbs (g) | Fibra (g) | Compuestos Destacados |
 |-------------|-----------------|-----------|-----------|----------------------|
@@ -103,7 +102,7 @@ El champús es una bebida tradicional del suroccidente colombiano, especialmente
 
 ---
 
-## 📚 Fuentes y Enlaces
+## 📚 Fuentes y Referencias
 
 - [Receta de champús - El Gourmet](https://elgourmet.com/recetas/champus/)
 - [Champús colombiano - YouTube](https://www.youtube.com/results?search_query=champus+colombiano)

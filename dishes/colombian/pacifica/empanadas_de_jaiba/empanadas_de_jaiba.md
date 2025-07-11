@@ -41,12 +41,14 @@ Las Empanadas de Jaiba son un bocadillo tradicional del Pacífico colombiano, es
 
 ## 📝 Ingredientes
 
-### Para la masa:
+### Para la masa
+
 - 2 tazas de harina de maíz precocida
 - 1 1/4 tazas de agua tibia
 - 1 pizca de sal
 
-### Para el relleno:
+### Para el relleno
+
 - 500 g de carne de jaiba cocida y desmenuzada
 - 1 cebolla cabezona
 - 2 dientes de ajo

@@ -23,19 +23,7 @@ sources:
   - "https://www.tiktok.com/tag/chuzo"
 license: "MIT"
 tags: ["colombiano", "tradicional", "chuzo", "open source"]
-images:
-  - url: "https://pixabay.com/es/photos/chorizo-parrilla-barbacoa-2314640/"
-    description: "Chuzo colombiano en parrilla (Pixabay)"
-  - url: "https://pixabay.com/es/images/search/chuzo/"
-    description: "Variaciones de chuzo en Pixabay"
-sources:
-  - "https://www.recetasdecolombia.com/chuzo"
-  - "https://www.youtube.com/results?search_query=chuzo+colombiano"
-  - "https://www.tiktok.com/tag/chuzo"
-license: "CC BY 4.0"
 ---
-
-
 
 El chuzo es una brocheta de carne, pollo o mixto, marinada y asada a la parrilla, muy popular en ventas ambulantes y ferias de Colombia. Se sirve con papa salada, arepa y salsas. Es tendencia por su sabor ahumado y su presencia en celebraciones nocturnas.
 

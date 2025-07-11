@@ -3,6 +3,7 @@
 Aquí encontrarás los antojitos más queridos de las calles, panaderías y cafeterías de Colombia. Son ideales para compartir, picar entre comidas o acompañar una bebida.
 
 ## Índice de Recetas
+
 - [Empanadas](empanadas/empanadas.md)
 - [Arepas Rellenas](arepas_rellenas/arepas_rellenas.md)
 - [Buñuelos](bunuelos/bunuelos.md)

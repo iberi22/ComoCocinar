@@ -25,8 +25,6 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "pan", "snack", "pandeyuca", "open source"]
 ---
 
-# Pan de Yuca (Pandeyuca)
-
 El pan de yuca, conocido también como pandeyuca, es un panecillo pequeño, suave y elástico, típico del sur de Colombia y Ecuador. Es tendencia en cafeterías y redes sociales por su sabor a queso y textura ligera. Ideal para desayunos, onces y acompañar bebidas calientes.
 
 ## Información General

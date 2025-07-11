@@ -24,7 +24,7 @@ sources:
 license: "MIT"
 ---
 
-# Buñuelo Colombiano
+## Buñuelo Colombiano
 
 El buñuelo es un clásico de la repostería y los snacks colombianos, especialmente en Navidad y celebraciones. Su textura esponjosa y sabor a queso lo hacen infaltable en desayunos y onces. Es tendencia cada diciembre en redes sociales y panaderías.
 

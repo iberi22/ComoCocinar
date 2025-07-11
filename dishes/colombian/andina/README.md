@@ -16,6 +16,7 @@ Este directorio reúne las 10 recetas más representativas de la región Andina,
 10. Tamal Tolimense
 
 Cada receta incluye:
+
 - Ingredientes y preparación detallada
 - Variaciones y consejos tradicionales
 - Análisis sensorial (sabor, textura, aroma, experiencia)

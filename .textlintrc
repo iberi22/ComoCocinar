@@ -1,9 +1,6 @@
 {
-  "filters": {},
   "rules": {
-    "ja-space-between-half-and-full-width": {
-      "space": "always"
-    },
+    "ja-space-between-half-and-full-width": true,
     "zh-half-and-full-width-bracket": true
   }
 }

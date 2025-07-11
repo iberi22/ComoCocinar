@@ -24,7 +24,6 @@ sources:
 license: "MIT"
 ---
 
-# Avena Colombiana (Bebida Fría)
 
 La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas callejeras de Colombia. Se prepara con avena, leche, canela y azúcar, y es tendencia por su sabor suave y su aporte nutricional.
 
@@ -34,9 +33,7 @@ La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas ca
 * **Tiempo de preparación:** 20 minutos
 * **Porciones:** 4 vasos
 
----
-
-## 📝 Ingredientes
+## Ingredientes
 
 - 1 taza de avena en hojuelas
 - 1 litro de leche
@@ -46,32 +43,24 @@ La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas ca
 - 1 pizca de sal
 - Esencia de vainilla (opcional)
 
----
-
-## 👨‍🍳 Instrucciones
+## Instrucciones
 
 1. Cocina la avena con agua, leche, canela y sal a fuego medio, revolviendo hasta espesar (10-15 minutos).
 2. Añade azúcar y vainilla. Deja enfriar.
 3. Licúa la mezcla para textura cremosa y refrigera.
 4. Sirve fría, mezclando antes de servir.
 
----
-
-## 💡 Variaciones y Consejos
+## Variaciones y Consejos
 
 - Puedes usar leche vegetal para versión vegana.
 - Añade clavos de olor o nuez moscada para aroma extra.
 - Sirve bien fría en días calurosos.
 
----
-
-## 📸 Galería
+## Galería
 
 *Próximamente...*
 
----
-
-## 🔬 Análisis Sensorial y de Uso
+## Análisis Sensorial y de Uso
 
 - **Tipo de plato:** Bebida fría, desayuno, merienda
 - **Perfil de sabor dominante:** Dulce, cremoso
@@ -79,17 +68,13 @@ La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas ca
 - **Aroma destacado:** Canela, vainilla
 - **Presentación y experiencia:** Se sirve en vaso alto, ideal para refrescar y nutrir. Muy popular en colegios y hogares.
 
----
-
-## 🗣️ Opiniones y Experiencia de Usuario
+## Comentarios de Usuarios
 
 - "La avena fría es mi bebida favorita para el almuerzo." (Instagram)
 - "Me encanta bien espesa y con mucha canela." (YouTube)
 - "En la costa la venden en bolsas y es deliciosa." (TikTok)
 
----
-
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
+## Análisis Nutricional de Ingredientes Clave (por 100g)
 
 | Ingrediente | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
 |-------------|-----------------|--------------|-----------|------------|----------------------|
@@ -98,15 +83,11 @@ La avena es una bebida refrescante y cremosa, tradicional en hogares y ventas ca
 
 *Fuente: USDA FoodData Central, blogs de bebidas colombianas*
 
----
-
-## 📚 Fuentes y Enlaces
+## Fuentes y Referencias
 
 - [Receta de avena - El Gourmet](https://elgourmet.com/recetas/avena/)
 - [Avena fría colombiana - YouTube](https://www.youtube.com/results?search_query=avena+fria+colombiana)
 - [TikTok #avenafria](https://www.tiktok.com/tag/avenafria)
-
----
 
 ## 🤓 Sabiduría Colectiva y Consejos
 

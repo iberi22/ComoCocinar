@@ -24,7 +24,6 @@ sources:
 license: "MIT"
 ---
 
-# Refajo Colombiano
 
 El refajo es una bebida tradicional y refrescante, mezcla de cerveza y gaseosa roja (Colombiana), popular en asados, fiestas y reuniones familiares. Es tendencia por su sabor dulce y burbujeante, y su asociación con celebraciones.
 
@@ -77,7 +76,7 @@ El refajo es una bebida tradicional y refrescante, mezcla de cerveza y gaseosa r
 
 ---
 
-## 🗣️ Opiniones y Experiencia de Usuario
+## 🗣️ Comentarios de Usuarios
 
 - "El refajo no puede faltar en los asados con amigos." (Instagram)
 - "Me gusta bien frío y con mucho hielo." (YouTube)
@@ -85,7 +84,7 @@ El refajo es una bebida tradicional y refrescante, mezcla de cerveza y gaseosa r
 
 ---
 
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
+## Análisis Nutricional de Ingredientes Clave (por 100g)
 
 | Ingrediente      | Calorías (kcal) | Carbs (g) | Alcohol (%) | Compuestos Destacados |
 |------------------|-----------------|-----------|-------------|----------------------|
@@ -96,7 +95,7 @@ El refajo es una bebida tradicional y refrescante, mezcla de cerveza y gaseosa r
 
 ---
 
-## 📚 Fuentes y Enlaces
+## 📚 Fuentes y Referencias
 
 - [Receta de refajo - El Gourmet](https://elgourmet.com/recetas/refajo/)
 - [Refajo colombiano - YouTube](https://www.youtube.com/results?search_query=refajo+colombiano)

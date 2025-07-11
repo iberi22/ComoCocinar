@@ -24,7 +24,7 @@ sources:
 license: "MIT"
 ---
 
-# Pandebono
+## Pandebono
 
 El pandebono es un panecillo redondo, suave y elástico, típico del Valle del Cauca y muy popular en todo Colombia. Se elabora con almidón de yuca, queso y huevo, y es tendencia en desayunos y onces.
 

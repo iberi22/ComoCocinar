@@ -1,117 +1,41 @@
 ---
 title: "Tamal Tolimense"
-categories: ["plato fuerte", "desayuno", "andina"]
-region: "andina"
-difficulty: "alta"
-prep_time: "4 horas"
-servings: "10"
-license: "MIT"
 images:
-  - "https://unsplash.com/es/s/fotos/tamal"
-  - "https://unsplash.com/es/s/fotos/colombia"
+  - "https://www.misrecetas.com/fotos/photo/main/1368/tamal_tolimense.jpg"
+  - "https://www.recetasgratis.net/co/images/4/5/7/tamal_tolimense_23754_600.jpg"
 sources:
-  - "https://www.recetasdecolombia.com/tamal-tolimense"
-  - "https://www.youtube.com/results?search_query=tamal+tolimense"
-  - "https://www.tiktok.com/tag/tamaltolimense"
-tags: ["tamal tolimense", "tamal", "andina", "desayuno", "tradicional", "colombia"]
+  - "https://www.mycolombianrecipes.com/es/tamales-tolimenses/"
+  - "https://www.recetasgratis.net/receta-de-tamales-tolimenses-23754.html"
+license: "MIT"
+yaml_validation: "https://yaml-online-parser.appspot.com/"
 ---
 
-# Tamal Tolimense
+## Ingredientes
 
-El tamal tolimense es una de las preparaciones más emblemáticas de Colombia, especialmente del Tolima. Se elabora con masa de maíz, carnes, verduras y condimentos, envuelto en hojas de plátano y cocido al vapor. Es tendencia en celebraciones y desayunos dominicales.
+* **Para la masa**:
+    * 1 libra de maíz blanco trillado, cocido y molido
+    * 1/2 libra de arroz cocido
+    * Caldo de cocción de las carnes
+    * Achiote para dar color
+* **Para el relleno**:
+    * 1 libra de costilla de cerdo en trozos
+    * 1 libra de tocino con cuero, en trozos
+    * 1 pechuga de pollo en presas
+    * 4 huevos cocidos, en rodajas
+    * 1/2 libra de arveja amarilla seca, remojada y cocida
+    * 1/2 libra de zanahoria en rodajas
+    * 1/2 libra de papa en rodajas
+* Hojas de plátano soasadas (pasadas por calor para ablandarlas)
 
-## Información General
+## Preparación
 
-* **Dificultad:** ★★★☆☆
-* **Tiempo de preparación:** 4 horas
-* **Porciones:** 8
-
----
-
-## 📝 Ingredientes
-
-- 1 kg de masa de maíz precocida
-- 500 g de carne de cerdo
-- 500 g de pollo
-- 200 g de zanahoria
-- 200 g de arveja verde
-- 1 cebolla cabezona
-- 2 dientes de ajo
-- 1 pimentón rojo
-- 1 cucharada de color (achiote)
-- 1 taza de arroz
-- 8 huevos duros
-- Hojas de plátano para envolver
-- Sal y pimienta al gusto
-- Hilo de cocina
-
----
-
-## 👨‍🍳 Instrucciones
-
-1. Sofríe cebolla, ajo y pimentón con achiote. Añade la carne de cerdo y pollo en trozos, cocina hasta dorar.
-2. Mezcla la masa de maíz con arroz, zanahoria rallada, arveja, sal y la preparación de carnes.
-3. Lava y pasa las hojas de plátano por el fuego para ablandarlas.
-4. Coloca una porción de masa en cada hoja, agrega trozos de carne y huevo duro.
-5. Envuelve y amarra con hilo de cocina.
-6. Cocina al vapor durante 2-3 horas.
-
----
-
-## 💡 Variaciones y Consejos
-
-- Puedes añadir tocino o costilla de cerdo.
-- Sirve caliente con chocolate o café.
-- Prepara la víspera para mejor sabor.
-
----
-
-## 📸 Galería
-
-*Próximamente...*
-
----
-
-## 🔬 Análisis Sensorial y de Uso
-
-- **Tipo de plato:** Plato fuerte, desayuno especial
-- **Perfil de sabor dominante:** Umami, salado
-- **Textura principal:** Cremoso, tierno
-- **Aroma destacado:** Ahumado, especiado
-- **Presentación y experiencia:** Se sirve envuelto en hoja, ideal para celebraciones y desayunos familiares.
-
----
-
-## 🗣️ Opiniones y Experiencia de Usuario
-
-- "El tamal tolimense es el desayuno de los domingos en mi casa." (Instagram)
-- "Me encanta con chocolate caliente y pan." (YouTube)
-- "En el Tolima cada familia tiene su receta especial." (TikTok)
-
----
-
-## 🧬 Perfil Nutricional de Ingredientes Clave (por 100g)
-
-| Ingrediente   | Calorías (kcal) | Proteínas (g) | Carbs (g) | Grasas (g) | Compuestos Destacados |
-|---------------|-----------------|--------------|-----------|------------|----------------------|
-| Masa de maíz  | 110             | 2.7          | 24        | 0.9        | Fibra, vitamina B3   |
-| Carne de cerdo| 242             | 27           | 0         | 14         | Hierro, zinc         |
-| Pollo         | 165             | 31           | 0         | 3.6        | Niacina, selenio     |
-
-*Fuente: USDA FoodData Central, blogs de cocina colombiana*
-
----
-
-## 📚 Fuentes y Enlaces
-
-- [Receta de tamal tolimense - Recetas de Colombia](https://www.recetasdecolombia.com/tamal-tolimense)
-- [Tamal tolimense colombiano - YouTube](https://www.youtube.com/results?search_query=tamal+tolimense+colombiano)
-- [TikTok #tamaltolimense](https://www.tiktok.com/tag/tamaltolimense)
-
----
-
-## 🤓 Sabiduría Colectiva y Consejos
-
-- "El secreto es cocinarlo a fuego lento y usar hoja de plátano fresca."
-- "Sírvelo con chocolate caliente para experiencia tradicional."
-- "Perfecto para celebraciones y desayunos especiales."
+1. **Marinar las carnes**: Desde la noche anterior, adoba el cerdo, el tocino y el pollo con sal, comino, pimienta y ajo.
+2. **Cocinar las carnes**: Al día siguiente, cocina las carnes en una olla grande con agua hasta que estén tiernas. Reserva el caldo.
+3. **Preparar la masa**: Mezcla el maíz molido con el arroz cocido. Agrega el caldo de las carnes poco a poco, junto con un poco de achiote disuelto en aceite, hasta obtener una masa suave y homogénea.
+4. **Armar los tamales**:
+    * Extiende una cama de hojas de plátano.
+    * Coloca una porción generosa de masa en el centro.
+    * Sobre la masa, distribuye una porción de cada uno de los ingredientes del relleno: costilla, tocino, pollo, huevo, arvejas, zanahoria y papa.
+    * Cierra el tamal formando un paquete rectangular y amárralo bien con pita o cabuya.
+5. **Cocinar los tamales**: En una olla grande (tamalera), coloca una base de hojas de plátano sobrantes y agua. Coloca los tamales, tapa bien y cocina al vapor durante al menos 3-4 horas. Asegúrate de que la olla no se quede sin agua.
+6. El tamal está listo cuando la masa se desprende fácilmente de la hoja. Se sirve caliente, tradicionalmente con arepa y chocolate.

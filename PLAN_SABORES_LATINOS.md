@@ -1,6 +1,6 @@
 # 📖 Plan Maestro: Recetario de Sabores Latinos
 
-Este documento sirve como guía central para el agente de codificación "Jules" y futuros colaboradores. El objetivo es transformar este repositorio en la enciclopedia definitiva de la cocina latinoamericana, uniendo tradición, ciencia y comunidad.
+Este documento sirve como guía central para el agentes de codificación investigacion y colaboradores. El objetivo es transformar este repositorio en la enciclopedia definitiva de la cocina latinoamericana, uniendo tradición, ciencia y comunidad.
 
 ---
 
@@ -18,7 +18,7 @@ La misión es crear un recetario digital, de código abierto y perpetuamente enr
 
 Para asegurar la escalabilidad y organización, todas las recetas se estructurarán por país. Cada receta tendrá su propia carpeta, que contendrá el archivo `.md` y una subcarpeta para imágenes.
 
-```
+```markdown
 /dishes/
 ├── /argentina/
 │   ├── /asado/
@@ -32,7 +32,7 @@ Para asegurar la escalabilidad y organización, todas las recetas se estructurar
 │   ├── /ceviche/
 │   └── /lomo_saltado/
 └── ... (y así sucesivamente con cada país)
-```
+```markdown
 
 ## 🛠️ 3. Metodología de Enriquecimiento de Recetas (Guía para Jules)
 

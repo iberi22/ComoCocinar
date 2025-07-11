@@ -25,7 +25,7 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "snack", "queso", "deditos", "open source"]
 ---
 
-# Deditos de Queso
+## Deditos de Queso
 
 Los deditos de queso son snacks fritos o horneados, rellenos de queso fundido, populares en panaderías, colegios y fiestas infantiles de Colombia. Son tendencia por su sencillez y sabor irresistible.
 

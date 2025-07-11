@@ -25,7 +25,7 @@ license: "MIT"
 tags: ["colombiano", "tradicional", "snack", "callejero", "empanada", "open source"]
 ---
 
-# Empanada Colombiana
+## Empanada Colombiana
 
 La empanada es uno de los snacks más emblemáticos y queridos de Colombia. Su versión más popular es la empanada de papa y carne, frita y crocante, presente en cada esquina, feria y reunión familiar. Es tendencia en redes por su versatilidad y el ritual de acompañarla con ají casero.
 
