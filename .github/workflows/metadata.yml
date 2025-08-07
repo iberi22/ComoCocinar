@@ -10,7 +10,7 @@ on:
 jobs:
   generate-data:
     name: Generate Data
-    runs-on: self-hosted  # Usar el runner auto-alojado
+    runs-on: ubuntu-latest  # Usar el runner de GitHub
 
     steps:
       - name: ⬇️ Checkout repository
