@@ -17,8 +17,8 @@ Recommended settings:
 ```
 
 Project variables/secrets:
-- `vars.GCP_PROJECT_ID`, `vars.GCP_LOCATION`
-- `secrets.GEMINI_API_KEY` (if not using Vertex AI auth)
+- `vars.GCP_PROJECT_ID`, `vars.GCP_LOCATION` (only needed when using Vertex AI auth)
+- `secrets.GEMINI_API_KEY` (for Gemini API from AI Studio)
 
 ## Jules
 - Install the Jules GitHub App and grant access to this repo.
@@ -40,11 +40,11 @@ python automation/queue/select_batch.py \
   --metadata recipes_metadata.json \
   --processed recipes_vectors.jsonl \
   --count 10 \
-  --output-files output/selected_files.txt
+  --output-files automation/queue/selected_files.txt
 ```
 
 ## Embeddings
-- Default vectorization uses local Transformers in `.github/scripts_ts/vectorize_recipes.ts`.
+- Default batch vectorization script: `.github/scripts_ts/vectorize_selected.ts` (embeds only selected files).
 - You can switch to Vertex AI (text-embedding-004) later using a Python script and WIF auth.
 
 ## Conventions

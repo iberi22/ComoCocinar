@@ -1,0 +1,28 @@
+name: Jules Task
+description: Start a Jules automated task from an issue
+labels: [jules, automation]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should Jules accomplish?
+      placeholder: e.g., Enrich 5 Amazonian recipes with nutrition and sensory details per GEMINI.md
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What conditions must be met for success?
+      placeholder: e.g., Update listed files only, pass lint, include sources and licenses
+  - type: textarea
+    id: context
+    attributes:
+      label: Context / References
+      description: Links to prior PRs, examples, or files to follow
+  - type: textarea
+    id: files
+    attributes:
+      label: Files to change (optional)
+      description: One per line, repo-relative paths
