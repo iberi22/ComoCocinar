@@ -27,7 +27,6 @@ Notes:
 from __future__ import annotations
 
 import argparse
-import csv
 import json
 import os
 import random
@@ -51,10 +50,7 @@ def load_metadata(path: Path) -> List[Dict[str, Any]]:
                 line = line.strip()
                 if not line:
                     continue
-                try:
-                    obj = json.loads(line)
-                except json.JSONDecodeError as ex:
-                    raise ValueError(f"Invalid JSONL at {path}: {ex}")
+                obj = json.loads(line)
                 if isinstance(obj, dict):
                     entries.append(obj)
                 else:
@@ -114,7 +110,7 @@ def load_processed_set(paths: Iterable[Path]) -> Set[str]:
                     except json.JSONDecodeError:
                         continue
                     if isinstance(obj, dict) and "file" in obj:
-                        processed.add(norm(str(obj["file"])) )
+                        processed.add(norm(str(obj["file"]) ))
         elif p.suffix.lower() == ".json":
             try:
                 with p.open("r", encoding="utf-8") as f:
@@ -122,7 +118,7 @@ def load_processed_set(paths: Iterable[Path]) -> Set[str]:
                 if isinstance(data, list):
                     for item in data:
                         if isinstance(item, dict) and "file" in item:
-                            processed.add(norm(str(item["file"])) )
+                            processed.add(norm(str(item["file"]) ))
                         elif isinstance(item, str):
                             processed.add(norm(item))
                 elif isinstance(data, dict):
@@ -131,7 +127,7 @@ def load_processed_set(paths: Iterable[Path]) -> Set[str]:
                         if isinstance(v, list):
                             for item in v:
                                 if isinstance(item, dict) and "file" in item:
-                                    processed.add(norm(str(item["file"])) )
+                                    processed.add(norm(str(item["file"]) ))
                                 elif isinstance(item, str):
                                     processed.add(norm(item))
             except Exception as ex:
@@ -265,7 +261,7 @@ def write_jsonl(entries: List[Dict[str, Any]], path: Path) -> None:
 
 def write_files_list(entries: List[Dict[str, Any]], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", encoding="utf-8", newline="") as f:
+    with path.open("w", encoding="utf-8") as f:
         for e in entries:
             fp = str(e.get("file", "")).replace("\\", "/").strip()
             if fp:
@@ -288,7 +284,8 @@ def write_github_output(entries: List[Dict[str, Any]]) -> None:
         eprint(f"[warn] Failed to write GITHUB_OUTPUT: {ex}")
 
 
-def parse_args(argv: List[str]) -> argparse.Namespace:
+def parse_args(argv: List[str]):
+    import argparse
     p = argparse.ArgumentParser(description="Select a batch of recipes from metadata")
     p.add_argument("--metadata", type=Path, default=Path("recipes_metadata.json"), help="Path to metadata .json or .jsonl (default: recipes_metadata.json)")
     p.add_argument("--processed", type=Path, nargs="*", default=[], help="Paths to processed files list (.jsonl/.json/.txt). Multiple allowed.")
@@ -358,11 +355,6 @@ def main(argv: List[str]) -> int:
     eprint(f"Processed inputs: {len(args.processed)} files -> {len(processed_set)} unique paths")
     eprint(f"Filters: count={args.count}, offset={args.offset}, categories={args.category}, regions={args.region}, difficulties={args.difficulty}, has_embeddings={has_embeddings}")
     eprint(f"Selected: {len(selected)} items")
-    if selected:
-        sample = [str(selected[i].get('file', '')) for i in range(min(5, len(selected)))]
-        eprint("Sample:")
-        for s in sample:
-            eprint(f" - {s}")
 
     # Also print the selected file paths to STDOUT for easy piping if no outputs specified
     if not args.output_jsonl and not args.output_files:

@@ -1,5 +1,14 @@
 [
   {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/COLOMBIAN_RECIPES_PLAN.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/README.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/README.md"
+  },
+  {
     "title": "Ají Negro (Salsa Amazónica Fermentada)",
     "region": "Amazonía",
     "categories": [
@@ -49,7 +58,7 @@
       "https://fdc.nal.usda.gov/"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\aji_negro\\aji_negro.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/aji_negro/aji_negro.md"
   },
   {
     "title": "Casabe (Pan de Yuca Amazónico)",
@@ -96,7 +105,7 @@
       "https://www.tripadvisor.com.mx/ShowUserReviews-g664838-d1049853-r55338727-Casabe-Cabo_Rojo_Puerto_Rico.html"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\casabe\\casabe.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/casabe/casabe.md"
   },
   {
     "title": "Fariña (Farofa Amazónica)",
@@ -145,7 +154,7 @@
       "https://www.tripadvisor.co/ShowUserReviews-g317037-d3164418-r750285171-Tierras_Amazonicas-Leticia_Amazonas_Department.html"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\farina\\farina.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/farina/farina.md"
   },
   {
     "title": "Inchicapi (Sopa de Gallina con Maní)",
@@ -199,7 +208,7 @@
       "https://www.comida-peruana.com/recetas/sopas/inchicapi"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\inchicapi\\inchicapi.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/inchicapi/inchicapi.md"
   },
   {
     "title": "Juanes de Yuca",
@@ -251,7 +260,7 @@
       "https://www.ahorrarnuncafuetanbueno.com.pe/recetas/receta-de-juane/"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\juanes_de_yuca\\juanes_de_yuca.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/juanes_de_yuca/juanes_de_yuca.md"
   },
   {
     "title": "Mojojoy",
@@ -302,7 +311,7 @@
       "https://www.pulzo.com/nacion/cual-es-comida-tipica-amazonas-pescado-seco-mojojoy-mas-recetas-PP3060584A"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\mojojoy\\mojojoy.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/mojojoy/mojojoy.md"
   },
   {
     "title": "Patarasca (Pescado en Hojas)",
@@ -357,7 +366,7 @@
       "https://www.gastronomiacolombiana.com/foro/patarasca"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\patarasca\\patarasca.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/patarasca/patarasca.md"
   },
   {
     "title": "Pescado Moqueado",
@@ -409,7 +418,7 @@
       "https://comidadecolombia.blogspot.com/2010/11/pescado-moquiao.html"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\pescado_moqueado\\pescado_moqueado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/pescado_moqueado/pescado_moqueado.md"
   },
   {
     "title": "Pirarucú Frito",
@@ -463,13 +472,10 @@
       "https://www.tripadvisor.com/"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\pirarucu_frito\\pirarucu_frito.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/pirarucu_frito/pirarucu_frito.md"
   },
   {
-    "file": "dishes\\colombian\\amazonia\\README.md"
-  },
-  {
-    "file": "dishes\\colombian\\amazonia\\recetas_amazonia.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/recetas_amazonia.md"
   },
   {
     "title": "Tacacho con Cecina",
@@ -522,7 +528,10 @@
       "https://mirecetadehoy.com/receta-tacacho-con-cecina/"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\amazonia\\tacacho_con_cecina\\tacacho_con_cecina.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/amazonia/tacacho_con_cecina/tacacho_con_cecina.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/README.md"
   },
   {
     "title": "Ajiaco Santafereño",
@@ -581,7 +590,7 @@
       "https://www.tiktok.com/tag/ajiaco"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\andina\\ajiaco_santafereño\\ajiaco_santafereño.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/ajiaco_santafereño/ajiaco_santafereño.md"
   },
   {
     "title": "Bandeja Paisa",
@@ -643,7 +652,7 @@
       "https://www.tiktok.com/tag/bandejapaisa"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\andina\\bandeja_paisa\\bandeja_paisa.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/bandeja_paisa/bandeja_paisa.md"
   },
   {
     "title": "Caldo de Costilla",
@@ -697,7 +706,7 @@
       "https://www.tiktok.com/tag/caldodecostilla"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\andina\\caldo_de_costilla\\caldo_de_costilla.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/caldo_de_costilla/caldo_de_costilla.md"
   },
   {
     "title": "Changua",
@@ -752,7 +761,7 @@
       "https://www.tiktok.com/tag/changua"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\andina\\changua\\changua.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/changua/changua.md"
   },
   {
     "title": "Cocido Boyacense",
@@ -811,7 +820,7 @@
       "https://www.tiktok.com/tag/cocidoboyacense"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\andina\\cocido_boyacense\\cocido_boyacense.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/cocido_boyacense/cocido_boyacense.md"
   },
   {
     "title": "Empanadas Andinas",
@@ -867,25 +876,25 @@
       "https://www.tiktok.com/tag/empanadascolombianas"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\andina\\empanadas\\empanadas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/empanadas/empanadas.md"
   },
   {
-    "file": "dishes\\colombian\\andina\\lechona_tolimense\\lechona_tolimense.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/lechona_tolimense/lechona_tolimense.md"
   },
   {
-    "file": "dishes\\colombian\\andina\\manjar_blanco\\manjar_blanco.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/manjar_blanco/manjar_blanco.md"
   },
   {
-    "file": "dishes\\colombian\\andina\\mute_santandereano\\mute_santandereano.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/mute_santandereano/mute_santandereano.md"
   },
   {
-    "file": "dishes\\colombian\\andina\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/recetas_andinas.md"
   },
   {
-    "file": "dishes\\colombian\\andina\\recetas_andinas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/andina/tamal_tolimense/tamal_tolimense.md"
   },
   {
-    "file": "dishes\\colombian\\andina\\tamal_tolimense\\tamal_tolimense.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/README.md"
   },
   {
     "title": "Avena Colombiana (Bebida Fría)",
@@ -936,7 +945,7 @@
       "https://www.tiktok.com/tag/avenafria"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\bebidas\\avena.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/avena.md"
   },
   {
     "title": "Champús Colombiano",
@@ -989,7 +998,7 @@
       "https://www.tiktok.com/tag/champus"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\bebidas\\champus.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/champus.md"
   },
   {
     "title": "Chocolate Santafereño",
@@ -1040,7 +1049,7 @@
       "https://www.tiktok.com/tag/chocolateconqueso"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\bebidas\\chocolate_santafereño.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/chocolate_santafereño.md"
   },
   {
     "title": "Lulada",
@@ -1092,10 +1101,7 @@
       "https://www.tiktok.com/tag/lulada"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\bebidas\\lulada.md"
-  },
-  {
-    "file": "dishes\\colombian\\bebidas\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/lulada.md"
   },
   {
     "title": "Refajo Colombiano",
@@ -1144,7 +1150,7 @@
       "https://www.tiktok.com/tag/refajo"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\bebidas\\refajo.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/refajo.md"
   },
   {
     "title": "Salpicón Colombiano",
@@ -1206,10 +1212,13 @@
       "salpicon",
       "open source"
     ],
-    "file": "dishes\\colombian\\bebidas\\salpicon.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/bebidas/salpicon.md"
   },
   {
-    "file": "dishes\\colombian\\caribe\\alegrias\\alegrias.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/README.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/alegrias/alegrias.md"
   },
   {
     "title": "Arepa de Huevo",
@@ -1262,7 +1271,7 @@
       "https://www.tiktok.com/tag/arepadehuevo"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\arepa_de_huevo\\arepa_de_huevo.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/arepa_de_huevo/arepa_de_huevo.md"
   },
   {
     "title": "Arroz con Coco",
@@ -1316,7 +1325,7 @@
       "https://www.tiktok.com/tag/arrozconcoco"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\arroz_con_coco\\arroz_con_coco.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/arroz_con_coco/arroz_con_coco.md"
   },
   {
     "title": "Butifarra Soledeña",
@@ -1369,7 +1378,7 @@
       "https://www.tiktok.com/tag/butifarrasoledeña"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\butifarra_soledeña\\butifarra_soledeña.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/butifarra_soledeña/butifarra_soledeña.md"
   },
   {
     "title": "Carimañolas",
@@ -1423,7 +1432,7 @@
       "https://www.tiktok.com/tag/carimañolas"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\carimañolas\\carimañolas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/carimañolas/carimañolas.md"
   },
   {
     "title": "Cazuela de Mariscos",
@@ -1481,7 +1490,7 @@
       "https://www.tiktok.com/tag/cazuelademariscos"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\cazuela_de_mariscos\\cazuela_de_mariscos.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/cazuela_de_mariscos/cazuela_de_mariscos.md"
   },
   {
     "title": "Ceviche de Camarón",
@@ -1536,7 +1545,7 @@
       "https://www.tiktok.com/tag/cevichedecamaron"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\ceviche_de_camaron\\ceviche_de_camaron.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/ceviche_de_camaron/ceviche_de_camaron.md"
   },
   {
     "title": "Mote de Queso",
@@ -1589,13 +1598,10 @@
       "https://www.tiktok.com/tag/motedequeso"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\mote_de_queso\\mote_de_queso.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/mote_de_queso/mote_de_queso.md"
   },
   {
-    "file": "dishes\\colombian\\caribe\\README.md"
-  },
-  {
-    "file": "dishes\\colombian\\caribe\\recetas_caribe.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/recetas_caribe.md"
   },
   {
     "title": "Sancocho Costeño",
@@ -1653,7 +1659,7 @@
       "https://www.tiktok.com/tag/sancochocosteño"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\sancocho_costeño\\sancocho_costeño.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/sancocho_costeño/sancocho_costeño.md"
   },
   {
     "title": "Viudo de Pescado",
@@ -1708,46 +1714,46 @@
       "https://www.tiktok.com/tag/viudodepescado"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\caribe\\viudo_de_pescado\\viudo_de_pescado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/caribe/viudo_de_pescado/viudo_de_pescado.md"
   },
   {
-    "file": "dishes\\colombian\\COLOMBIAN_RECIPES_PLAN.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/condimentos/README.md"
   },
   {
-    "file": "dishes\\colombian\\condimentos\\aji_picante.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/condimentos/aji_picante.md"
   },
   {
-    "file": "dishes\\colombian\\condimentos\\guacamole_colombiano.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/condimentos/guacamole_colombiano.md"
   },
   {
-    "file": "dishes\\colombian\\condimentos\\hogao.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/condimentos/hogao.md"
   },
   {
-    "file": "dishes\\colombian\\condimentos\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/condimentos/salsa_rosada.md"
   },
   {
-    "file": "dishes\\colombian\\condimentos\\salsa_rosada.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/condimentos/suero_costeño.md"
   },
   {
-    "file": "dishes\\colombian\\condimentos\\suero_costeño.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/README.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\bolas_de_pescado\\bolas_de_pescado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/bolas_de_pescado/bolas_de_pescado.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\caracol_guisado\\caracol_guisado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/caracol_guisado/caracol_guisado.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\cocadas\\cocadas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/cocadas/cocadas.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\crab_backs\\crab_backs.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/crab_backs/crab_backs.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\crab_patty\\crab_patty.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/crab_patty/crab_patty.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\frijoles_con_cola_de_cerdo\\frijoles_con_cola_de_cerdo.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/frijoles_con_cola_de_cerdo/frijoles_con_cola_de_cerdo.md"
   },
   {
     "title": "Pollo Guisado con Dumplings",
@@ -1803,22 +1809,22 @@
       "https://astelus.com/platos-tipicos-colombia/la-preparacion-de-los-dumplings-de-san-andres-y-providencia/"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\insular\\pollo_guisado_con_dumplings\\pollo_guisado_con_dumplings.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/pollo_guisado_con_dumplings/pollo_guisado_con_dumplings.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/recetas_insulares.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\recetas_insulares.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/rondon/rondon.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\rondon\\rondon.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/sopa_de_cangrejo/sopa_de_cangrejo.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\sopa_de_cangrejo\\sopa_de_cangrejo.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/insular/torta_de_calabaza/torta_de_calabaza.md"
   },
   {
-    "file": "dishes\\colombian\\insular\\torta_de_calabaza\\torta_de_calabaza.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/README.md"
   },
   {
     "title": "Chuzo Colombiano (Brocheta Callejera)",
@@ -1876,7 +1882,7 @@
       "chuzo",
       "open source"
     ],
-    "file": "dishes\\colombian\\nacionales\\chuzo.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/chuzo.md"
   },
   {
     "title": "Fritanga Colombiana",
@@ -1941,7 +1947,7 @@
       "parrilla",
       "open source"
     ],
-    "file": "dishes\\colombian\\nacionales\\fritanga.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/fritanga.md"
   },
   {
     "title": "Hamburguesa Colombiana",
@@ -2005,7 +2011,7 @@
       "hamburguesa colombiana",
       "open source"
     ],
-    "file": "dishes\\colombian\\nacionales\\hamburguesa_colombiana.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/hamburguesa_colombiana.md"
   },
   {
     "title": "Papas Aborrajadas",
@@ -2062,7 +2068,7 @@
       "papas aborrajadas",
       "open source"
     ],
-    "file": "dishes\\colombian\\nacionales\\papas_aborrajadas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/papas_aborrajadas.md"
   },
   {
     "title": "Papas Rellenas Colombianas",
@@ -2120,10 +2126,7 @@
       "papas rellenas",
       "open source"
     ],
-    "file": "dishes\\colombian\\nacionales\\papas_rellenas.md"
-  },
-  {
-    "file": "dishes\\colombian\\nacionales\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/papas_rellenas.md"
   },
   {
     "title": "Salchipapa",
@@ -2184,43 +2187,46 @@
       "salchipapa",
       "open source"
     ],
-    "file": "dishes\\colombian\\nacionales\\salchipapa.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/nacionales/salchipapa.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\arroz_llanero\\arroz_llanero.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/README.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\cachama_asada\\cachama_asada.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/arroz_llanero/arroz_llanero.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\carne_a_la_perra\\carne_a_la_perra.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/cachama_asada/cachama_asada.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\casabe\\casabe.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/carne_a_la_perra/carne_a_la_perra.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\chiguiro_asado\\chiguiro_asado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/casabe/casabe.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\entreverado\\entreverado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/chiguiro_asado/chiguiro_asado.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\hervido_de_gumarra\\hervido_de_gumarra.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/entreverado/entreverado.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\mamona\\mamona.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/hervido_de_gumarra/hervido_de_gumarra.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\pabellon_llanero\\pabellon_llanero.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/mamona/mamona.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\pan_de_arroz\\pan_de_arroz.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/pabellon_llanero/pabellon_llanero.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/pan_de_arroz/pan_de_arroz.md"
   },
   {
-    "file": "dishes\\colombian\\orinoquia\\recetas_orinoquia.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/orinoquia/recetas_orinoquia.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/README.md"
   },
   {
     "title": "Arequipe",
@@ -2234,7 +2240,7 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\arequipe.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/arequipe.md"
   },
   {
     "title": "Cayeye",
@@ -2248,7 +2254,7 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\cayeye.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/cayeye.md"
   },
   {
     "title": "Envueltos de Mazorca",
@@ -2262,7 +2268,7 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\envueltos.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/envueltos.md"
   },
   {
     "title": "Mazamorra Antioqueña",
@@ -2276,7 +2282,7 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\mazamorra.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/mazamorra.md"
   },
   {
     "title": "Mote de Queso",
@@ -2290,7 +2296,7 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\mote_de_queso.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/mote_de_queso.md"
   },
   {
     "title": "Postre de Natas",
@@ -2304,10 +2310,7 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\postre_de_natas.md"
-  },
-  {
-    "file": "dishes\\colombian\\otras_preparaciones\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/postre_de_natas.md"
   },
   {
     "title": "Tamal Tolimense",
@@ -2321,7 +2324,10 @@
     ],
     "license": "MIT",
     "yaml_validation": "https://yaml-online-parser.appspot.com/",
-    "file": "dishes\\colombian\\otras_preparaciones\\tamal_tolimense.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/otras_preparaciones/tamal_tolimense.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/README.md"
   },
   {
     "title": "Aborrajados de Pescado",
@@ -2378,7 +2384,7 @@
       "https://www.tiktok.com/tag/aborrajadosdepescado"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\aborrajados_de_pescado\\aborrajados_de_pescado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/aborrajados_de_pescado/aborrajados_de_pescado.md"
   },
   {
     "title": "Arroz Atollado con Mariscos",
@@ -2435,7 +2441,7 @@
       "https://www.tiktok.com/tag/arrozatolladomariscos"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\arroz_atollado_con_mariscos\\arroz_atollado_con_mariscos.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/arroz_atollado_con_mariscos/arroz_atollado_con_mariscos.md"
   },
   {
     "title": "Cazuela de Mariscos Pacífica",
@@ -2492,7 +2498,7 @@
       "https://www.tiktok.com/tag/cazuelademariscos"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\cazuela_de_mariscos\\cazuela_de_mariscos.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/cazuela_de_mariscos/cazuela_de_mariscos.md"
   },
   {
     "title": "Chancacas (Cocadas del Pacífico)",
@@ -2546,7 +2552,7 @@
       "https://www.tiktok.com/tag/chancacas"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\chancacas\\chancacas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/chancacas/chancacas.md"
   },
   {
     "title": "Empanadas de Jaiba",
@@ -2602,7 +2608,7 @@
       "https://www.tiktok.com/tag/empanadasdejaiba"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\empanadas_de_jaiba\\empanadas_de_jaiba.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/empanadas_de_jaiba/empanadas_de_jaiba.md"
   },
   {
     "title": "Encocado de Pescado",
@@ -2657,7 +2663,7 @@
       "https://www.tiktok.com/tag/encocadodepescado"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\encocado_de_pescado\\encocado_de_pescado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/encocado_de_pescado/encocado_de_pescado.md"
   },
   {
     "title": "Pusandao (Sopa de Pescado)",
@@ -2712,13 +2718,10 @@
       "https://www.tiktok.com/tag/pusandao"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\pusandao\\pusandao.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/pusandao/pusandao.md"
   },
   {
-    "file": "dishes\\colombian\\pacifica\\README.md"
-  },
-  {
-    "file": "dishes\\colombian\\pacifica\\recetas_pacificas.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/recetas_pacificas.md"
   },
   {
     "title": "Sancocho de Pescado Pacífico",
@@ -2773,7 +2776,7 @@
       "https://www.tiktok.com/tag/sancochodepescado"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\sancocho_de_pescado\\sancocho_de_pescado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/sancocho_de_pescado/sancocho_de_pescado.md"
   },
   {
     "title": "Tapao de Pescado",
@@ -2828,7 +2831,7 @@
       "https://www.tiktok.com/tag/tapaodepescado"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\tapao_de_pescado\\tapao_de_pescado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/tapao_de_pescado/tapao_de_pescado.md"
   },
   {
     "title": "Tollo Ahumado",
@@ -2888,7 +2891,10 @@
       "https://www.tiktok.com/tag/tolloahumado"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\pacifica\\tollo_ahumado\\tollo_ahumado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/pacifica/tollo_ahumado/tollo_ahumado.md"
+  },
+  {
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/panes/README.md"
   },
   {
     "title": "Pan Aliñado Colombiano",
@@ -2947,7 +2953,7 @@
       "aliñado",
       "open source"
     ],
-    "file": "dishes\\colombian\\panes\\pan_aliñado.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/panes/pan_aliñado.md"
   },
   {
     "title": "Pan de Bono",
@@ -3006,7 +3012,7 @@
       "pandebono",
       "open source"
     ],
-    "file": "dishes\\colombian\\panes\\pan_de_bono.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/panes/pan_de_bono.md"
   },
   {
     "title": "Pan de Yuca",
@@ -3063,13 +3069,10 @@
       "pandeyuca",
       "open source"
     ],
-    "file": "dishes\\colombian\\panes\\pan_de_yuca.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/panes/pan_de_yuca.md"
   },
   {
-    "file": "dishes\\colombian\\panes\\README.md"
-  },
-  {
-    "file": "dishes\\colombian\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/README.md"
   },
   {
     "title": "Almojábana",
@@ -3127,7 +3130,7 @@
       "almojabana",
       "open source"
     ],
-    "file": "dishes\\colombian\\snacks\\almojabana.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/almojabana.md"
   },
   {
     "title": "Buñuelo Colombiano",
@@ -3177,7 +3180,7 @@
       "https://www.tiktok.com/tag/bu%C3%B1uelo"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\snacks\\buñuelo.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/buñuelo.md"
   },
   {
     "title": "Deditos de Queso",
@@ -3234,7 +3237,7 @@
       "deditos",
       "open source"
     ],
-    "file": "dishes\\colombian\\snacks\\deditos_de_queso.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/deditos_de_queso.md"
   },
   {
     "title": "Empanada Colombiana",
@@ -3292,7 +3295,7 @@
       "empanada",
       "open source"
     ],
-    "file": "dishes\\colombian\\snacks\\empanada.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/empanada.md"
   },
   {
     "title": "Pandebono",
@@ -3342,7 +3345,7 @@
       "https://www.tiktok.com/tag/pandebono"
     ],
     "license": "MIT",
-    "file": "dishes\\colombian\\snacks\\pandebono.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/pandebono.md"
   },
   {
     "title": "Pan de Yuca (Pandeyuca)",
@@ -3400,9 +3403,6 @@
       "pandeyuca",
       "open source"
     ],
-    "file": "dishes\\colombian\\snacks\\pandeyuca.md"
-  },
-  {
-    "file": "dishes\\colombian\\snacks\\README.md"
+    "file": "https://github.com/iberi22/ComoCocinar/blob/main/dishes/colombian/snacks/pandeyuca.md"
   }
 ]

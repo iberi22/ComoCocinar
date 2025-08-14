@@ -1,7 +1,7 @@
-name: Auto-approve and Auto-merge Automation PRs
+name: Auto-approve/Auto-merge on PR branch
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, reopened, synchronize, labeled]
 
 permissions:

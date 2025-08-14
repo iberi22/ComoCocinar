@@ -1,0 +1,12 @@
+- name: jules
+  color: "5319e7"
+  description: "Trigger Jules to pick up this issue"
+- name: automation
+  color: "1d76db"
+  description: "Automated change"
+- name: gemini
+  color: "0e8a16"
+  description: "Gemini CLI automation"
+- name: embeddings
+  color: "fbca04"
+  description: "Embeddings/Vector updates"

@@ -28,6 +28,8 @@ jobs:
     env:
       BATCH_SIZE: ${{ github.event.inputs.batch_size || '5' }}
       GENERATE_EMBEDDINGS: ${{ github.event.inputs.generate_embeddings || 'true' }}
+      GCP_PROJECT_ID: ${{ vars.GCP_PROJECT_ID }}
+      GCP_LOCATION: ${{ vars.GCP_LOCATION || 'global' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,11 +39,15 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Python deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install --upgrade google-genai pyyaml
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
       - name: Install Node deps
         run: npm ci
@@ -82,10 +88,10 @@ jobs:
         with:
           branch: chore/gemini-recipes/batch-${{ github.run_number }}
           title: "Gemini: batch de recetas ${{ github.run_number }}"
-          commit-message: "feat(recipes): batch autoeditado y embeddings (Gemini API)"
+          commit-message: "feat(recipes): batch autoeditado y embeddings (Vertex AI)"
           labels: automation, gemini, embeddings
           body: |
             - Lote: ${{ env.BATCH_SIZE }}
+            - Vertex AI: ${{ env.GCP_PROJECT_ID }} / ${{ env.GCP_LOCATION }}
             - Embeddings: ${{ env.GENERATE_EMBEDDINGS }}
-            - Seleccionadas: ${{ steps.select.outputs.selected_count }}
           delete-branch: true
